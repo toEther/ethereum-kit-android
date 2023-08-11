@@ -56,8 +56,8 @@ sealed class RpcSource() {
             )
         }
 
-        fun polygonRpcHttp(): Http {
-            return Http(listOf(URL("https://polygon-rpc.com")), null)
+        fun komercoRpcHttp(): Http {
+            return Http(listOf(URL("https://rpc.kmcscan.io")), null)
         }
 
         fun optimismRpcHttp(): Http {
@@ -73,11 +73,11 @@ sealed class RpcSource() {
         }
 
         fun gnosisRpcHttp(): Http {
-            return Http(listOf(URL("https://rpc.gnosisscan.io")), null)
+            return Http(listOf(URL("https://rpc.gnosischain.com")), null)
         }
 
-        fun komercoRpcHttp(): Http {
-            return Http(listOf(URL("https://rpc.kmcscan.io")), null)
+        fun fantomRpcHttp(): Http {
+            return Http(listOf(URL("https://rpc.fantom.network")), null)
         }
 
     }

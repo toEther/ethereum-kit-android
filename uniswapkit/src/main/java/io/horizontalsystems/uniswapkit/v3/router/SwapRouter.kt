@@ -11,7 +11,7 @@ import java.math.BigInteger
 class SwapRouter(private val ethereumKit: EthereumKit) {
     val swapRouterAddress = when (ethereumKit.chain) {
         Chain.Ethereum,
-        Chain.Polygon,
+        Chain.Komerco,
         Chain.Optimism,
         Chain.ArbitrumOne,
         Chain.EthereumGoerli -> Address("0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45")

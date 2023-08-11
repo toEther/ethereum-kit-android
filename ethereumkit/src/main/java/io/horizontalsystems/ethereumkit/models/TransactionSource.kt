@@ -34,10 +34,10 @@ class TransactionSource(val name: String, val type: SourceType) {
             )
         }
 
-        fun polygonscan(apiKey: String): TransactionSource {
+        fun komercoscan(apiKey: String): TransactionSource {
             return TransactionSource(
-                "polygonscan.com",
-                SourceType.Etherscan("https://api.polygonscan.com", "https://polygonscan.com", apiKey)
+                "kmcscan.io",
+                SourceType.Etherscan("https://www.kmcscan.io/api", "https://www.kmcscan.io", apiKey)
             )
         }
 
@@ -69,10 +69,10 @@ class TransactionSource(val name: String, val type: SourceType) {
             )
         }
 
-        fun komerco(apiKey: String): TransactionSource {
+        fun fantom(apiKey: String): TransactionSource {
             return TransactionSource(
-                "kmcscan.io",
-                SourceType.Etherscan("https://www.kmcscan.io/api", "https://www.kmcscan.io", apiKey)
+                "ftmscan.com",
+                SourceType.Etherscan("https://api.ftmscan.com", "https://ftmscan.com", apiKey)
             )
         }
 

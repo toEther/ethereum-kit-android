@@ -12,7 +12,7 @@ import java.math.BigInteger
 class PoolManager(private val ethereumKit: EthereumKit) {
     private val factoryAddress = when (ethereumKit.chain) {
         Chain.Ethereum,
-        Chain.Polygon,
+        Chain.Komerco,
         Chain.Optimism,
         Chain.ArbitrumOne,
         Chain.EthereumGoerli -> "0x1F98431c8aD98523631AE4a59f267346ea31F984"
