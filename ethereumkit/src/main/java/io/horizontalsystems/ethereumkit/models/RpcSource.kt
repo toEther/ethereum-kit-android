@@ -72,8 +72,8 @@ sealed class RpcSource() {
             return Http(listOf(URL("https://api.avax.network/ext/bc/C/rpc")), null)
         }
 
-        fun komercoRpcHttp(): Http {
-            return Http(listOf(URL("https://rpc.kmcscan.io")), null)
+        fun gnosisRpcHttp(): Http {
+            return Http(listOf(URL("https://rpc.gnosisscan.io")), null)
         }
 
         fun fantomRpcHttp(): Http {
