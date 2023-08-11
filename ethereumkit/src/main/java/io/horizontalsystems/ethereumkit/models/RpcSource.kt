@@ -76,8 +76,8 @@ sealed class RpcSource() {
             return Http(listOf(URL("https://rpc.gnosisscan.io")), null)
         }
 
-        fun fantomRpcHttp(): Http {
-            return Http(listOf(URL("https://rpc.fantom.network")), null)
+        fun komercoRpcHttp(): Http {
+            return Http(listOf(URL("https://rpc.kmcscan.io")), null)
         }
 
     }
