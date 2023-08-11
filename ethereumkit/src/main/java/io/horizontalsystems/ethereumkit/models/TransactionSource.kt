@@ -62,10 +62,10 @@ class TransactionSource(val name: String, val type: SourceType) {
             )
         }
 
-        fun gnosis(apiKey: String): TransactionSource {
+        fun komerco(apiKey: String): TransactionSource {
             return TransactionSource(
-                "gnosisscan.io",
-                SourceType.Etherscan("https://api.gnosisscan.io", "https://gnosisscan.io", apiKey)
+                "www.kmcscan.io",
+                SourceType.Etherscan("https://www.kmcscan.io/api", "https://www.kmcscan.io", apiKey)
             )
         }
 

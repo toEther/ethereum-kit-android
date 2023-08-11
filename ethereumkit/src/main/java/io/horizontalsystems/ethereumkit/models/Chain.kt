@@ -13,7 +13,7 @@ enum class Chain(
     Optimism(10, 60, 10_000_000, 15, false),
     ArbitrumOne(42161, 60, 10_000_000, 15, false),
     Avalanche(43114, 60, 10_000_000, 15, true),
-    Gnosis(100, 60, 10_000_000, 15, true),
+    Komerco(202400, 60, 10_000_000, 15, true),
     Fantom(250, 60, 10_000_000, 15, false),
     EthereumGoerli(5, 1, 10_000_000, 15, true);
 
