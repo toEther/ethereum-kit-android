@@ -37,7 +37,7 @@ class TransactionSource(val name: String, val type: SourceType) {
         fun komercoscan(apiKey: String): TransactionSource {
             return TransactionSource(
                 "kmcscan.io",
-                SourceType.Etherscan("https://www.kmcscan.io/api", "https://www.kmcscan.io", apiKey)
+                SourceType.Etherscan("https://www.kmcscan.io", "https://www.kmcscan.io", apiKey)
             )
         }
 
