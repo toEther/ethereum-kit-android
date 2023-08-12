@@ -74,14 +74,14 @@ class EtherscanService(
     }
 
     fun getInternalTransactionList(address: Address, startBlock: Long): Single<EtherscanResponse> {
-        return service.accountApi(
-            action = "txlistinternal",
-            address = address.hex,
-            startBlock = startBlock,
-            apiKey = apiKey
-        ).map {
-            parseResponse(it)
-        }.retryWhenError(RequestError.RateLimitExceed::class)
+        //return service.accountApi(
+        //    action = "txlistinternal",
+        //    address = address.hex,
+        //    startBlock = startBlock,
+        //    apiKey = apiKey
+        //).map {
+        //    parseResponse(it)
+        //}.retryWhenError(RequestError.RateLimitExceed::class)
     }
 
     fun getTokenTransactions(address: Address, startBlock: Long): Single<EtherscanResponse> {
@@ -96,13 +96,13 @@ class EtherscanService(
     }
 
     fun getInternalTransactionsAsync(transactionHash: ByteArray): Single<EtherscanResponse> {
-        return service.accountApi(
-            action = "txlistinternal",
-            txHash = transactionHash.toHexString(),
-            apiKey = apiKey
-        ).map {
-            parseResponse(it)
-        }.retryWhenError(RequestError.RateLimitExceed::class)
+        //return service.accountApi(
+        //    action = "txlistinternal",
+        //    txHash = transactionHash.toHexString(),
+        //    apiKey = apiKey
+        //).map {
+        //    parseResponse(it)
+        //}.retryWhenError(RequestError.RateLimitExceed::class)
     }
 
     fun getEip721Transactions(address: Address, startBlock: Long): Single<EtherscanResponse> {
