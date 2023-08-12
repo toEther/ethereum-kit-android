@@ -116,6 +116,8 @@ interface ITransactionDecorator {
 
 interface ITransactionProvider {
     fun getTransactions(startBlock: Long): Single<List<ProviderTransaction>>
+    fun getInternalTransactions(startBlock: Long): Single<List<ProviderInternalTransaction>>
+    fun getInternalTransactionsAsync(hash: ByteArray): Single<List<ProviderInternalTransaction>>
     fun getTokenTransactions(startBlock: Long): Single<List<ProviderTokenTransaction>>
     fun getEip721Transactions(startBlock: Long): Single<List<ProviderEip721Transaction>>
     fun getEip1155Transactions(startBlock: Long): Single<List<ProviderEip1155Transaction>>
