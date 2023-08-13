@@ -32,9 +32,11 @@ class EtherscanTransactionProvider(
                         val gasUsed = tx["gasUsed"]?.toLongOrNull()
 
                         if (startBlock<blockNumber) ProviderTransaction(
-                            blockNumber, timestamp, hash, nonce, blockHash, transactionIndex, from, to, value, gasLimit, gasPrice,
-                            isError, txReceiptStatus, input, cumulativeGasUsed, gasUsed
-                        ) else null
+                        ProviderTransaction(
+                                blockNumber, timestamp, hash, nonce, blockHash, transactionIndex, from, to, value, gasLimit, gasPrice,
+                                isError, txReceiptStatus, input, cumulativeGasUsed, gasUsed
+                            ) else null
+                        )
 
                     } catch (throwable: Throwable) {
                         null
@@ -106,10 +108,13 @@ class EtherscanTransactionProvider(
                         val gasPrice = tx.getValue("gasPrice").toLong()
                         val gasUsed = tx.getValue("gasUsed").toLong()
                         val cumulativeGasUsed = tx.getValue("cumulativeGasUsed").toLong()
+
                         if (startBlock<blockNumber) ProviderTokenTransaction(
-                            blockNumber, timestamp, hash, nonce, blockHash, from, contractAddress, to, value, tokenName, tokenSymbol, tokenDecimal,
-                            transactionIndex, gasLimit, gasPrice, gasUsed, cumulativeGasUsed
-                        ) else null
+                        ProviderTokenTransaction(
+                                blockNumber, timestamp, hash, nonce, blockHash, from, contractAddress, to, value, tokenName, tokenSymbol, tokenDecimal,
+                                transactionIndex, gasLimit, gasPrice, gasUsed, cumulativeGasUsed
+                            ) else null
+                        )
 
                     } catch (throwable: Throwable) {
                         null
