@@ -26,7 +26,7 @@ import io.definenulls.ethereumkit.network.*
 import io.definenulls.ethereumkit.transactionsyncers.EthereumTransactionSyncer
 import io.definenulls.ethereumkit.transactionsyncers.InternalTransactionSyncer
 import io.definenulls.ethereumkit.transactionsyncers.TransactionSyncManager
-import io.definenulls.hdwalletkit.Mnemonic
+import io.horizontalsystems.hdwalletkit.Mnemonic
 import io.reactivex.BackpressureStrategy
 import io.reactivex.Flowable
 import io.reactivex.Single
