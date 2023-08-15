@@ -1,4 +1,4 @@
-package io.horizontalsystems.erc20kit.models
+package io.definenulls.erc20kit.models
 
 import androidx.room.Entity
 import java.math.BigInteger

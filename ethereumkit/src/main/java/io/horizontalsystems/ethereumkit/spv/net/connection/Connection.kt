@@ -1,12 +1,12 @@
-package io.horizontalsystems.ethereumkit.spv.net.connection
+package io.definenulls.ethereumkit.spv.net.connection
 
-import io.horizontalsystems.ethereumkit.spv.core.toShort
-import io.horizontalsystems.ethereumkit.crypto.CryptoUtils
-import io.horizontalsystems.ethereumkit.crypto.CryptoUtils.CURVE
-import io.horizontalsystems.ethereumkit.crypto.ECIESEncryptedMessage
-import io.horizontalsystems.ethereumkit.crypto.ECKey
-import io.horizontalsystems.ethereumkit.spv.helpers.RandomHelper
-import io.horizontalsystems.ethereumkit.spv.net.Node
+import io.definenulls.ethereumkit.spv.core.toShort
+import io.definenulls.ethereumkit.crypto.CryptoUtils
+import io.definenulls.ethereumkit.crypto.CryptoUtils.CURVE
+import io.definenulls.ethereumkit.crypto.ECIESEncryptedMessage
+import io.definenulls.ethereumkit.crypto.ECKey
+import io.definenulls.ethereumkit.spv.helpers.RandomHelper
+import io.definenulls.ethereumkit.spv.net.Node
 import org.bouncycastle.math.ec.ECPoint
 import java.io.IOException
 import java.io.InputStream

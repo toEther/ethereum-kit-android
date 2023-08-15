@@ -1,9 +1,9 @@
-package io.horizontalsystems.oneinchkit.decorations
+package io.definenulls.oneinchkit.decorations
 
-import io.horizontalsystems.erc20kit.events.TokenInfo
-import io.horizontalsystems.ethereumkit.decorations.TransactionDecoration
-import io.horizontalsystems.ethereumkit.models.Address
-import io.horizontalsystems.ethereumkit.models.TransactionTag
+import io.definenulls.erc20kit.events.TokenInfo
+import io.definenulls.ethereumkit.decorations.TransactionDecoration
+import io.definenulls.ethereumkit.models.Address
+import io.definenulls.ethereumkit.models.TransactionTag
 import java.math.BigInteger
 
 abstract class OneInchDecoration(

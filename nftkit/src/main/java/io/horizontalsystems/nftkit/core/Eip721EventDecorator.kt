@@ -1,12 +1,12 @@
-package io.horizontalsystems.nftkit.core
+package io.definenulls.nftkit.core
 
-import io.horizontalsystems.ethereumkit.contracts.ContractEventInstance
-import io.horizontalsystems.ethereumkit.core.IEventDecorator
-import io.horizontalsystems.ethereumkit.models.Address
-import io.horizontalsystems.ethereumkit.models.Transaction
-import io.horizontalsystems.ethereumkit.models.TransactionLog
-import io.horizontalsystems.nftkit.events.Eip721TransferEventInstance
-import io.horizontalsystems.nftkit.models.TokenInfo
+import io.definenulls.ethereumkit.contracts.ContractEventInstance
+import io.definenulls.ethereumkit.core.IEventDecorator
+import io.definenulls.ethereumkit.models.Address
+import io.definenulls.ethereumkit.models.Transaction
+import io.definenulls.ethereumkit.models.TransactionLog
+import io.definenulls.nftkit.events.Eip721TransferEventInstance
+import io.definenulls.nftkit.models.TokenInfo
 
 class Eip721EventDecorator(
     private val userAddress: Address,

@@ -1,10 +1,10 @@
-package io.horizontalsystems.uniswapkit
+package io.definenulls.uniswapkit
 
-import io.horizontalsystems.ethereumkit.core.EthereumKit
-import io.horizontalsystems.ethereumkit.models.Address
-import io.horizontalsystems.ethereumkit.models.TransactionData
-import io.horizontalsystems.uniswapkit.contract.SwapContractMethodFactories
-import io.horizontalsystems.uniswapkit.models.*
+import io.definenulls.ethereumkit.core.EthereumKit
+import io.definenulls.ethereumkit.models.Address
+import io.definenulls.ethereumkit.models.TransactionData
+import io.definenulls.uniswapkit.contract.SwapContractMethodFactories
+import io.definenulls.uniswapkit.models.*
 import io.reactivex.Single
 import java.math.BigDecimal
 import java.util.logging.Logger

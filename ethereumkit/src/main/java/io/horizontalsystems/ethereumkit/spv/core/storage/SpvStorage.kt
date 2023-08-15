@@ -1,8 +1,8 @@
-package io.horizontalsystems.ethereumkit.spv.core.storage
+package io.definenulls.ethereumkit.spv.core.storage
 
-import io.horizontalsystems.ethereumkit.core.ISpvStorage
-import io.horizontalsystems.ethereumkit.spv.models.AccountStateSpv
-import io.horizontalsystems.ethereumkit.spv.models.BlockHeader
+import io.definenulls.ethereumkit.core.ISpvStorage
+import io.definenulls.ethereumkit.spv.models.AccountStateSpv
+import io.definenulls.ethereumkit.spv.models.BlockHeader
 
 class SpvStorage(private val database: SpvDatabase) : ISpvStorage {
 

@@ -1,4 +1,4 @@
-package io.horizontalsystems.nftkit.models
+package io.definenulls.nftkit.models
 
 data class TokenInfo(
     val tokenName: String,

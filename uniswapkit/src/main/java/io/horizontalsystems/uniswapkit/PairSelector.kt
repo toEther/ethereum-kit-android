@@ -1,6 +1,6 @@
-package io.horizontalsystems.uniswapkit
+package io.definenulls.uniswapkit
 
-import io.horizontalsystems.uniswapkit.models.Token
+import io.definenulls.uniswapkit.models.Token
 
 class PairSelector(
         private val tokenFactory: TokenFactory

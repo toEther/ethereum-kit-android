@@ -1,6 +1,6 @@
-package io.horizontalsystems.nftkit.models
+package io.definenulls.nftkit.models
 
-import io.horizontalsystems.ethereumkit.models.Address
+import io.definenulls.ethereumkit.models.Address
 import java.math.BigInteger
 import java.util.*
 

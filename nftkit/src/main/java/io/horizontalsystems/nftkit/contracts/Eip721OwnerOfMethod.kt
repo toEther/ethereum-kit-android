@@ -1,6 +1,6 @@
-package io.horizontalsystems.nftkit.contracts
+package io.definenulls.nftkit.contracts
 
-import io.horizontalsystems.ethereumkit.contracts.ContractMethod
+import io.definenulls.ethereumkit.contracts.ContractMethod
 import java.math.BigInteger
 
 class Eip721OwnerOfMethod(

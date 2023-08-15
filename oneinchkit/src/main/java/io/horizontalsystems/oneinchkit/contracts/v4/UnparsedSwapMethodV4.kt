@@ -1,6 +1,6 @@
-package io.horizontalsystems.oneinchkit.contracts.v4
+package io.definenulls.oneinchkit.contracts.v4
 
-import io.horizontalsystems.ethereumkit.contracts.ContractMethod
+import io.definenulls.ethereumkit.contracts.ContractMethod
 
 class UnparsedSwapMethodV4 : ContractMethod() {
     override val methodSignature: String = ""

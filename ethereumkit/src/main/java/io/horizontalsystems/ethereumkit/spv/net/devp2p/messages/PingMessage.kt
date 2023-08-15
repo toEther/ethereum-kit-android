@@ -1,7 +1,7 @@
-package io.horizontalsystems.ethereumkit.spv.net.devp2p.messages
+package io.definenulls.ethereumkit.spv.net.devp2p.messages
 
-import io.horizontalsystems.ethereumkit.core.hexStringToByteArray
-import io.horizontalsystems.ethereumkit.spv.net.IInMessage
+import io.definenulls.ethereumkit.core.hexStringToByteArray
+import io.definenulls.ethereumkit.spv.net.IInMessage
 
 class PingMessage() : IInMessage {
 

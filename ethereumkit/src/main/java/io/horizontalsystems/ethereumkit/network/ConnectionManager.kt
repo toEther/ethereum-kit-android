@@ -1,4 +1,4 @@
-package io.horizontalsystems.ethereumkit.network
+package io.definenulls.ethereumkit.network
 
 import android.content.Context
 import android.net.ConnectivityManager

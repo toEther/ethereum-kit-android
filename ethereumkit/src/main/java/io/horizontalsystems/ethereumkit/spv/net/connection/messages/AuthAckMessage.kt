@@ -1,10 +1,10 @@
-package io.horizontalsystems.ethereumkit.spv.net.connection.messages
+package io.definenulls.ethereumkit.spv.net.connection.messages
 
-import io.horizontalsystems.ethereumkit.core.toHexString
-import io.horizontalsystems.ethereumkit.crypto.CryptoUtils.CURVE
-import io.horizontalsystems.ethereumkit.spv.rlp.RLP
-import io.horizontalsystems.ethereumkit.spv.rlp.RLPList
-import io.horizontalsystems.ethereumkit.spv.core.toInt
+import io.definenulls.ethereumkit.core.toHexString
+import io.definenulls.ethereumkit.crypto.CryptoUtils.CURVE
+import io.definenulls.ethereumkit.spv.rlp.RLP
+import io.definenulls.ethereumkit.spv.rlp.RLPList
+import io.definenulls.ethereumkit.spv.core.toInt
 import org.bouncycastle.math.ec.ECPoint
 
 class AuthAckMessage(payload: ByteArray) {

@@ -1,7 +1,7 @@
-package io.horizontalsystems.ethereumkit.models
+package io.definenulls.ethereumkit.models
 
-import io.horizontalsystems.ethereumkit.core.hexStringToLongOrNull
-import io.horizontalsystems.ethereumkit.core.toHexString
+import io.definenulls.ethereumkit.core.hexStringToLongOrNull
+import io.definenulls.ethereumkit.core.toHexString
 
 sealed class DefaultBlockParameter {
     class BlockNumber(val value: Long) : DefaultBlockParameter()

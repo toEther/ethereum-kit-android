@@ -1,7 +1,7 @@
-package io.horizontalsystems.ethereumkit.api.jsonrpc.models
+package io.definenulls.ethereumkit.api.jsonrpc.models
 
 import com.google.gson.annotations.SerializedName
-import io.horizontalsystems.ethereumkit.models.Address
+import io.definenulls.ethereumkit.models.Address
 import java.math.BigInteger
 
 class RpcTransaction(

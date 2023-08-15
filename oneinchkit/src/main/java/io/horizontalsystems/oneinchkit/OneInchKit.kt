@@ -1,14 +1,14 @@
-package io.horizontalsystems.oneinchkit
+package io.definenulls.oneinchkit
 
 import com.google.gson.annotations.SerializedName
-import io.horizontalsystems.ethereumkit.core.EthereumKit
-import io.horizontalsystems.ethereumkit.core.toHexString
-import io.horizontalsystems.ethereumkit.models.Address
-import io.horizontalsystems.ethereumkit.models.Chain
-import io.horizontalsystems.ethereumkit.models.GasPrice
-import io.horizontalsystems.oneinchkit.contracts.OneInchContractMethodFactories
-import io.horizontalsystems.oneinchkit.decorations.OneInchMethodDecorator
-import io.horizontalsystems.oneinchkit.decorations.OneInchTransactionDecorator
+import io.definenulls.ethereumkit.core.EthereumKit
+import io.definenulls.ethereumkit.core.toHexString
+import io.definenulls.ethereumkit.models.Address
+import io.definenulls.ethereumkit.models.Chain
+import io.definenulls.ethereumkit.models.GasPrice
+import io.definenulls.oneinchkit.contracts.OneInchContractMethodFactories
+import io.definenulls.oneinchkit.decorations.OneInchMethodDecorator
+import io.definenulls.oneinchkit.decorations.OneInchTransactionDecorator
 import java.math.BigInteger
 import java.util.*
 

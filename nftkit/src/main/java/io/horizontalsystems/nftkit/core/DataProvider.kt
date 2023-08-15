@@ -1,10 +1,10 @@
-package io.horizontalsystems.nftkit.core
+package io.definenulls.nftkit.core
 
-import io.horizontalsystems.ethereumkit.core.EthereumKit
-import io.horizontalsystems.ethereumkit.models.Address
-import io.horizontalsystems.ethereumkit.spv.core.toInt
-import io.horizontalsystems.nftkit.contracts.Eip1155BalanceOfMethod
-import io.horizontalsystems.nftkit.contracts.Eip721OwnerOfMethod
+import io.definenulls.ethereumkit.core.EthereumKit
+import io.definenulls.ethereumkit.models.Address
+import io.definenulls.ethereumkit.spv.core.toInt
+import io.definenulls.nftkit.contracts.Eip1155BalanceOfMethod
+import io.definenulls.nftkit.contracts.Eip721OwnerOfMethod
 import kotlinx.coroutines.rx2.await
 import java.math.BigInteger
 

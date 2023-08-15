@@ -1,6 +1,6 @@
-package io.horizontalsystems.ethereumkit.core
+package io.definenulls.ethereumkit.core
 
-import io.horizontalsystems.ethereumkit.api.jsonrpc.GasPriceJsonRpc
+import io.definenulls.ethereumkit.api.jsonrpc.GasPriceJsonRpc
 import io.reactivex.Single
 
 class LegacyGasPriceProvider(

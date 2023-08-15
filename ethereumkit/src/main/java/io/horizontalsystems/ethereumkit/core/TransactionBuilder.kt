@@ -1,9 +1,9 @@
-package io.horizontalsystems.ethereumkit.core
+package io.definenulls.ethereumkit.core
 
-import io.horizontalsystems.ethereumkit.crypto.CryptoUtils
-import io.horizontalsystems.ethereumkit.models.*
-import io.horizontalsystems.ethereumkit.spv.core.toBigInteger
-import io.horizontalsystems.ethereumkit.spv.rlp.RLP
+import io.definenulls.ethereumkit.crypto.CryptoUtils
+import io.definenulls.ethereumkit.models.*
+import io.definenulls.ethereumkit.spv.core.toBigInteger
+import io.definenulls.ethereumkit.spv.rlp.RLP
 
 class TransactionBuilder(
         private val address: Address,

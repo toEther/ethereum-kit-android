@@ -1,6 +1,6 @@
-package io.horizontalsystems.ethereumkit.network
+package io.definenulls.ethereumkit.network
 
-import io.horizontalsystems.ethereumkit.spv.models.BlockHeader
+import io.definenulls.ethereumkit.spv.models.BlockHeader
 
 interface INetwork {
     val id: Int

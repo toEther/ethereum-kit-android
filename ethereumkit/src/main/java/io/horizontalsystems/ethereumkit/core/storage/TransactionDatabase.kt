@@ -1,12 +1,12 @@
-package io.horizontalsystems.ethereumkit.core.storage
+package io.definenulls.ethereumkit.core.storage
 
 import android.content.Context
 import androidx.room.*
-import io.horizontalsystems.ethereumkit.api.storage.RoomTypeConverters
-import io.horizontalsystems.ethereumkit.models.InternalTransaction
-import io.horizontalsystems.ethereumkit.models.Transaction
-import io.horizontalsystems.ethereumkit.models.TransactionSyncerState
-import io.horizontalsystems.ethereumkit.models.TransactionTag
+import io.definenulls.ethereumkit.api.storage.RoomTypeConverters
+import io.definenulls.ethereumkit.models.InternalTransaction
+import io.definenulls.ethereumkit.models.Transaction
+import io.definenulls.ethereumkit.models.TransactionSyncerState
+import io.definenulls.ethereumkit.models.TransactionTag
 
 @Database(
         entities = [

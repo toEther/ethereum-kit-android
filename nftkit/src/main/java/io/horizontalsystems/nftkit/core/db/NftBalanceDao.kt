@@ -1,12 +1,12 @@
-package io.horizontalsystems.nftkit.core.db
+package io.definenulls.nftkit.core.db
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.Query
-import io.horizontalsystems.ethereumkit.models.Address
-import io.horizontalsystems.nftkit.models.NftBalance
-import io.horizontalsystems.nftkit.models.NftBalanceRecord
-import io.horizontalsystems.nftkit.models.NftType
+import io.definenulls.ethereumkit.models.Address
+import io.definenulls.nftkit.models.NftBalance
+import io.definenulls.nftkit.models.NftBalanceRecord
+import io.definenulls.nftkit.models.NftType
 import java.math.BigInteger
 
 @Dao

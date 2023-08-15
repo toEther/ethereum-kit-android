@@ -1,7 +1,7 @@
-package io.horizontalsystems.ethereumkit.api.storage
+package io.definenulls.ethereumkit.api.storage
 
 import androidx.room.*
-import io.horizontalsystems.ethereumkit.api.models.AccountState
+import io.definenulls.ethereumkit.api.models.AccountState
 
 @Dao
 interface AccountStateDao {

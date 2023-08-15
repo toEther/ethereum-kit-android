@@ -1,6 +1,6 @@
-package io.horizontalsystems.ethereumkit.contracts
+package io.definenulls.ethereumkit.contracts
 
-import io.horizontalsystems.ethereumkit.spv.core.toInt
+import io.definenulls.ethereumkit.spv.core.toInt
 
 open class ContractMethodFactories {
 

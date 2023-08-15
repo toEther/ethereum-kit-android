@@ -1,9 +1,9 @@
-package io.horizontalsystems.oneinchkit.contracts.v5
+package io.definenulls.oneinchkit.contracts.v5
 
-import io.horizontalsystems.ethereumkit.contracts.ContractMethod
-import io.horizontalsystems.ethereumkit.contracts.ContractMethodFactory
-import io.horizontalsystems.ethereumkit.contracts.ContractMethodHelper
-import io.horizontalsystems.ethereumkit.models.Address
+import io.definenulls.ethereumkit.contracts.ContractMethod
+import io.definenulls.ethereumkit.contracts.ContractMethodFactory
+import io.definenulls.ethereumkit.contracts.ContractMethodHelper
+import io.definenulls.ethereumkit.models.Address
 import java.math.BigInteger
 
 class SwapMethodFactoryV5 : ContractMethodFactory {

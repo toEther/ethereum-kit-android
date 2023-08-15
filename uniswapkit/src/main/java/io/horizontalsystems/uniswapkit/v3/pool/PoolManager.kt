@@ -1,11 +1,11 @@
-package io.horizontalsystems.uniswapkit.v3.pool
+package io.definenulls.uniswapkit.v3.pool
 
-import io.horizontalsystems.ethereumkit.core.EthereumKit
-import io.horizontalsystems.ethereumkit.models.Address
-import io.horizontalsystems.ethereumkit.models.Chain
-import io.horizontalsystems.ethereumkit.spv.core.toBigInteger
-import io.horizontalsystems.uniswapkit.models.Fraction
-import io.horizontalsystems.uniswapkit.v3.FeeAmount
+import io.definenulls.ethereumkit.core.EthereumKit
+import io.definenulls.ethereumkit.models.Address
+import io.definenulls.ethereumkit.models.Chain
+import io.definenulls.ethereumkit.spv.core.toBigInteger
+import io.definenulls.uniswapkit.models.Fraction
+import io.definenulls.uniswapkit.v3.FeeAmount
 import kotlinx.coroutines.rx2.await
 import java.math.BigInteger
 

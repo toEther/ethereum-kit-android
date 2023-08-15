@@ -1,7 +1,7 @@
-package io.horizontalsystems.ethereumkit.core.eip1559
+package io.definenulls.ethereumkit.core.eip1559
 
-import io.horizontalsystems.ethereumkit.core.EthereumKit
-import io.horizontalsystems.ethereumkit.models.DefaultBlockParameter
+import io.definenulls.ethereumkit.core.EthereumKit
+import io.definenulls.ethereumkit.models.DefaultBlockParameter
 import io.reactivex.Flowable
 import io.reactivex.Single
 

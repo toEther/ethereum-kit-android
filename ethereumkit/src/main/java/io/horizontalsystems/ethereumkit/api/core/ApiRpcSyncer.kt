@@ -1,9 +1,9 @@
-package io.horizontalsystems.ethereumkit.api.core
+package io.definenulls.ethereumkit.api.core
 
-import io.horizontalsystems.ethereumkit.api.jsonrpc.BlockNumberJsonRpc
-import io.horizontalsystems.ethereumkit.api.jsonrpc.JsonRpc
-import io.horizontalsystems.ethereumkit.core.EthereumKit
-import io.horizontalsystems.ethereumkit.network.ConnectionManager
+import io.definenulls.ethereumkit.api.jsonrpc.BlockNumberJsonRpc
+import io.definenulls.ethereumkit.api.jsonrpc.JsonRpc
+import io.definenulls.ethereumkit.core.EthereumKit
+import io.definenulls.ethereumkit.network.ConnectionManager
 import io.reactivex.Single
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers

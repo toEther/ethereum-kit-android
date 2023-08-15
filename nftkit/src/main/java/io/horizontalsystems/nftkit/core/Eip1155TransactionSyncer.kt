@@ -1,12 +1,12 @@
-package io.horizontalsystems.nftkit.core
+package io.definenulls.nftkit.core
 
-import io.horizontalsystems.ethereumkit.core.ITransactionProvider
-import io.horizontalsystems.ethereumkit.core.ITransactionSyncer
-import io.horizontalsystems.ethereumkit.models.ProviderEip1155Transaction
-import io.horizontalsystems.ethereumkit.models.Transaction
-import io.horizontalsystems.nftkit.models.Eip1155Event
-import io.horizontalsystems.nftkit.models.Nft
-import io.horizontalsystems.nftkit.models.NftType
+import io.definenulls.ethereumkit.core.ITransactionProvider
+import io.definenulls.ethereumkit.core.ITransactionSyncer
+import io.definenulls.ethereumkit.models.ProviderEip1155Transaction
+import io.definenulls.ethereumkit.models.Transaction
+import io.definenulls.nftkit.models.Eip1155Event
+import io.definenulls.nftkit.models.Nft
+import io.definenulls.nftkit.models.NftType
 import io.reactivex.Single
 
 class Eip1155TransactionSyncer(

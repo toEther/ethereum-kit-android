@@ -1,9 +1,9 @@
-package io.horizontalsystems.ethereumkit.api.jsonrpc
+package io.definenulls.ethereumkit.api.jsonrpc
 
 import com.google.gson.reflect.TypeToken
-import io.horizontalsystems.ethereumkit.models.Address
-import io.horizontalsystems.ethereumkit.models.DefaultBlockParameter
-import io.horizontalsystems.ethereumkit.models.TransactionLog
+import io.definenulls.ethereumkit.models.Address
+import io.definenulls.ethereumkit.models.DefaultBlockParameter
+import io.definenulls.ethereumkit.models.TransactionLog
 import java.lang.reflect.Type
 
 class GetLogsJsonRpc(

@@ -1,6 +1,6 @@
-package io.horizontalsystems.ethereumkit.models
+package io.definenulls.ethereumkit.models
 
-import io.horizontalsystems.ethereumkit.core.toHexString
+import io.definenulls.ethereumkit.core.toHexString
 
 class Signature(val v: Int,
                 val r: ByteArray,

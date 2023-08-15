@@ -1,7 +1,7 @@
-package io.horizontalsystems.ethereumkit.spv.net
+package io.definenulls.ethereumkit.spv.net
 
 import com.nhaarman.mockito_kotlin.whenever
-import io.horizontalsystems.ethereumkit.spv.models.BlockHeader
+import io.definenulls.ethereumkit.spv.models.BlockHeader
 import org.mockito.Mockito.mock
 import org.spekframework.spek2.Spek
 import org.spekframework.spek2.style.specification.describe

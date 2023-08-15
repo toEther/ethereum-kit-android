@@ -1,10 +1,10 @@
-package io.horizontalsystems.ethereumkit.core
+package io.definenulls.ethereumkit.core
 
-import io.horizontalsystems.ethereumkit.crypto.CryptoUtils
-import io.horizontalsystems.ethereumkit.models.GasPrice
-import io.horizontalsystems.ethereumkit.models.RawTransaction
-import io.horizontalsystems.ethereumkit.models.Signature
-import io.horizontalsystems.ethereumkit.spv.rlp.RLP
+import io.definenulls.ethereumkit.crypto.CryptoUtils
+import io.definenulls.ethereumkit.models.GasPrice
+import io.definenulls.ethereumkit.models.RawTransaction
+import io.definenulls.ethereumkit.models.Signature
+import io.definenulls.ethereumkit.spv.rlp.RLP
 import java.math.BigInteger
 
 class TransactionSigner(

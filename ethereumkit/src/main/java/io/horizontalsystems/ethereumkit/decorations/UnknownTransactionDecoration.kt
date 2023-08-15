@@ -1,9 +1,9 @@
-package io.horizontalsystems.ethereumkit.decorations
+package io.definenulls.ethereumkit.decorations
 
-import io.horizontalsystems.ethereumkit.contracts.ContractEventInstance
-import io.horizontalsystems.ethereumkit.models.Address
-import io.horizontalsystems.ethereumkit.models.InternalTransaction
-import io.horizontalsystems.ethereumkit.models.TransactionTag
+import io.definenulls.ethereumkit.contracts.ContractEventInstance
+import io.definenulls.ethereumkit.models.Address
+import io.definenulls.ethereumkit.models.InternalTransaction
+import io.definenulls.ethereumkit.models.TransactionTag
 import java.math.BigInteger
 
 open class UnknownTransactionDecoration(

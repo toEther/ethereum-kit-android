@@ -1,9 +1,9 @@
-package io.horizontalsystems.ethereumkit.core.storage
+package io.definenulls.ethereumkit.core.storage
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.Query
-import io.horizontalsystems.ethereumkit.models.Eip20Event
+import io.definenulls.ethereumkit.models.Eip20Event
 
 @Dao
 interface Eip20EventDao {

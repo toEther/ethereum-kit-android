@@ -1,4 +1,4 @@
-package io.horizontalsystems.uniswapkit.models
+package io.definenulls.uniswapkit.models
 
 data class SwapData(
         val pairs: List<Pair>,

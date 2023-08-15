@@ -1,11 +1,11 @@
-package io.horizontalsystems.erc20kit.core
+package io.definenulls.erc20kit.core
 
-import io.horizontalsystems.ethereumkit.core.IEip20Storage
-import io.horizontalsystems.ethereumkit.core.ITransactionProvider
-import io.horizontalsystems.ethereumkit.core.ITransactionSyncer
-import io.horizontalsystems.ethereumkit.models.Eip20Event
-import io.horizontalsystems.ethereumkit.models.ProviderTokenTransaction
-import io.horizontalsystems.ethereumkit.models.Transaction
+import io.definenulls.ethereumkit.core.IEip20Storage
+import io.definenulls.ethereumkit.core.ITransactionProvider
+import io.definenulls.ethereumkit.core.ITransactionSyncer
+import io.definenulls.ethereumkit.models.Eip20Event
+import io.definenulls.ethereumkit.models.ProviderTokenTransaction
+import io.definenulls.ethereumkit.models.Transaction
 import io.reactivex.Single
 
 class Erc20TransactionSyncer(

@@ -1,9 +1,9 @@
-package io.horizontalsystems.uniswapkit.models
+package io.definenulls.uniswapkit.models
 
-import io.horizontalsystems.ethereumkit.core.hexStringToByteArray
-import io.horizontalsystems.ethereumkit.crypto.CryptoUtils
-import io.horizontalsystems.ethereumkit.models.Address
-import io.horizontalsystems.uniswapkit.PairError
+import io.definenulls.ethereumkit.core.hexStringToByteArray
+import io.definenulls.ethereumkit.crypto.CryptoUtils
+import io.definenulls.ethereumkit.models.Address
+import io.definenulls.uniswapkit.PairError
 import java.math.BigInteger
 
 class Pair(

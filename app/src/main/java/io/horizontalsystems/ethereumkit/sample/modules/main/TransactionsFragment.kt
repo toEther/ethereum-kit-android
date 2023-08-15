@@ -1,4 +1,4 @@
-package io.horizontalsystems.ethereumkit.sample.modules.main
+package io.definenulls.ethereumkit.sample.modules.main
 
 import android.graphics.Color
 import android.os.Bundle
@@ -11,8 +11,8 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import io.horizontalsystems.ethereumkit.sample.R
-import io.horizontalsystems.ethereumkit.sample.core.TransactionRecord
+import io.definenulls.ethereumkit.sample.R
+import io.definenulls.ethereumkit.sample.core.TransactionRecord
 import kotlinx.android.synthetic.main.fragment_transactions.*
 import java.math.BigDecimal
 import java.math.BigInteger

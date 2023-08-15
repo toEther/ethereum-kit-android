@@ -1,7 +1,7 @@
-package io.horizontalsystems.uniswapkit.v3
+package io.definenulls.uniswapkit.v3
 
-import io.horizontalsystems.uniswapkit.models.*
-import io.horizontalsystems.uniswapkit.v3.quoter.BestTrade
+import io.definenulls.uniswapkit.models.*
+import io.definenulls.uniswapkit.v3.quoter.BestTrade
 import java.math.BigDecimal
 import java.math.BigInteger
 

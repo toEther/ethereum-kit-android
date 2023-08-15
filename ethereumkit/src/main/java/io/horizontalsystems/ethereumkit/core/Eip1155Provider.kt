@@ -1,13 +1,13 @@
-package io.horizontalsystems.ethereumkit.core
+package io.definenulls.ethereumkit.core
 
-import io.horizontalsystems.ethereumkit.api.core.IRpcApiProvider
-import io.horizontalsystems.ethereumkit.api.core.NodeApiProvider
-import io.horizontalsystems.ethereumkit.api.core.RpcBlockchain
-import io.horizontalsystems.ethereumkit.contracts.ContractMethod
-import io.horizontalsystems.ethereumkit.models.Address
-import io.horizontalsystems.ethereumkit.models.DefaultBlockParameter
-import io.horizontalsystems.ethereumkit.models.RpcSource
-import io.horizontalsystems.ethereumkit.spv.core.toBigInteger
+import io.definenulls.ethereumkit.api.core.IRpcApiProvider
+import io.definenulls.ethereumkit.api.core.NodeApiProvider
+import io.definenulls.ethereumkit.api.core.RpcBlockchain
+import io.definenulls.ethereumkit.contracts.ContractMethod
+import io.definenulls.ethereumkit.models.Address
+import io.definenulls.ethereumkit.models.DefaultBlockParameter
+import io.definenulls.ethereumkit.models.RpcSource
+import io.definenulls.ethereumkit.spv.core.toBigInteger
 import io.reactivex.Single
 import java.math.BigInteger
 

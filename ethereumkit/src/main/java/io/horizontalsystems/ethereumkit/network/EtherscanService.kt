@@ -1,13 +1,13 @@
-package io.horizontalsystems.ethereumkit.network
+package io.definenulls.ethereumkit.network
 
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
 import com.google.gson.JsonElement
 import com.google.gson.reflect.TypeToken
-import io.horizontalsystems.ethereumkit.api.models.EtherscanResponse
-import io.horizontalsystems.ethereumkit.core.retryWhenError
-import io.horizontalsystems.ethereumkit.core.toHexString
-import io.horizontalsystems.ethereumkit.models.Address
+import io.definenulls.ethereumkit.api.models.EtherscanResponse
+import io.definenulls.ethereumkit.core.retryWhenError
+import io.definenulls.ethereumkit.core.toHexString
+import io.definenulls.ethereumkit.models.Address
 import io.reactivex.Single
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient

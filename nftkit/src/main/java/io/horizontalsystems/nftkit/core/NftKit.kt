@@ -1,15 +1,15 @@
-package io.horizontalsystems.nftkit.core
+package io.definenulls.nftkit.core
 
 import android.content.Context
-import io.horizontalsystems.ethereumkit.core.EthereumKit
-import io.horizontalsystems.ethereumkit.models.Address
-import io.horizontalsystems.ethereumkit.models.TransactionData
-import io.horizontalsystems.nftkit.contracts.Eip1155ContractMethodFactories
-import io.horizontalsystems.nftkit.contracts.Eip721ContractMethodFactories
-import io.horizontalsystems.nftkit.core.db.NftKitDatabaseManager
-import io.horizontalsystems.nftkit.models.Nft
-import io.horizontalsystems.nftkit.models.NftBalance
-import io.horizontalsystems.nftkit.models.NftType
+import io.definenulls.ethereumkit.core.EthereumKit
+import io.definenulls.ethereumkit.models.Address
+import io.definenulls.ethereumkit.models.TransactionData
+import io.definenulls.nftkit.contracts.Eip1155ContractMethodFactories
+import io.definenulls.nftkit.contracts.Eip721ContractMethodFactories
+import io.definenulls.nftkit.core.db.NftKitDatabaseManager
+import io.definenulls.nftkit.models.Nft
+import io.definenulls.nftkit.models.NftBalance
+import io.definenulls.nftkit.models.NftType
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.cancel

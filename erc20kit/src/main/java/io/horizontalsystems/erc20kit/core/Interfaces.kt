@@ -1,6 +1,6 @@
-package io.horizontalsystems.erc20kit.core
+package io.definenulls.erc20kit.core
 
-import io.horizontalsystems.ethereumkit.models.Address
+import io.definenulls.ethereumkit.models.Address
 import io.reactivex.Single
 import java.math.BigInteger
 

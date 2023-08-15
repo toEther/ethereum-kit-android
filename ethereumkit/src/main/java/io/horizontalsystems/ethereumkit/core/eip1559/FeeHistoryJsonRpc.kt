@@ -1,7 +1,7 @@
-package io.horizontalsystems.ethereumkit.core.eip1559
+package io.definenulls.ethereumkit.core.eip1559
 
-import io.horizontalsystems.ethereumkit.api.jsonrpc.JsonRpc
-import io.horizontalsystems.ethereumkit.models.DefaultBlockParameter
+import io.definenulls.ethereumkit.api.jsonrpc.JsonRpc
+import io.definenulls.ethereumkit.models.DefaultBlockParameter
 
 class FeeHistoryJsonRpc(
         @Transient val blocksCount: Long,

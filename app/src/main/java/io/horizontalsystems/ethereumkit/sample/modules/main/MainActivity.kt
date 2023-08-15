@@ -1,4 +1,4 @@
-package io.horizontalsystems.ethereumkit.sample.modules.main
+package io.definenulls.ethereumkit.sample.modules.main
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,9 +8,9 @@ import androidx.appcompat.widget.Toolbar
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import io.horizontalsystems.ethereumkit.sample.R
-import io.horizontalsystems.ethereumkit.sample.modules.addresswatch.AddressWatchActivity
-import io.horizontalsystems.ethereumkit.sample.modules.uniswapV3.UniswapV3Fragment
+import io.definenulls.ethereumkit.sample.R
+import io.definenulls.ethereumkit.sample.modules.addresswatch.AddressWatchActivity
+import io.definenulls.ethereumkit.sample.modules.uniswapV3.UniswapV3Fragment
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity(), BottomNavigationView.OnNavigationItemSelectedListener {

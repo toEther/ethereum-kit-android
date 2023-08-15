@@ -1,4 +1,4 @@
-package io.horizontalsystems.ethereumkit.models
+package io.definenulls.ethereumkit.models
 
 enum class Chain(
     val id: Int,

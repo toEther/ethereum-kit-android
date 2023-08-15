@@ -1,4 +1,4 @@
-package io.horizontalsystems.ethereumkit.api.core
+package io.definenulls.ethereumkit.api.core
 
 import com.google.gson.Gson
 import com.tinder.scarlet.Event
@@ -10,7 +10,7 @@ import com.tinder.scarlet.streamadapter.rxjava2.RxJava2StreamAdapterFactory
 import com.tinder.scarlet.websocket.okhttp.newWebSocketFactory
 import com.tinder.scarlet.ws.Receive
 import com.tinder.scarlet.ws.Send
-import io.horizontalsystems.ethereumkit.api.jsonrpc.JsonRpc
+import io.definenulls.ethereumkit.api.jsonrpc.JsonRpc
 import io.reactivex.Flowable
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers

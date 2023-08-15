@@ -1,10 +1,10 @@
-package io.horizontalsystems.nftkit.models
+package io.definenulls.nftkit.models
 
 import androidx.room.Entity
 import androidx.room.Ignore
 import androidx.room.PrimaryKey
-import io.horizontalsystems.ethereumkit.core.toHexString
-import io.horizontalsystems.ethereumkit.models.Address
+import io.definenulls.ethereumkit.core.toHexString
+import io.definenulls.ethereumkit.models.Address
 import java.math.BigInteger
 
 @Entity

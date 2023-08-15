@@ -1,16 +1,16 @@
-package io.horizontalsystems.ethereumkit.spv.net.connection
+package io.definenulls.ethereumkit.spv.net.connection
 
 import com.nhaarman.mockito_kotlin.verify
 import com.nhaarman.mockito_kotlin.verifyNoMoreInteractions
 import com.nhaarman.mockito_kotlin.whenever
-import io.horizontalsystems.ethereumkit.spv.core.xor
-import io.horizontalsystems.ethereumkit.crypto.CryptoUtils
-import io.horizontalsystems.ethereumkit.crypto.ECIESEncryptedMessage
-import io.horizontalsystems.ethereumkit.crypto.ECKey
-import io.horizontalsystems.ethereumkit.spv.helpers.RandomHelper
-import io.horizontalsystems.ethereumkit.spv.net.connection.messages.AuthAckMessage
-import io.horizontalsystems.ethereumkit.spv.net.connection.messages.AuthMessage
-import io.horizontalsystems.ethereumkit.spv.rlp.RLP
+import io.definenulls.ethereumkit.spv.core.xor
+import io.definenulls.ethereumkit.crypto.CryptoUtils
+import io.definenulls.ethereumkit.crypto.ECIESEncryptedMessage
+import io.definenulls.ethereumkit.crypto.ECKey
+import io.definenulls.ethereumkit.spv.helpers.RandomHelper
+import io.definenulls.ethereumkit.spv.net.connection.messages.AuthAckMessage
+import io.definenulls.ethereumkit.spv.net.connection.messages.AuthMessage
+import io.definenulls.ethereumkit.spv.rlp.RLP
 import org.bouncycastle.crypto.digests.KeccakDigest
 import org.bouncycastle.math.ec.ECPoint
 import org.junit.Assert

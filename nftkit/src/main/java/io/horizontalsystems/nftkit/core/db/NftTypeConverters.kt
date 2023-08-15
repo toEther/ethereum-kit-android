@@ -1,7 +1,7 @@
-package io.horizontalsystems.nftkit.core.db
+package io.definenulls.nftkit.core.db
 
 import androidx.room.TypeConverter
-import io.horizontalsystems.nftkit.models.NftType
+import io.definenulls.nftkit.models.NftType
 
 class NftTypeConverters {
     @TypeConverter

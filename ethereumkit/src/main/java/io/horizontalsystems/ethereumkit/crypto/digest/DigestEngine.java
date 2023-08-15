@@ -17,7 +17,7 @@
  */
 // $Id: DigestEngine.java 229 2010-06-16 20:22:27Z tp $
 
-package io.horizontalsystems.ethereumkit.crypto.digest;
+package io.definenulls.ethereumkit.crypto.digest;
 
 import java.security.MessageDigest;
 

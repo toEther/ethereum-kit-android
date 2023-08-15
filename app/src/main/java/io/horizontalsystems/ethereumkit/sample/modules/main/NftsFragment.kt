@@ -1,4 +1,4 @@
-package io.horizontalsystems.ethereumkit.sample.modules.main
+package io.definenulls.ethereumkit.sample.modules.main
 
 import android.os.Bundle
 import android.view.LayoutInflater

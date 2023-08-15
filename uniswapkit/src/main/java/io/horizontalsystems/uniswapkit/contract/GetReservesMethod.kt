@@ -1,6 +1,6 @@
-package io.horizontalsystems.uniswapkit.contract
+package io.definenulls.uniswapkit.contract
 
-import io.horizontalsystems.ethereumkit.contracts.ContractMethod
+import io.definenulls.ethereumkit.contracts.ContractMethod
 
 class GetReservesMethod : ContractMethod() {
 

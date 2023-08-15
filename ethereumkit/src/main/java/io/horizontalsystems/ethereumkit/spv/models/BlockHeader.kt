@@ -1,12 +1,12 @@
-package io.horizontalsystems.ethereumkit.spv.models
+package io.definenulls.ethereumkit.spv.models
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import io.horizontalsystems.ethereumkit.core.toHexString
-import io.horizontalsystems.ethereumkit.spv.core.toLong
-import io.horizontalsystems.ethereumkit.crypto.CryptoUtils
-import io.horizontalsystems.ethereumkit.spv.rlp.RLP
-import io.horizontalsystems.ethereumkit.spv.rlp.RLPList
+import io.definenulls.ethereumkit.core.toHexString
+import io.definenulls.ethereumkit.spv.core.toLong
+import io.definenulls.ethereumkit.crypto.CryptoUtils
+import io.definenulls.ethereumkit.spv.rlp.RLP
+import io.definenulls.ethereumkit.spv.rlp.RLPList
 import java.math.BigInteger
 
 @Entity

@@ -1,4 +1,4 @@
-package io.horizontalsystems.ethereumkit.contracts
+package io.definenulls.ethereumkit.contracts
 
 open class ContractMethod {
     val methodId: ByteArray by lazy { ContractMethodHelper.getMethodId(methodSignature) }

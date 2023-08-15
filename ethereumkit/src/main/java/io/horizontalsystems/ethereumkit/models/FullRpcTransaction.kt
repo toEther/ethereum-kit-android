@@ -1,8 +1,8 @@
-package io.horizontalsystems.ethereumkit.models
+package io.definenulls.ethereumkit.models
 
-import io.horizontalsystems.ethereumkit.api.jsonrpc.models.RpcBlock
-import io.horizontalsystems.ethereumkit.api.jsonrpc.models.RpcTransaction
-import io.horizontalsystems.ethereumkit.api.jsonrpc.models.RpcTransactionReceipt
+import io.definenulls.ethereumkit.api.jsonrpc.models.RpcBlock
+import io.definenulls.ethereumkit.api.jsonrpc.models.RpcTransaction
+import io.definenulls.ethereumkit.api.jsonrpc.models.RpcTransactionReceipt
 
 data class FullRpcTransaction(
     val rpcTransaction: RpcTransaction,

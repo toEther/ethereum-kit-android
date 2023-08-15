@@ -1,4 +1,4 @@
-package io.horizontalsystems.ethereumkit.network
+package io.definenulls.ethereumkit.network
 
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
@@ -7,9 +7,9 @@ import com.google.gson.reflect.TypeToken
 import com.google.gson.stream.JsonReader
 import com.google.gson.stream.JsonToken
 import com.google.gson.stream.JsonWriter
-import io.horizontalsystems.ethereumkit.core.*
-import io.horizontalsystems.ethereumkit.models.Address
-import io.horizontalsystems.ethereumkit.models.DefaultBlockParameter
+import io.definenulls.ethereumkit.core.*
+import io.definenulls.ethereumkit.models.Address
+import io.definenulls.ethereumkit.models.DefaultBlockParameter
 import java.lang.reflect.Type
 import java.math.BigInteger
 import java.util.*

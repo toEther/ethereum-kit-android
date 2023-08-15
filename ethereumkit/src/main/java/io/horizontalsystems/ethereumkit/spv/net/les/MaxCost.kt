@@ -1,7 +1,7 @@
-package io.horizontalsystems.ethereumkit.spv.net.les
+package io.definenulls.ethereumkit.spv.net.les
 
-import io.horizontalsystems.ethereumkit.spv.core.toLong
-import io.horizontalsystems.ethereumkit.spv.rlp.RLPList
+import io.definenulls.ethereumkit.spv.core.toLong
+import io.definenulls.ethereumkit.spv.rlp.RLPList
 
 class MaxCost(rlpList: RLPList) {
 

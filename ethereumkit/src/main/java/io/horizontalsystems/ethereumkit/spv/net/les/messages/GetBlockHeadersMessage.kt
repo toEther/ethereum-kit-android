@@ -1,7 +1,7 @@
-package io.horizontalsystems.ethereumkit.spv.net.les.messages
+package io.definenulls.ethereumkit.spv.net.les.messages
 
-import io.horizontalsystems.ethereumkit.spv.net.IOutMessage
-import io.horizontalsystems.ethereumkit.spv.rlp.RLP
+import io.definenulls.ethereumkit.spv.net.IOutMessage
+import io.definenulls.ethereumkit.spv.rlp.RLP
 import java.math.BigInteger
 
 class GetBlockHeadersMessage(var requestID: Long,

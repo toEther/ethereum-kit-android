@@ -1,4 +1,4 @@
-package io.horizontalsystems.ethereumkit.spv.net.les
+package io.definenulls.ethereumkit.spv.net.les
 
 /*
 class LESPeerTest : Spek({

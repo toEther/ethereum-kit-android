@@ -1,4 +1,4 @@
-package io.horizontalsystems.ethereumkit.spv.net.devp2p.messages
+package io.definenulls.ethereumkit.spv.net.devp2p.messages
 
 enum class ReasonCode(val code: Int) {
 

@@ -1,4 +1,4 @@
-package io.horizontalsystems.nftkit
+package io.definenulls.nftkit
 
 import org.junit.Test
 

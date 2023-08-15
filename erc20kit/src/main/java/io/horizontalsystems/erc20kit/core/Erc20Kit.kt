@@ -1,10 +1,10 @@
-package io.horizontalsystems.erc20kit.core
+package io.definenulls.erc20kit.core
 
 import android.content.Context
-import io.horizontalsystems.erc20kit.contract.Eip20ContractMethodFactories
-import io.horizontalsystems.ethereumkit.core.EthereumKit
-import io.horizontalsystems.ethereumkit.core.EthereumKit.SyncState
-import io.horizontalsystems.ethereumkit.models.*
+import io.definenulls.erc20kit.contract.Eip20ContractMethodFactories
+import io.definenulls.ethereumkit.core.EthereumKit
+import io.definenulls.ethereumkit.core.EthereumKit.SyncState
+import io.definenulls.ethereumkit.models.*
 import io.reactivex.BackpressureStrategy
 import io.reactivex.Flowable
 import io.reactivex.Single

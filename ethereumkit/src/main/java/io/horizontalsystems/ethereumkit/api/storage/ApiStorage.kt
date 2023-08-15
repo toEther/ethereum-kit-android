@@ -1,8 +1,8 @@
-package io.horizontalsystems.ethereumkit.api.storage
+package io.definenulls.ethereumkit.api.storage
 
-import io.horizontalsystems.ethereumkit.api.models.AccountState
-import io.horizontalsystems.ethereumkit.api.models.LastBlockHeight
-import io.horizontalsystems.ethereumkit.core.IApiStorage
+import io.definenulls.ethereumkit.api.models.AccountState
+import io.definenulls.ethereumkit.api.models.LastBlockHeight
+import io.definenulls.ethereumkit.core.IApiStorage
 
 class ApiStorage(
         private val database: ApiDatabase

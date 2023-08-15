@@ -1,9 +1,9 @@
-package io.horizontalsystems.uniswapkit.v3
+package io.definenulls.uniswapkit.v3
 
-import io.horizontalsystems.uniswapkit.models.Fraction
-import io.horizontalsystems.uniswapkit.models.TradeType
-import io.horizontalsystems.uniswapkit.v3.pool.PoolManager
-import io.horizontalsystems.uniswapkit.v3.quoter.BestTrade
+import io.definenulls.uniswapkit.models.Fraction
+import io.definenulls.uniswapkit.models.TradeType
+import io.definenulls.uniswapkit.v3.pool.PoolManager
+import io.definenulls.uniswapkit.v3.quoter.BestTrade
 import java.math.BigDecimal
 
 class PriceImpactManager(private val poolManager: PoolManager) {

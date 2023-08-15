@@ -1,9 +1,9 @@
-package io.horizontalsystems.ethereumkit.contracts
+package io.definenulls.ethereumkit.contracts
 
-import io.horizontalsystems.ethereumkit.crypto.CryptoUtils
-import io.horizontalsystems.ethereumkit.models.Address
-import io.horizontalsystems.ethereumkit.spv.core.toBigInteger
-import io.horizontalsystems.ethereumkit.spv.core.toInt
+import io.definenulls.ethereumkit.crypto.CryptoUtils
+import io.definenulls.ethereumkit.models.Address
+import io.definenulls.ethereumkit.spv.core.toBigInteger
+import io.definenulls.ethereumkit.spv.core.toInt
 import java.math.BigInteger
 import kotlin.math.max
 

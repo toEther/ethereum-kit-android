@@ -1,8 +1,8 @@
-package io.horizontalsystems.ethereumkit.spv.net.devp2p.messages
+package io.definenulls.ethereumkit.spv.net.devp2p.messages
 
-import io.horizontalsystems.ethereumkit.spv.net.IInMessage
-import io.horizontalsystems.ethereumkit.spv.rlp.RLP
-import io.horizontalsystems.ethereumkit.spv.rlp.RLPList
+import io.definenulls.ethereumkit.spv.net.IInMessage
+import io.definenulls.ethereumkit.spv.rlp.RLP
+import io.definenulls.ethereumkit.spv.rlp.RLPList
 
 class DisconnectMessage(payload: ByteArray) : IInMessage {
     private var reason: ReasonCode = ReasonCode.UNKNOWN

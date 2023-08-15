@@ -1,13 +1,13 @@
-package io.horizontalsystems.ethereumkit.sample.modules.main
+package io.definenulls.ethereumkit.sample.modules.main
 
 import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.ethereumkit.core.EthereumKit
-import io.horizontalsystems.ethereumkit.sample.App
-import io.horizontalsystems.nftkit.core.NftKit
-import io.horizontalsystems.nftkit.models.NftBalance
+import io.definenulls.ethereumkit.core.EthereumKit
+import io.definenulls.ethereumkit.sample.App
+import io.definenulls.nftkit.core.NftKit
+import io.definenulls.nftkit.models.NftBalance
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.launch
 

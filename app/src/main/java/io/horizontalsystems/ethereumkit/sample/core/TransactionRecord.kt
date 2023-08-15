@@ -1,6 +1,6 @@
-package io.horizontalsystems.ethereumkit.sample.core
+package io.definenulls.ethereumkit.sample.core
 
-import io.horizontalsystems.ethereumkit.models.Address
+import io.definenulls.ethereumkit.models.Address
 import java.math.BigDecimal
 
 class TransactionRecord(

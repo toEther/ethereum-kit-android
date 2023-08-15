@@ -1,11 +1,11 @@
-package io.horizontalsystems.ethereumkit.api.core
+package io.definenulls.ethereumkit.api.core
 
 import com.google.gson.Gson
-import io.horizontalsystems.ethereumkit.api.jsonrpc.JsonRpc
-import io.horizontalsystems.ethereumkit.api.jsonrpc.SubscribeJsonRpc
-import io.horizontalsystems.ethereumkit.api.jsonrpcsubscription.NewHeadsRpcSubscription
-import io.horizontalsystems.ethereumkit.api.jsonrpcsubscription.RpcSubscription
-import io.horizontalsystems.ethereumkit.core.EthereumKit
+import io.definenulls.ethereumkit.api.jsonrpc.JsonRpc
+import io.definenulls.ethereumkit.api.jsonrpc.SubscribeJsonRpc
+import io.definenulls.ethereumkit.api.jsonrpcsubscription.NewHeadsRpcSubscription
+import io.definenulls.ethereumkit.api.jsonrpcsubscription.RpcSubscription
+import io.definenulls.ethereumkit.core.EthereumKit
 import io.reactivex.Single
 import java.util.concurrent.ConcurrentHashMap
 import java.util.concurrent.atomic.AtomicInteger

@@ -1,14 +1,14 @@
-package io.horizontalsystems.uniswapkit
+package io.definenulls.uniswapkit
 
-import io.horizontalsystems.erc20kit.events.TransferEventInstance
-import io.horizontalsystems.ethereumkit.contracts.ContractEventInstance
-import io.horizontalsystems.ethereumkit.contracts.ContractMethod
-import io.horizontalsystems.ethereumkit.core.ITransactionDecorator
-import io.horizontalsystems.ethereumkit.decorations.TransactionDecoration
-import io.horizontalsystems.ethereumkit.models.Address
-import io.horizontalsystems.ethereumkit.models.InternalTransaction
-import io.horizontalsystems.uniswapkit.contract.*
-import io.horizontalsystems.uniswapkit.decorations.SwapDecoration
+import io.definenulls.erc20kit.events.TransferEventInstance
+import io.definenulls.ethereumkit.contracts.ContractEventInstance
+import io.definenulls.ethereumkit.contracts.ContractMethod
+import io.definenulls.ethereumkit.core.ITransactionDecorator
+import io.definenulls.ethereumkit.decorations.TransactionDecoration
+import io.definenulls.ethereumkit.models.Address
+import io.definenulls.ethereumkit.models.InternalTransaction
+import io.definenulls.uniswapkit.contract.*
+import io.definenulls.uniswapkit.decorations.SwapDecoration
 import java.math.BigInteger
 
 class SwapTransactionDecorator : ITransactionDecorator {

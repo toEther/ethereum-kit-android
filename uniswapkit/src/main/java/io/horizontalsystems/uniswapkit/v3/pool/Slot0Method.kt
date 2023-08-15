@@ -1,6 +1,6 @@
-package io.horizontalsystems.uniswapkit.v3.pool
+package io.definenulls.uniswapkit.v3.pool
 
-import io.horizontalsystems.ethereumkit.contracts.ContractMethod
+import io.definenulls.ethereumkit.contracts.ContractMethod
 
 class Slot0Method : ContractMethod() {
     override val methodSignature = "slot0()"

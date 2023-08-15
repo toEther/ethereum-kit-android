@@ -1,9 +1,9 @@
-package io.horizontalsystems.ethereumkit.utils
+package io.definenulls.ethereumkit.utils
 
-import io.horizontalsystems.ethereumkit.core.stripHexPrefix
-import io.horizontalsystems.ethereumkit.core.toHexString
-import io.horizontalsystems.ethereumkit.core.toRawHexString
-import io.horizontalsystems.ethereumkit.crypto.CryptoUtils
+import io.definenulls.ethereumkit.core.stripHexPrefix
+import io.definenulls.ethereumkit.core.toHexString
+import io.definenulls.ethereumkit.core.toRawHexString
+import io.definenulls.ethereumkit.crypto.CryptoUtils
 import java.util.*
 
 object EIP55 {

@@ -1,12 +1,12 @@
-package io.horizontalsystems.ethereumkit.spv.net.devp2p.messages
+package io.definenulls.ethereumkit.spv.net.devp2p.messages
 
-import io.horizontalsystems.ethereumkit.core.toHexString
-import io.horizontalsystems.ethereumkit.spv.core.toInt
-import io.horizontalsystems.ethereumkit.spv.net.IInMessage
-import io.horizontalsystems.ethereumkit.spv.net.IOutMessage
-import io.horizontalsystems.ethereumkit.spv.net.devp2p.Capability
-import io.horizontalsystems.ethereumkit.spv.rlp.RLP
-import io.horizontalsystems.ethereumkit.spv.rlp.RLPList
+import io.definenulls.ethereumkit.core.toHexString
+import io.definenulls.ethereumkit.spv.core.toInt
+import io.definenulls.ethereumkit.spv.net.IInMessage
+import io.definenulls.ethereumkit.spv.net.IOutMessage
+import io.definenulls.ethereumkit.spv.net.devp2p.Capability
+import io.definenulls.ethereumkit.spv.rlp.RLP
+import io.definenulls.ethereumkit.spv.rlp.RLPList
 import java.util.*
 
 class HelloMessage : IInMessage, IOutMessage {

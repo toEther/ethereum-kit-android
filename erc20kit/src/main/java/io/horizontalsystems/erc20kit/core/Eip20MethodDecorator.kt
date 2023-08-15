@@ -1,8 +1,8 @@
-package io.horizontalsystems.erc20kit.core
+package io.definenulls.erc20kit.core
 
-import io.horizontalsystems.ethereumkit.contracts.ContractMethod
-import io.horizontalsystems.ethereumkit.contracts.ContractMethodFactories
-import io.horizontalsystems.ethereumkit.core.IMethodDecorator
+import io.definenulls.ethereumkit.contracts.ContractMethod
+import io.definenulls.ethereumkit.contracts.ContractMethodFactories
+import io.definenulls.ethereumkit.core.IMethodDecorator
 
 class Eip20MethodDecorator(
     private val contractMethodFactories: ContractMethodFactories

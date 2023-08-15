@@ -1,7 +1,7 @@
-package io.horizontalsystems.erc20kit.core
+package io.definenulls.erc20kit.core
 
-import io.horizontalsystems.erc20kit.core.room.Erc20KitDatabase
-import io.horizontalsystems.erc20kit.models.TokenBalance
+import io.definenulls.erc20kit.core.room.Erc20KitDatabase
+import io.definenulls.erc20kit.models.TokenBalance
 import java.math.BigInteger
 
 class Erc20Storage(

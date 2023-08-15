@@ -1,8 +1,8 @@
-package io.horizontalsystems.ethereumkit.models
+package io.definenulls.ethereumkit.models
 
-import io.horizontalsystems.ethereumkit.core.toHexString
-import io.horizontalsystems.ethereumkit.models.Address
-import io.horizontalsystems.ethereumkit.models.GasPrice
+import io.definenulls.ethereumkit.core.toHexString
+import io.definenulls.ethereumkit.models.Address
+import io.definenulls.ethereumkit.models.GasPrice
 import java.math.BigInteger
 
 class RawTransaction(

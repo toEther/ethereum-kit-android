@@ -1,7 +1,7 @@
-package io.horizontalsystems.ethereumkit.api.jsonrpc.models
+package io.definenulls.ethereumkit.api.jsonrpc.models
 
-import io.horizontalsystems.ethereumkit.models.Address
-import io.horizontalsystems.ethereumkit.models.TransactionLog
+import io.definenulls.ethereumkit.models.Address
+import io.definenulls.ethereumkit.models.TransactionLog
 
 class RpcTransactionReceipt(
         val transactionHash: ByteArray,

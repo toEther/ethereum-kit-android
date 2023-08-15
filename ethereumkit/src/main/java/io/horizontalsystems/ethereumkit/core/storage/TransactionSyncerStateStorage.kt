@@ -1,6 +1,6 @@
-package io.horizontalsystems.ethereumkit.core.storage
+package io.definenulls.ethereumkit.core.storage
 
-import io.horizontalsystems.ethereumkit.models.TransactionSyncerState
+import io.definenulls.ethereumkit.models.TransactionSyncerState
 
 class TransactionSyncerStateStorage(database: TransactionDatabase) {
     private val dao = database.transactionSyncerStateDao()

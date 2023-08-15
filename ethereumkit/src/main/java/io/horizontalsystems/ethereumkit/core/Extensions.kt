@@ -1,4 +1,4 @@
-package io.horizontalsystems.ethereumkit.core
+package io.definenulls.ethereumkit.core
 
 import io.reactivex.Flowable
 import io.reactivex.Single

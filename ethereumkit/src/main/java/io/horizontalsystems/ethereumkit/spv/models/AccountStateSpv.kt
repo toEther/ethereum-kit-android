@@ -1,9 +1,9 @@
-package io.horizontalsystems.ethereumkit.spv.models
+package io.definenulls.ethereumkit.spv.models
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import io.horizontalsystems.ethereumkit.core.toHexString
-import io.horizontalsystems.ethereumkit.models.Address
+import io.definenulls.ethereumkit.core.toHexString
+import io.definenulls.ethereumkit.models.Address
 import java.math.BigInteger
 
 @Entity

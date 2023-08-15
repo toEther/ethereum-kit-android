@@ -1,7 +1,7 @@
-package io.horizontalsystems.ethereumkit.api.core
+package io.definenulls.ethereumkit.api.core
 
 import com.google.gson.Gson
-import io.horizontalsystems.ethereumkit.api.jsonrpc.JsonRpc
+import io.definenulls.ethereumkit.api.jsonrpc.JsonRpc
 import io.reactivex.Single
 import okhttp3.Credentials
 import okhttp3.Interceptor

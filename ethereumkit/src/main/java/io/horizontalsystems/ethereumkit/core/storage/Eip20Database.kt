@@ -1,9 +1,9 @@
-package io.horizontalsystems.ethereumkit.core.storage
+package io.definenulls.ethereumkit.core.storage
 
 import android.content.Context
 import androidx.room.*
-import io.horizontalsystems.ethereumkit.api.storage.RoomTypeConverters
-import io.horizontalsystems.ethereumkit.models.Eip20Event
+import io.definenulls.ethereumkit.api.storage.RoomTypeConverters
+import io.definenulls.ethereumkit.models.Eip20Event
 
 @Database(
     entities = [

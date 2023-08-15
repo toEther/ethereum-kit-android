@@ -1,9 +1,9 @@
-package io.horizontalsystems.ethereumkit.models
+package io.definenulls.ethereumkit.models
 
-import io.horizontalsystems.ethereumkit.core.AddressValidator
-import io.horizontalsystems.ethereumkit.core.hexStringToByteArray
-import io.horizontalsystems.ethereumkit.core.toHexString
-import io.horizontalsystems.ethereumkit.utils.EIP55
+import io.definenulls.ethereumkit.core.AddressValidator
+import io.definenulls.ethereumkit.core.hexStringToByteArray
+import io.definenulls.ethereumkit.core.toHexString
+import io.definenulls.ethereumkit.utils.EIP55
 
 data class Address(var raw: ByteArray) {
     init {

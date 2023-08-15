@@ -1,6 +1,6 @@
-package io.horizontalsystems.ethereumkit.spv.net.connection
+package io.definenulls.ethereumkit.spv.net.connection
 
-import io.horizontalsystems.ethereumkit.core.toHexString
+import io.definenulls.ethereumkit.core.toHexString
 
 class Frame(var type: Int, var payload: ByteArray) {
     var size: Int = 0

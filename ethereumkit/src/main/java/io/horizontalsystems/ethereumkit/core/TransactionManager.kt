@@ -1,7 +1,7 @@
-package io.horizontalsystems.ethereumkit.core
+package io.definenulls.ethereumkit.core
 
-import io.horizontalsystems.ethereumkit.decorations.DecorationManager
-import io.horizontalsystems.ethereumkit.models.*
+import io.definenulls.ethereumkit.decorations.DecorationManager
+import io.definenulls.ethereumkit.models.*
 import io.reactivex.BackpressureStrategy
 import io.reactivex.Flowable
 import io.reactivex.Single

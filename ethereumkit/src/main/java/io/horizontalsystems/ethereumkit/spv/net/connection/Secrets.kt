@@ -1,4 +1,4 @@
-package io.horizontalsystems.ethereumkit.spv.net.connection
+package io.definenulls.ethereumkit.spv.net.connection
 
 import org.bouncycastle.crypto.digests.KeccakDigest
 

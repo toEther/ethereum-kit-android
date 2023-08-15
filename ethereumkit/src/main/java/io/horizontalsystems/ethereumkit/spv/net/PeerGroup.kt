@@ -1,6 +1,6 @@
-package io.horizontalsystems.ethereumkit.spv.net
+package io.definenulls.ethereumkit.spv.net
 
-import io.horizontalsystems.ethereumkit.spv.core.*
+import io.definenulls.ethereumkit.spv.core.*
 
 class PeerGroup(private val peerProvider: PeerProvider) : IPeer, IPeerListener {
 

@@ -1,8 +1,8 @@
-package io.horizontalsystems.ethereumkit.api.core
+package io.definenulls.ethereumkit.api.core
 
 import com.google.gson.JsonElement
 import com.google.gson.annotations.SerializedName
-import io.horizontalsystems.ethereumkit.api.jsonrpc.JsonRpc
+import io.definenulls.ethereumkit.api.jsonrpc.JsonRpc
 import io.reactivex.Single
 
 class RpcHandler(val onSuccess: (RpcResponse) -> Unit, val onError: (Throwable) -> Unit)

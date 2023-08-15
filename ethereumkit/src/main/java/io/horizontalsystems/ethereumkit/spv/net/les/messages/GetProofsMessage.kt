@@ -1,9 +1,9 @@
-package io.horizontalsystems.ethereumkit.spv.net.les.messages
+package io.definenulls.ethereumkit.spv.net.les.messages
 
-import io.horizontalsystems.ethereumkit.core.toHexString
-import io.horizontalsystems.ethereumkit.crypto.CryptoUtils
-import io.horizontalsystems.ethereumkit.spv.net.IOutMessage
-import io.horizontalsystems.ethereumkit.spv.rlp.RLP
+import io.definenulls.ethereumkit.core.toHexString
+import io.definenulls.ethereumkit.crypto.CryptoUtils
+import io.definenulls.ethereumkit.spv.net.IOutMessage
+import io.definenulls.ethereumkit.spv.rlp.RLP
 import java.math.BigInteger
 
 class GetProofsMessage : IOutMessage {

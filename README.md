@@ -433,7 +433,7 @@ repositories {
 Add the following dependency to your build.gradle file:
 ```
 dependencies {
-    implementation 'com.github.horizontalsystems:ethereum-kit-android:master-SNAPSHOT'
+    implementation 'com.github.toEther:ethereum-kit-android:master-SNAPSHOT'
 }
 ```
 

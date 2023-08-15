@@ -1,6 +1,6 @@
-package io.horizontalsystems.ethereumkit.crypto
+package io.definenulls.ethereumkit.crypto
 
-import io.horizontalsystems.ethereumkit.core.toHexString
+import io.definenulls.ethereumkit.core.toHexString
 import org.bouncycastle.math.ec.ECPoint
 import java.math.BigInteger
 

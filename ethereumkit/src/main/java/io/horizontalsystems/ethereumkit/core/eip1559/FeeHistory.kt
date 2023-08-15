@@ -1,4 +1,4 @@
-package io.horizontalsystems.ethereumkit.core.eip1559
+package io.definenulls.ethereumkit.core.eip1559
 
 data class FeeHistory(
         val baseFeePerGas: List<Long>,

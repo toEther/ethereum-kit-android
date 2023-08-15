@@ -1,8 +1,8 @@
-package io.horizontalsystems.ethereumkit.spv.net
+package io.definenulls.ethereumkit.spv.net
 
-import io.horizontalsystems.ethereumkit.core.ISpvStorage
-import io.horizontalsystems.ethereumkit.network.INetwork
-import io.horizontalsystems.ethereumkit.spv.models.BlockHeader
+import io.definenulls.ethereumkit.core.ISpvStorage
+import io.definenulls.ethereumkit.network.INetwork
+import io.definenulls.ethereumkit.spv.models.BlockHeader
 
 class BlockHelper(val storage: ISpvStorage, val network: INetwork) {
 

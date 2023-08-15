@@ -1,10 +1,10 @@
-package io.horizontalsystems.nftkit.core
+package io.definenulls.nftkit.core
 
-import io.horizontalsystems.ethereumkit.contracts.ContractEventInstance
-import io.horizontalsystems.ethereumkit.core.hexStringToByteArrayOrNull
-import io.horizontalsystems.ethereumkit.models.Address
-import io.horizontalsystems.ethereumkit.models.TransactionLog
-import io.horizontalsystems.nftkit.events.Eip721TransferEventInstance
+import io.definenulls.ethereumkit.contracts.ContractEventInstance
+import io.definenulls.ethereumkit.core.hexStringToByteArrayOrNull
+import io.definenulls.ethereumkit.models.Address
+import io.definenulls.ethereumkit.models.TransactionLog
+import io.definenulls.nftkit.events.Eip721TransferEventInstance
 import java.math.BigInteger
 
 fun TransactionLog.getEip721EventInstance(): ContractEventInstance? {

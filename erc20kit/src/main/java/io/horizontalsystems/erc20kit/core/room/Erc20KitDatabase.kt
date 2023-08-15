@@ -1,12 +1,12 @@
-package io.horizontalsystems.erc20kit.core.room
+package io.definenulls.erc20kit.core.room
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
-import io.horizontalsystems.erc20kit.models.TokenBalance
-import io.horizontalsystems.ethereumkit.api.storage.RoomTypeConverters
+import io.definenulls.erc20kit.models.TokenBalance
+import io.definenulls.ethereumkit.api.storage.RoomTypeConverters
 
 @Database(entities = [TokenBalance::class], version = 5, exportSchema = true)
 @TypeConverters(RoomTypeConverters::class)

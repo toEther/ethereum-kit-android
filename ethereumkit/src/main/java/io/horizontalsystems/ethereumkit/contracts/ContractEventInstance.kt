@@ -1,6 +1,6 @@
-package io.horizontalsystems.ethereumkit.contracts
+package io.definenulls.ethereumkit.contracts
 
-import io.horizontalsystems.ethereumkit.models.Address
+import io.definenulls.ethereumkit.models.Address
 
 open class ContractEventInstance(val contractAddress: Address) {
 

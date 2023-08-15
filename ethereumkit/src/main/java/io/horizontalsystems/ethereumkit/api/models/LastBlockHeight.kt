@@ -1,4 +1,4 @@
-package io.horizontalsystems.ethereumkit.api.models
+package io.definenulls.ethereumkit.api.models
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

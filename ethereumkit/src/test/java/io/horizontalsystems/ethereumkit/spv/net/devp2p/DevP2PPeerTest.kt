@@ -1,12 +1,12 @@
-package io.horizontalsystems.ethereumkit.spv.net.devp2p
+package io.definenulls.ethereumkit.spv.net.devp2p
 
 import com.nhaarman.mockito_kotlin.*
-import io.horizontalsystems.ethereumkit.spv.net.IInMessage
-import io.horizontalsystems.ethereumkit.spv.net.IOutMessage
-import io.horizontalsystems.ethereumkit.spv.net.devp2p.messages.DisconnectMessage
-import io.horizontalsystems.ethereumkit.spv.net.devp2p.messages.HelloMessage
-import io.horizontalsystems.ethereumkit.spv.net.devp2p.messages.PingMessage
-import io.horizontalsystems.ethereumkit.spv.net.devp2p.messages.PongMessage
+import io.definenulls.ethereumkit.spv.net.IInMessage
+import io.definenulls.ethereumkit.spv.net.IOutMessage
+import io.definenulls.ethereumkit.spv.net.devp2p.messages.DisconnectMessage
+import io.definenulls.ethereumkit.spv.net.devp2p.messages.HelloMessage
+import io.definenulls.ethereumkit.spv.net.devp2p.messages.PingMessage
+import io.definenulls.ethereumkit.spv.net.devp2p.messages.PongMessage
 import org.mockito.Mockito.mock
 import org.spekframework.spek2.Spek
 import org.spekframework.spek2.style.specification.describe

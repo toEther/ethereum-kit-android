@@ -1,9 +1,9 @@
-package io.horizontalsystems.ethereumkit.transactionsyncers
+package io.definenulls.ethereumkit.transactionsyncers
 
-import io.horizontalsystems.ethereumkit.core.EthereumKit
-import io.horizontalsystems.ethereumkit.core.ITransactionSyncer
-import io.horizontalsystems.ethereumkit.core.TransactionManager
-import io.horizontalsystems.ethereumkit.models.Transaction
+import io.definenulls.ethereumkit.core.EthereumKit
+import io.definenulls.ethereumkit.core.ITransactionSyncer
+import io.definenulls.ethereumkit.core.TransactionManager
+import io.definenulls.ethereumkit.models.Transaction
 import io.reactivex.BackpressureStrategy
 import io.reactivex.Flowable
 import io.reactivex.Single

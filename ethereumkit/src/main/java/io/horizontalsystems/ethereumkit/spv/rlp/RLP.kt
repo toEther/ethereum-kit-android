@@ -1,8 +1,8 @@
-package io.horizontalsystems.ethereumkit.spv.rlp
+package io.definenulls.ethereumkit.spv.rlp
 
-import io.horizontalsystems.ethereumkit.core.toByteArray
-import io.horizontalsystems.ethereumkit.spv.core.toBytesNoLeadZeroes
-import io.horizontalsystems.ethereumkit.spv.core.toInt
+import io.definenulls.ethereumkit.core.toByteArray
+import io.definenulls.ethereumkit.spv.core.toBytesNoLeadZeroes
+import io.definenulls.ethereumkit.spv.core.toInt
 import org.bouncycastle.util.Arrays.concatenate
 import org.bouncycastle.util.BigIntegers.asUnsignedByteArray
 import org.bouncycastle.util.encoders.Hex

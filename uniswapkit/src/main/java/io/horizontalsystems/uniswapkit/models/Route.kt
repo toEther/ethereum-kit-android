@@ -1,6 +1,6 @@
-package io.horizontalsystems.uniswapkit.models
+package io.definenulls.uniswapkit.models
 
-import io.horizontalsystems.uniswapkit.RouteError
+import io.definenulls.uniswapkit.RouteError
 
 class Route(val pairs: List<Pair>,
             tokenIn: Token,

@@ -1,10 +1,10 @@
-package io.horizontalsystems.ethereumkit.spv.net.connection
+package io.definenulls.ethereumkit.spv.net.connection
 
 import com.nhaarman.mockito_kotlin.verify
 import com.nhaarman.mockito_kotlin.verifyNoMoreInteractions
 import com.nhaarman.mockito_kotlin.whenever
-import io.horizontalsystems.ethereumkit.crypto.AESCipher
-import io.horizontalsystems.ethereumkit.spv.rlp.RLP
+import io.definenulls.ethereumkit.crypto.AESCipher
+import io.definenulls.ethereumkit.spv.rlp.RLP
 import org.bouncycastle.crypto.digests.KeccakDigest
 import org.junit.Assert.*
 import org.junit.Before

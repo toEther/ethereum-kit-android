@@ -1,7 +1,7 @@
-package io.horizontalsystems.ethereumkit.api.storage
+package io.definenulls.ethereumkit.api.storage
 
 import androidx.room.TypeConverter
-import io.horizontalsystems.ethereumkit.models.Address
+import io.definenulls.ethereumkit.models.Address
 import java.math.BigInteger
 
 class RoomTypeConverters {

@@ -1,10 +1,10 @@
-package io.horizontalsystems.nftkit.core
+package io.definenulls.nftkit.core
 
 import android.util.Log
-import io.horizontalsystems.ethereumkit.api.jsonrpc.JsonRpc
-import io.horizontalsystems.ethereumkit.models.Address
-import io.horizontalsystems.nftkit.models.Nft
-import io.horizontalsystems.nftkit.models.NftType
+import io.definenulls.ethereumkit.api.jsonrpc.JsonRpc
+import io.definenulls.ethereumkit.models.Address
+import io.definenulls.nftkit.models.Nft
+import io.definenulls.nftkit.models.NftType
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.async
 import kotlinx.coroutines.awaitAll

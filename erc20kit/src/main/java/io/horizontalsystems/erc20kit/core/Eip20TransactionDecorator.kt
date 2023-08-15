@@ -1,16 +1,16 @@
-package io.horizontalsystems.erc20kit.core
+package io.definenulls.erc20kit.core
 
-import io.horizontalsystems.erc20kit.contract.ApproveMethod
-import io.horizontalsystems.erc20kit.contract.TransferMethod
-import io.horizontalsystems.erc20kit.decorations.ApproveEip20Decoration
-import io.horizontalsystems.erc20kit.decorations.OutgoingEip20Decoration
-import io.horizontalsystems.erc20kit.events.TransferEventInstance
-import io.horizontalsystems.ethereumkit.contracts.ContractEventInstance
-import io.horizontalsystems.ethereumkit.contracts.ContractMethod
-import io.horizontalsystems.ethereumkit.core.ITransactionDecorator
-import io.horizontalsystems.ethereumkit.decorations.TransactionDecoration
-import io.horizontalsystems.ethereumkit.models.Address
-import io.horizontalsystems.ethereumkit.models.InternalTransaction
+import io.definenulls.erc20kit.contract.ApproveMethod
+import io.definenulls.erc20kit.contract.TransferMethod
+import io.definenulls.erc20kit.decorations.ApproveEip20Decoration
+import io.definenulls.erc20kit.decorations.OutgoingEip20Decoration
+import io.definenulls.erc20kit.events.TransferEventInstance
+import io.definenulls.ethereumkit.contracts.ContractEventInstance
+import io.definenulls.ethereumkit.contracts.ContractMethod
+import io.definenulls.ethereumkit.core.ITransactionDecorator
+import io.definenulls.ethereumkit.decorations.TransactionDecoration
+import io.definenulls.ethereumkit.models.Address
+import io.definenulls.ethereumkit.models.InternalTransaction
 import java.math.BigInteger
 
 class Eip20TransactionDecorator(

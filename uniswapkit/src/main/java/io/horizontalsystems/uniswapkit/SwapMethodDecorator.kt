@@ -1,8 +1,8 @@
-package io.horizontalsystems.uniswapkit
+package io.definenulls.uniswapkit
 
-import io.horizontalsystems.ethereumkit.contracts.ContractMethod
-import io.horizontalsystems.ethereumkit.core.IMethodDecorator
-import io.horizontalsystems.uniswapkit.contract.SwapContractMethodFactories
+import io.definenulls.ethereumkit.contracts.ContractMethod
+import io.definenulls.ethereumkit.core.IMethodDecorator
+import io.definenulls.uniswapkit.contract.SwapContractMethodFactories
 
 class SwapMethodDecorator(private val contractMethodFactories: SwapContractMethodFactories) : IMethodDecorator {
 

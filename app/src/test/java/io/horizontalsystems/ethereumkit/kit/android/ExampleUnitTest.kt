@@ -1,4 +1,4 @@
-package io.horizontalsystems.ethereumkit.kit.android
+package io.definenulls.ethereumkit.kit.android
 
 import org.junit.Test
 

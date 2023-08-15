@@ -1,17 +1,17 @@
-package io.horizontalsystems.ethereumkit.core.signer
+package io.definenulls.ethereumkit.core.signer
 
-import io.horizontalsystems.ethereumkit.core.TransactionBuilder
-import io.horizontalsystems.ethereumkit.core.TransactionSigner
-import io.horizontalsystems.ethereumkit.core.hexStringToByteArrayOrNull
-import io.horizontalsystems.ethereumkit.core.signer.Signer.PrivateKeyValidationError.InvalidDataLength
-import io.horizontalsystems.ethereumkit.core.signer.Signer.PrivateKeyValidationError.InvalidDataString
-import io.horizontalsystems.ethereumkit.crypto.CryptoUtils
-import io.horizontalsystems.ethereumkit.crypto.EIP712Encoder
-import io.horizontalsystems.ethereumkit.crypto.TypedData
-import io.horizontalsystems.ethereumkit.models.*
-import io.horizontalsystems.ethereumkit.spv.core.toBigInteger
-import io.horizontalsystems.hdwalletkit.HDWallet
-import io.horizontalsystems.hdwalletkit.Mnemonic
+import io.definenulls.ethereumkit.core.TransactionBuilder
+import io.definenulls.ethereumkit.core.TransactionSigner
+import io.definenulls.ethereumkit.core.hexStringToByteArrayOrNull
+import io.definenulls.ethereumkit.core.signer.Signer.PrivateKeyValidationError.InvalidDataLength
+import io.definenulls.ethereumkit.core.signer.Signer.PrivateKeyValidationError.InvalidDataString
+import io.definenulls.ethereumkit.crypto.CryptoUtils
+import io.definenulls.ethereumkit.crypto.EIP712Encoder
+import io.definenulls.ethereumkit.crypto.TypedData
+import io.definenulls.ethereumkit.models.*
+import io.definenulls.ethereumkit.spv.core.toBigInteger
+import io.definenulls.hdwalletkit.HDWallet
+import io.definenulls.hdwalletkit.Mnemonic
 import java.math.BigInteger
 
 class Signer(

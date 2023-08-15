@@ -1,4 +1,4 @@
-package io.horizontalsystems.ethereumkit.sample.modules.uniswapV3
+package io.definenulls.ethereumkit.sample.modules.uniswapV3
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -21,13 +21,13 @@ import androidx.compose.ui.unit.dp
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewmodel.compose.viewModel
-import io.horizontalsystems.ethereumkit.core.EthereumKit
-import io.horizontalsystems.ethereumkit.core.signer.Signer
-import io.horizontalsystems.ethereumkit.sample.core.Erc20Adapter
-import io.horizontalsystems.ethereumkit.sample.core.EthereumAdapter
-import io.horizontalsystems.ethereumkit.sample.modules.main.GasPriceHelper
-import io.horizontalsystems.ethereumkit.sample.modules.main.MainViewModel
-import io.horizontalsystems.uniswapkit.models.TradeType
+import io.definenulls.ethereumkit.core.EthereumKit
+import io.definenulls.ethereumkit.core.signer.Signer
+import io.definenulls.ethereumkit.sample.core.Erc20Adapter
+import io.definenulls.ethereumkit.sample.core.EthereumAdapter
+import io.definenulls.ethereumkit.sample.modules.main.GasPriceHelper
+import io.definenulls.ethereumkit.sample.modules.main.MainViewModel
+import io.definenulls.uniswapkit.models.TradeType
 import kotlinx.android.synthetic.main.activity_main.*
 import java.math.BigDecimal
 

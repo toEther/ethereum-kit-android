@@ -1,11 +1,11 @@
-package io.horizontalsystems.ethereumkit.spv.core
+package io.definenulls.ethereumkit.spv.core
 
-import io.horizontalsystems.ethereumkit.core.ISpvStorage
-import io.horizontalsystems.ethereumkit.models.Address
-import io.horizontalsystems.ethereumkit.spv.models.AccountStateSpv
-import io.horizontalsystems.ethereumkit.spv.models.BlockHeader
-import io.horizontalsystems.ethereumkit.spv.net.handlers.AccountStateTaskHandler
-import io.horizontalsystems.ethereumkit.spv.net.tasks.AccountStateTask
+import io.definenulls.ethereumkit.core.ISpvStorage
+import io.definenulls.ethereumkit.models.Address
+import io.definenulls.ethereumkit.spv.models.AccountStateSpv
+import io.definenulls.ethereumkit.spv.models.BlockHeader
+import io.definenulls.ethereumkit.spv.net.handlers.AccountStateTaskHandler
+import io.definenulls.ethereumkit.spv.net.tasks.AccountStateTask
 
 class AccountStateSyncer(private val storage: ISpvStorage,
                          private val address: Address) : AccountStateTaskHandler.Listener {

@@ -1,7 +1,7 @@
-package io.horizontalsystems.ethereumkit.network
+package io.definenulls.ethereumkit.network
 
-import io.horizontalsystems.ethereumkit.core.hexStringToByteArray
-import io.horizontalsystems.ethereumkit.spv.models.BlockHeader
+import io.definenulls.ethereumkit.core.hexStringToByteArray
+import io.definenulls.ethereumkit.spv.models.BlockHeader
 import java.math.BigInteger
 
 class BscMainNet : INetwork {

@@ -1,10 +1,10 @@
-package io.horizontalsystems.ethereumkit.spv.net.handlers
+package io.definenulls.ethereumkit.spv.net.handlers
 
-import io.horizontalsystems.ethereumkit.spv.core.*
-import io.horizontalsystems.ethereumkit.spv.net.IInMessage
-import io.horizontalsystems.ethereumkit.spv.net.les.LESPeer
-import io.horizontalsystems.ethereumkit.spv.net.les.messages.StatusMessage
-import io.horizontalsystems.ethereumkit.spv.net.tasks.HandshakeTask
+import io.definenulls.ethereumkit.spv.core.*
+import io.definenulls.ethereumkit.spv.net.IInMessage
+import io.definenulls.ethereumkit.spv.net.les.LESPeer
+import io.definenulls.ethereumkit.spv.net.les.messages.StatusMessage
+import io.definenulls.ethereumkit.spv.net.tasks.HandshakeTask
 
 class HandshakeTaskHandler(private val listener: Listener? = null) : ITaskHandler, IMessageHandler {
 

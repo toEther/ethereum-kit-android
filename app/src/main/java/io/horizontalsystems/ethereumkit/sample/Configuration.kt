@@ -1,8 +1,8 @@
-package io.horizontalsystems.ethereumkit.sample
+package io.definenulls.ethereumkit.sample
 
-import io.horizontalsystems.ethereumkit.models.Address
-import io.horizontalsystems.ethereumkit.models.Chain
-import io.horizontalsystems.ethereumkit.sample.modules.main.Erc20Token
+import io.definenulls.ethereumkit.models.Address
+import io.definenulls.ethereumkit.models.Chain
+import io.definenulls.ethereumkit.sample.modules.main.Erc20Token
 
 object Configuration {
     const val webSocket: Boolean = false

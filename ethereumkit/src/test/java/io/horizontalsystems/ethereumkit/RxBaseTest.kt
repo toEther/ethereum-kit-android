@@ -1,4 +1,4 @@
-package io.horizontalsystems.ethereumkit
+package io.definenulls.ethereumkit
 
 import io.reactivex.Scheduler
 import io.reactivex.android.plugins.RxAndroidPlugins

@@ -1,12 +1,12 @@
-package io.horizontalsystems.ethereumkit.api.storage
+package io.definenulls.ethereumkit.api.storage
 
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
 import android.content.Context
-import io.horizontalsystems.ethereumkit.api.models.AccountState
-import io.horizontalsystems.ethereumkit.api.models.LastBlockHeight
+import io.definenulls.ethereumkit.api.models.AccountState
+import io.definenulls.ethereumkit.api.models.LastBlockHeight
 
 
 @Database(entities = [AccountState::class, LastBlockHeight::class], version = 3, exportSchema = false)

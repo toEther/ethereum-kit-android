@@ -1,4 +1,4 @@
-package io.horizontalsystems.ethereumkit
+package io.definenulls.ethereumkit
 
 /*
 class EthereumKitTest {

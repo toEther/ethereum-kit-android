@@ -1,7 +1,7 @@
-package io.horizontalsystems.ethereumkit.spv.net.connection
+package io.definenulls.ethereumkit.spv.net.connection
 
-import io.horizontalsystems.ethereumkit.spv.core.xor
-import io.horizontalsystems.ethereumkit.crypto.CryptoUtils
+import io.definenulls.ethereumkit.spv.core.xor
+import io.definenulls.ethereumkit.crypto.CryptoUtils
 import org.bouncycastle.crypto.digests.KeccakDigest
 
 class FrameCodecHelper(val cryptoUtils: CryptoUtils) {

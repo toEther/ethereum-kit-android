@@ -1,6 +1,6 @@
-package io.horizontalsystems.nftkit.contracts
+package io.definenulls.nftkit.contracts
 
-import io.horizontalsystems.ethereumkit.contracts.ContractMethodFactories
+import io.definenulls.ethereumkit.contracts.ContractMethodFactories
 
 object Eip721ContractMethodFactories : ContractMethodFactories() {
     init {

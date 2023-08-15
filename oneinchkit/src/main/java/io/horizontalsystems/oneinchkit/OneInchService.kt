@@ -1,10 +1,10 @@
-package io.horizontalsystems.oneinchkit
+package io.definenulls.oneinchkit
 
 import com.google.gson.GsonBuilder
-import io.horizontalsystems.ethereumkit.models.Address
-import io.horizontalsystems.ethereumkit.models.Chain
-import io.horizontalsystems.ethereumkit.models.GasPrice
-import io.horizontalsystems.ethereumkit.network.*
+import io.definenulls.ethereumkit.models.Address
+import io.definenulls.ethereumkit.models.Chain
+import io.definenulls.ethereumkit.models.GasPrice
+import io.definenulls.ethereumkit.network.*
 import io.reactivex.Single
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor

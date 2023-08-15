@@ -1,8 +1,8 @@
-package io.horizontalsystems.ethereumkit.api.jsonrpc
+package io.definenulls.ethereumkit.api.jsonrpc
 
 import com.google.gson.annotations.SerializedName
-import io.horizontalsystems.ethereumkit.models.Address
-import io.horizontalsystems.ethereumkit.models.GasPrice
+import io.definenulls.ethereumkit.models.Address
+import io.definenulls.ethereumkit.models.GasPrice
 import java.math.BigInteger
 
 class EstimateGasJsonRpc(

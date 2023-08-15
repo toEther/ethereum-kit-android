@@ -1,14 +1,14 @@
-package io.horizontalsystems.erc20kit.core
+package io.definenulls.erc20kit.core
 
-import io.horizontalsystems.erc20kit.events.ApproveEventInstance
-import io.horizontalsystems.erc20kit.events.TokenInfo
-import io.horizontalsystems.erc20kit.events.TransferEventInstance
-import io.horizontalsystems.ethereumkit.contracts.ContractEventInstance
-import io.horizontalsystems.ethereumkit.core.IEip20Storage
-import io.horizontalsystems.ethereumkit.core.IEventDecorator
-import io.horizontalsystems.ethereumkit.models.Address
-import io.horizontalsystems.ethereumkit.models.Transaction
-import io.horizontalsystems.ethereumkit.models.TransactionLog
+import io.definenulls.erc20kit.events.ApproveEventInstance
+import io.definenulls.erc20kit.events.TokenInfo
+import io.definenulls.erc20kit.events.TransferEventInstance
+import io.definenulls.ethereumkit.contracts.ContractEventInstance
+import io.definenulls.ethereumkit.core.IEip20Storage
+import io.definenulls.ethereumkit.core.IEventDecorator
+import io.definenulls.ethereumkit.models.Address
+import io.definenulls.ethereumkit.models.Transaction
+import io.definenulls.ethereumkit.models.TransactionLog
 
 class Eip20EventDecorator(
     private val userAddress: Address,

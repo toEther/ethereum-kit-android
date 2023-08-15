@@ -1,10 +1,10 @@
-package io.horizontalsystems.nftkit.core
+package io.definenulls.nftkit.core
 
-import io.horizontalsystems.ethereumkit.core.EthereumKit
-import io.horizontalsystems.ethereumkit.models.Address
-import io.horizontalsystems.ethereumkit.models.TransactionData
-import io.horizontalsystems.nftkit.contracts.Eip1155SafeTransferFromMethod
-import io.horizontalsystems.nftkit.contracts.Eip721SafeTransferFromMethod
+import io.definenulls.ethereumkit.core.EthereumKit
+import io.definenulls.ethereumkit.models.Address
+import io.definenulls.ethereumkit.models.TransactionData
+import io.definenulls.nftkit.contracts.Eip1155SafeTransferFromMethod
+import io.definenulls.nftkit.contracts.Eip721SafeTransferFromMethod
 import java.math.BigInteger
 
 class TransactionManager(ethereumKit: EthereumKit) {

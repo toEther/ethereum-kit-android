@@ -1,4 +1,4 @@
-package io.horizontalsystems.ethereumkit.kit;
+package io.definenulls.ethereumkit.kit;
 
 import org.junit.Test;
 

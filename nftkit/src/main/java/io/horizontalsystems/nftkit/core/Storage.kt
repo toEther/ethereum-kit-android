@@ -1,8 +1,8 @@
-package io.horizontalsystems.nftkit.core
+package io.definenulls.nftkit.core
 
-import io.horizontalsystems.ethereumkit.models.Address
-import io.horizontalsystems.nftkit.core.db.NftKitDatabase
-import io.horizontalsystems.nftkit.models.*
+import io.definenulls.ethereumkit.models.Address
+import io.definenulls.nftkit.core.db.NftKitDatabase
+import io.definenulls.nftkit.models.*
 import java.math.BigInteger
 
 class Storage(

@@ -1,13 +1,13 @@
-package io.horizontalsystems.ethereumkit.decorations
+package io.definenulls.ethereumkit.decorations
 
-import io.horizontalsystems.ethereumkit.contracts.ContractEventInstance
-import io.horizontalsystems.ethereumkit.contracts.ContractMethod
-import io.horizontalsystems.ethereumkit.contracts.EmptyMethod
-import io.horizontalsystems.ethereumkit.core.IEventDecorator
-import io.horizontalsystems.ethereumkit.core.IMethodDecorator
-import io.horizontalsystems.ethereumkit.core.ITransactionDecorator
-import io.horizontalsystems.ethereumkit.core.ITransactionStorage
-import io.horizontalsystems.ethereumkit.models.*
+import io.definenulls.ethereumkit.contracts.ContractEventInstance
+import io.definenulls.ethereumkit.contracts.ContractMethod
+import io.definenulls.ethereumkit.contracts.EmptyMethod
+import io.definenulls.ethereumkit.core.IEventDecorator
+import io.definenulls.ethereumkit.core.IMethodDecorator
+import io.definenulls.ethereumkit.core.ITransactionDecorator
+import io.definenulls.ethereumkit.core.ITransactionStorage
+import io.definenulls.ethereumkit.models.*
 import java.math.BigInteger
 
 class DecorationManager(private val userAddress: Address, private val storage: ITransactionStorage) {

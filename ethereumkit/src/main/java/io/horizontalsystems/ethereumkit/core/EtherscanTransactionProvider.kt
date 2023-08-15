@@ -1,7 +1,7 @@
-package io.horizontalsystems.ethereumkit.core
+package io.definenulls.ethereumkit.core
 
-import io.horizontalsystems.ethereumkit.models.*
-import io.horizontalsystems.ethereumkit.network.EtherscanService
+import io.definenulls.ethereumkit.models.*
+import io.definenulls.ethereumkit.network.EtherscanService
 import io.reactivex.Single
 
 class EtherscanTransactionProvider(

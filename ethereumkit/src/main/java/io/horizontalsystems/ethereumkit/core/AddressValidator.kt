@@ -1,6 +1,6 @@
-package io.horizontalsystems.ethereumkit.core
+package io.definenulls.ethereumkit.core
 
-import io.horizontalsystems.ethereumkit.utils.EIP55
+import io.definenulls.ethereumkit.utils.EIP55
 import java.math.BigInteger
 
 class AddressValidator {

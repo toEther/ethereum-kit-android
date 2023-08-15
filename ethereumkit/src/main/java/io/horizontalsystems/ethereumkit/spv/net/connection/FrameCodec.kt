@@ -1,9 +1,9 @@
-package io.horizontalsystems.ethereumkit.spv.net.connection
+package io.definenulls.ethereumkit.spv.net.connection
 
-import io.horizontalsystems.ethereumkit.crypto.AESCipher
-import io.horizontalsystems.ethereumkit.crypto.CryptoUtils
-import io.horizontalsystems.ethereumkit.spv.rlp.RLP
-import io.horizontalsystems.ethereumkit.spv.rlp.RLPList
+import io.definenulls.ethereumkit.crypto.AESCipher
+import io.definenulls.ethereumkit.crypto.CryptoUtils
+import io.definenulls.ethereumkit.spv.rlp.RLP
+import io.definenulls.ethereumkit.spv.rlp.RLPList
 import org.bouncycastle.crypto.digests.KeccakDigest
 import java.io.InputStream
 import java.io.OutputStream

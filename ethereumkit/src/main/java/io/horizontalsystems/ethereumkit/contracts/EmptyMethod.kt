@@ -1,3 +1,3 @@
-package io.horizontalsystems.ethereumkit.contracts
+package io.definenulls.ethereumkit.contracts
 
 class EmptyMethod: ContractMethod()

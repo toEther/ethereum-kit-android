@@ -1,7 +1,7 @@
-package io.horizontalsystems.ethereumkit.core.storage
+package io.definenulls.ethereumkit.core.storage
 
-import io.horizontalsystems.ethereumkit.core.IEip20Storage
-import io.horizontalsystems.ethereumkit.models.Eip20Event
+import io.definenulls.ethereumkit.core.IEip20Storage
+import io.definenulls.ethereumkit.models.Eip20Event
 
 class Eip20Storage(database: Eip20Database) : IEip20Storage {
     private val erc20EventDao = database.eip20EventDao()

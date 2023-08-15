@@ -1,7 +1,7 @@
-package io.horizontalsystems.ethereumkit.spv.net.connection.messages
+package io.definenulls.ethereumkit.spv.net.connection.messages
 
-import io.horizontalsystems.ethereumkit.core.toHexString
-import io.horizontalsystems.ethereumkit.spv.rlp.RLP
+import io.definenulls.ethereumkit.core.toHexString
+import io.definenulls.ethereumkit.spv.rlp.RLP
 import org.bouncycastle.math.ec.ECPoint
 
 class AuthMessage(val signature: ByteArray, val publicKeyPoint: ECPoint, val nonce: ByteArray) {

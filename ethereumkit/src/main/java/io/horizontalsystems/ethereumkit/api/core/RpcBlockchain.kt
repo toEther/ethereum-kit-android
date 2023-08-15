@@ -1,13 +1,13 @@
-package io.horizontalsystems.ethereumkit.api.core
+package io.definenulls.ethereumkit.api.core
 
-import io.horizontalsystems.ethereumkit.api.jsonrpc.*
-import io.horizontalsystems.ethereumkit.api.jsonrpc.models.RpcBlock
-import io.horizontalsystems.ethereumkit.api.jsonrpc.models.RpcTransaction
-import io.horizontalsystems.ethereumkit.api.jsonrpc.models.RpcTransactionReceipt
-import io.horizontalsystems.ethereumkit.api.models.AccountState
-import io.horizontalsystems.ethereumkit.core.*
-import io.horizontalsystems.ethereumkit.core.EthereumKit.SyncState
-import io.horizontalsystems.ethereumkit.models.*
+import io.definenulls.ethereumkit.api.jsonrpc.*
+import io.definenulls.ethereumkit.api.jsonrpc.models.RpcBlock
+import io.definenulls.ethereumkit.api.jsonrpc.models.RpcTransaction
+import io.definenulls.ethereumkit.api.jsonrpc.models.RpcTransactionReceipt
+import io.definenulls.ethereumkit.api.models.AccountState
+import io.definenulls.ethereumkit.core.*
+import io.definenulls.ethereumkit.core.EthereumKit.SyncState
+import io.definenulls.ethereumkit.models.*
 import io.reactivex.Single
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers

@@ -1,7 +1,7 @@
-package io.horizontalsystems.uniswapkit.v3.quoter
+package io.definenulls.uniswapkit.v3.quoter
 
-import io.horizontalsystems.ethereumkit.contracts.ContractMethod
-import io.horizontalsystems.ethereumkit.models.Address
+import io.definenulls.ethereumkit.contracts.ContractMethod
+import io.definenulls.ethereumkit.models.Address
 import java.math.BigInteger
 
 class QuoteExactOutputSingleMethod(

@@ -1,9 +1,9 @@
-package io.horizontalsystems.ethereumkit.spv.net.les
+package io.definenulls.ethereumkit.spv.net.les
 
-import io.horizontalsystems.ethereumkit.core.toHexString
-import io.horizontalsystems.ethereumkit.core.toRawHexString
-import io.horizontalsystems.ethereumkit.crypto.CryptoUtils
-import io.horizontalsystems.ethereumkit.spv.rlp.RLPList
+import io.definenulls.ethereumkit.core.toHexString
+import io.definenulls.ethereumkit.core.toRawHexString
+import io.definenulls.ethereumkit.crypto.CryptoUtils
+import io.definenulls.ethereumkit.spv.rlp.RLPList
 import java.util.*
 
 class TrieNode(rlpList: RLPList) {

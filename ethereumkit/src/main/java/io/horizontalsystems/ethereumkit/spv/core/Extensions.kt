@@ -1,6 +1,6 @@
-package io.horizontalsystems.ethereumkit.spv.core
+package io.definenulls.ethereumkit.spv.core
 
-import io.horizontalsystems.ethereumkit.spv.rlp.RLPElement
+import io.definenulls.ethereumkit.spv.rlp.RLPElement
 import java.math.BigInteger
 import java.nio.ByteBuffer
 import java.nio.ByteOrder

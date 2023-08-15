@@ -1,7 +1,7 @@
-package io.horizontalsystems.ethereumkit.decorations
+package io.definenulls.ethereumkit.decorations
 
-import io.horizontalsystems.ethereumkit.models.Address
-import io.horizontalsystems.ethereumkit.models.TransactionTag
+import io.definenulls.ethereumkit.models.Address
+import io.definenulls.ethereumkit.models.TransactionTag
 import java.math.BigInteger
 
 class IncomingDecoration(

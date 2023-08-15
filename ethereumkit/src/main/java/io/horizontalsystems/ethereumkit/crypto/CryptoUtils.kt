@@ -1,7 +1,7 @@
-package io.horizontalsystems.ethereumkit.crypto
+package io.definenulls.ethereumkit.crypto
 
-import io.horizontalsystems.ethereumkit.spv.core.toBytes
-import io.horizontalsystems.ethereumkit.spv.helpers.RandomHelper
+import io.definenulls.ethereumkit.spv.core.toBytes
+import io.definenulls.ethereumkit.spv.helpers.RandomHelper
 import org.bouncycastle.asn1.sec.SECNamedCurves
 import org.bouncycastle.asn1.x9.X9IntegerConverter
 import org.bouncycastle.crypto.BufferedBlockCipher

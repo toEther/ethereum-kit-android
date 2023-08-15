@@ -1,4 +1,4 @@
-package io.horizontalsystems.ethereumkit.api.jsonrpcsubscription
+package io.definenulls.ethereumkit.api.jsonrpcsubscription
 
 data class RpcBlockHeader(val number: Long, val logsBloom: String)
 

@@ -1,14 +1,14 @@
-package io.horizontalsystems.nftkit.core.db
+package io.definenulls.nftkit.core.db
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
-import io.horizontalsystems.ethereumkit.api.storage.RoomTypeConverters
-import io.horizontalsystems.nftkit.models.Eip1155Event
-import io.horizontalsystems.nftkit.models.Eip721Event
-import io.horizontalsystems.nftkit.models.NftBalanceRecord
+import io.definenulls.ethereumkit.api.storage.RoomTypeConverters
+import io.definenulls.nftkit.models.Eip1155Event
+import io.definenulls.nftkit.models.Eip721Event
+import io.definenulls.nftkit.models.NftBalanceRecord
 
 @Database(entities = [Eip721Event::class, Eip1155Event::class, NftBalanceRecord::class], version = 1, exportSchema = false)
 @TypeConverters(NftTypeConverters::class, RoomTypeConverters::class)

@@ -1,6 +1,6 @@
-package io.horizontalsystems.erc20kit.contract
+package io.definenulls.erc20kit.contract
 
-import io.horizontalsystems.ethereumkit.contracts.ContractMethod
+import io.definenulls.ethereumkit.contracts.ContractMethod
 
 class SymbolMethod: ContractMethod() {
     override var methodSignature = "symbol()"

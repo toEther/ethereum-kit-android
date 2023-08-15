@@ -1,4 +1,4 @@
-package io.horizontalsystems.ethereumkit.models
+package io.definenulls.ethereumkit.models
 
 class TransactionSource(val name: String, val type: SourceType) {
 

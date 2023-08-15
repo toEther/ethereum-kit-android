@@ -1,7 +1,7 @@
-package io.horizontalsystems.erc20kit.contract
+package io.definenulls.erc20kit.contract
 
-import io.horizontalsystems.ethereumkit.contracts.ContractMethod
-import io.horizontalsystems.ethereumkit.models.Address
+import io.definenulls.ethereumkit.contracts.ContractMethod
+import io.definenulls.ethereumkit.models.Address
 import java.math.BigInteger
 
 class TransferMethod(val to: Address, val value: BigInteger) : ContractMethod() {

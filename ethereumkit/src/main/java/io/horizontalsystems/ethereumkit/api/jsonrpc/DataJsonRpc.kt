@@ -1,4 +1,4 @@
-package io.horizontalsystems.ethereumkit.api.jsonrpc
+package io.definenulls.ethereumkit.api.jsonrpc
 
 open class DataJsonRpc(
         method: String,

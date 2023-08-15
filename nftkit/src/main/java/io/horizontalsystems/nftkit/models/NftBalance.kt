@@ -1,4 +1,4 @@
-package io.horizontalsystems.nftkit.models
+package io.definenulls.nftkit.models
 
 import androidx.room.Embedded
 

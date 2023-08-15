@@ -1,4 +1,4 @@
-package io.horizontalsystems.ethereumkit.crypto
+package io.definenulls.ethereumkit.crypto
 
 import com.google.gson.Gson
 import com.google.gson.JsonArray

@@ -1,7 +1,7 @@
-package io.horizontalsystems.ethereumkit.api.jsonrpc
+package io.definenulls.ethereumkit.api.jsonrpc
 
-import io.horizontalsystems.ethereumkit.models.Address
-import io.horizontalsystems.ethereumkit.models.DefaultBlockParameter
+import io.definenulls.ethereumkit.models.Address
+import io.definenulls.ethereumkit.models.DefaultBlockParameter
 import java.math.BigInteger
 
 class GetBalanceJsonRpc(

@@ -1,4 +1,4 @@
-package io.horizontalsystems.ethereumkit.sample.modules.main
+package io.definenulls.ethereumkit.sample.modules.main
 
 import androidx.lifecycle.Observer
 import android.os.Bundle
@@ -8,7 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.ethereumkit.sample.R
+import io.definenulls.ethereumkit.sample.R
 import kotlinx.android.synthetic.main.fragment_send_receive.*
 import java.math.BigDecimal
 

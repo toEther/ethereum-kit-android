@@ -1,9 +1,9 @@
-package io.horizontalsystems.erc20kit.events
+package io.definenulls.erc20kit.events
 
-import io.horizontalsystems.ethereumkit.contracts.ContractEvent
-import io.horizontalsystems.ethereumkit.contracts.ContractEventInstance
-import io.horizontalsystems.ethereumkit.models.Address
-import io.horizontalsystems.ethereumkit.models.TransactionTag
+import io.definenulls.ethereumkit.contracts.ContractEvent
+import io.definenulls.ethereumkit.contracts.ContractEventInstance
+import io.definenulls.ethereumkit.models.Address
+import io.definenulls.ethereumkit.models.TransactionTag
 import java.math.BigInteger
 
 class TransferEventInstance(

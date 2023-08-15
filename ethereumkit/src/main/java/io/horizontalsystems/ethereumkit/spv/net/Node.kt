@@ -1,4 +1,4 @@
-package io.horizontalsystems.ethereumkit.spv.net
+package io.definenulls.ethereumkit.spv.net
 
 class Node(val id: ByteArray,
            val host: String,

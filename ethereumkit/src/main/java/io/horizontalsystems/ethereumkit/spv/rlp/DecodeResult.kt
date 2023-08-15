@@ -1,4 +1,4 @@
-package io.horizontalsystems.ethereumkit.spv.rlp
+package io.definenulls.ethereumkit.spv.rlp
 
 import org.bouncycastle.util.encoders.Hex
 import java.io.Serializable

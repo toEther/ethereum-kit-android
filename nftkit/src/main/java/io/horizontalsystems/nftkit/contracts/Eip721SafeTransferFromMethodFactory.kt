@@ -1,10 +1,10 @@
-package io.horizontalsystems.nftkit.contracts
+package io.definenulls.nftkit.contracts
 
-import io.horizontalsystems.ethereumkit.contracts.ContractMethod
-import io.horizontalsystems.ethereumkit.contracts.ContractMethodFactory
-import io.horizontalsystems.ethereumkit.contracts.ContractMethodHelper
-import io.horizontalsystems.ethereumkit.models.Address
-import io.horizontalsystems.ethereumkit.spv.core.toBigInteger
+import io.definenulls.ethereumkit.contracts.ContractMethod
+import io.definenulls.ethereumkit.contracts.ContractMethodFactory
+import io.definenulls.ethereumkit.contracts.ContractMethodHelper
+import io.definenulls.ethereumkit.models.Address
+import io.definenulls.ethereumkit.spv.core.toBigInteger
 
 class Eip721SafeTransferFromMethodFactory : ContractMethodFactory {
     override val methodId = ContractMethodHelper.getMethodId(Eip721SafeTransferFromMethod.methodSignature)

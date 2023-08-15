@@ -1,4 +1,4 @@
-package io.horizontalsystems.ethereumkit.models
+package io.definenulls.ethereumkit.models
 
 sealed class GasPrice {
     class Legacy(val legacyGasPrice: Long) : GasPrice()

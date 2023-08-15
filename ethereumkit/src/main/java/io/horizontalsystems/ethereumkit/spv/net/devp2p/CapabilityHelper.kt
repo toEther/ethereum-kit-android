@@ -1,4 +1,4 @@
-package io.horizontalsystems.ethereumkit.spv.net.devp2p
+package io.definenulls.ethereumkit.spv.net.devp2p
 
 class CapabilityHelper {
     fun sharedCapabilities(myCapabilities: List<Capability>, nodeCapabilities: List<Capability>): List<Capability> {

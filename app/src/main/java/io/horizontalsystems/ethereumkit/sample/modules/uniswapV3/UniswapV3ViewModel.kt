@@ -1,4 +1,4 @@
-package io.horizontalsystems.ethereumkit.sample.modules.uniswapV3
+package io.definenulls.ethereumkit.sample.modules.uniswapV3
 
 import android.util.Log
 import androidx.compose.runtime.getValue
@@ -7,17 +7,17 @@ import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.ethereumkit.core.EthereumKit
-import io.horizontalsystems.ethereumkit.core.signer.Signer
-import io.horizontalsystems.ethereumkit.models.GasPrice
-import io.horizontalsystems.ethereumkit.sample.Configuration
-import io.horizontalsystems.ethereumkit.sample.core.Erc20Adapter
-import io.horizontalsystems.ethereumkit.sample.core.EthereumAdapter
-import io.horizontalsystems.ethereumkit.sample.modules.main.Erc20Token
-import io.horizontalsystems.ethereumkit.sample.modules.main.GasPriceHelper
-import io.horizontalsystems.uniswapkit.UniswapV3Kit
-import io.horizontalsystems.uniswapkit.models.TradeOptions
-import io.horizontalsystems.uniswapkit.v3.TradeDataV3
+import io.definenulls.ethereumkit.core.EthereumKit
+import io.definenulls.ethereumkit.core.signer.Signer
+import io.definenulls.ethereumkit.models.GasPrice
+import io.definenulls.ethereumkit.sample.Configuration
+import io.definenulls.ethereumkit.sample.core.Erc20Adapter
+import io.definenulls.ethereumkit.sample.core.EthereumAdapter
+import io.definenulls.ethereumkit.sample.modules.main.Erc20Token
+import io.definenulls.ethereumkit.sample.modules.main.GasPriceHelper
+import io.definenulls.uniswapkit.UniswapV3Kit
+import io.definenulls.uniswapkit.models.TradeOptions
+import io.definenulls.uniswapkit.v3.TradeDataV3
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch

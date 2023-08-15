@@ -1,8 +1,8 @@
-package io.horizontalsystems.ethereumkit.spv.net.tasks
+package io.definenulls.ethereumkit.spv.net.tasks
 
-import io.horizontalsystems.ethereumkit.spv.core.ITask
-import io.horizontalsystems.ethereumkit.models.RawTransaction
-import io.horizontalsystems.ethereumkit.models.Signature
+import io.definenulls.ethereumkit.spv.core.ITask
+import io.definenulls.ethereumkit.models.RawTransaction
+import io.definenulls.ethereumkit.models.Signature
 
 class SendTransactionTask(val sendId: Int,
                           val rawTransaction: RawTransaction,

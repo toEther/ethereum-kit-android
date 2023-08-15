@@ -1,13 +1,13 @@
-package io.horizontalsystems.ethereumkit.spv.core
+package io.definenulls.ethereumkit.spv.core
 
-import io.horizontalsystems.ethereumkit.core.ISpvStorage
-import io.horizontalsystems.ethereumkit.spv.models.BlockHeader
-import io.horizontalsystems.ethereumkit.spv.net.BlockHelper
-import io.horizontalsystems.ethereumkit.spv.net.BlockValidator
-import io.horizontalsystems.ethereumkit.spv.net.handlers.AnnouncedBlockHandler
-import io.horizontalsystems.ethereumkit.spv.net.handlers.BlockHeadersTaskHandler
-import io.horizontalsystems.ethereumkit.spv.net.handlers.HandshakeTaskHandler
-import io.horizontalsystems.ethereumkit.spv.net.tasks.BlockHeadersTask
+import io.definenulls.ethereumkit.core.ISpvStorage
+import io.definenulls.ethereumkit.spv.models.BlockHeader
+import io.definenulls.ethereumkit.spv.net.BlockHelper
+import io.definenulls.ethereumkit.spv.net.BlockValidator
+import io.definenulls.ethereumkit.spv.net.handlers.AnnouncedBlockHandler
+import io.definenulls.ethereumkit.spv.net.handlers.BlockHeadersTaskHandler
+import io.definenulls.ethereumkit.spv.net.handlers.HandshakeTaskHandler
+import io.definenulls.ethereumkit.spv.net.tasks.BlockHeadersTask
 import java.util.logging.Logger
 
 class BlockSyncer(private val storage: ISpvStorage,

@@ -1,6 +1,6 @@
-package io.horizontalsystems.erc20kit.contract
+package io.definenulls.erc20kit.contract
 
-import io.horizontalsystems.ethereumkit.contracts.ContractMethodFactories
+import io.definenulls.ethereumkit.contracts.ContractMethodFactories
 
 object Eip20ContractMethodFactories : ContractMethodFactories() {
 

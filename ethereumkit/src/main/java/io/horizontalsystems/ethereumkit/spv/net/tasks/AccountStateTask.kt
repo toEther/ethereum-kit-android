@@ -1,7 +1,7 @@
-package io.horizontalsystems.ethereumkit.spv.net.tasks
+package io.definenulls.ethereumkit.spv.net.tasks
 
-import io.horizontalsystems.ethereumkit.models.Address
-import io.horizontalsystems.ethereumkit.spv.core.ITask
-import io.horizontalsystems.ethereumkit.spv.models.BlockHeader
+import io.definenulls.ethereumkit.models.Address
+import io.definenulls.ethereumkit.spv.core.ITask
+import io.definenulls.ethereumkit.spv.models.BlockHeader
 
 class AccountStateTask(val address: Address, val blockHeader: BlockHeader) : ITask

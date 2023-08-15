@@ -1,4 +1,4 @@
-package io.horizontalsystems.erc20kit;
+package io.definenulls.erc20kit;
 
 import org.junit.Test;
 

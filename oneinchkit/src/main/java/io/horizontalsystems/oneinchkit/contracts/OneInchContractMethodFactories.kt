@@ -1,12 +1,12 @@
-package io.horizontalsystems.oneinchkit.contracts
+package io.definenulls.oneinchkit.contracts
 
-import io.horizontalsystems.ethereumkit.contracts.ContractMethodFactories
-import io.horizontalsystems.oneinchkit.contracts.v4.SwapMethodFactoryV4
-import io.horizontalsystems.oneinchkit.contracts.v4.UnoswapMethodFactoryV4
-import io.horizontalsystems.oneinchkit.contracts.v4.UnparsedSwapMethodsFactoryV4
-import io.horizontalsystems.oneinchkit.contracts.v5.SwapMethodFactoryV5
-import io.horizontalsystems.oneinchkit.contracts.v5.UnoswapMethodFactoryV5
-import io.horizontalsystems.oneinchkit.contracts.v5.UnparsedSwapMethodsFactoryV5
+import io.definenulls.ethereumkit.contracts.ContractMethodFactories
+import io.definenulls.oneinchkit.contracts.v4.SwapMethodFactoryV4
+import io.definenulls.oneinchkit.contracts.v4.UnoswapMethodFactoryV4
+import io.definenulls.oneinchkit.contracts.v4.UnparsedSwapMethodsFactoryV4
+import io.definenulls.oneinchkit.contracts.v5.SwapMethodFactoryV5
+import io.definenulls.oneinchkit.contracts.v5.UnoswapMethodFactoryV5
+import io.definenulls.oneinchkit.contracts.v5.UnparsedSwapMethodsFactoryV5
 
 object OneInchContractMethodFactories : ContractMethodFactories() {
 

@@ -1,7 +1,7 @@
-package io.horizontalsystems.uniswapkit.v3
+package io.definenulls.uniswapkit.v3
 
-import io.horizontalsystems.ethereumkit.contracts.ContractMethodHelper
-import io.horizontalsystems.ethereumkit.models.Address
+import io.definenulls.ethereumkit.contracts.ContractMethodHelper
+import io.definenulls.ethereumkit.models.Address
 import java.math.BigInteger
 import kotlin.math.max
 

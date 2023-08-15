@@ -1,10 +1,10 @@
-package io.horizontalsystems.erc20kit.core.room
+package io.definenulls.erc20kit.core.room
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import io.horizontalsystems.erc20kit.models.TokenBalance
+import io.definenulls.erc20kit.models.TokenBalance
 
 @Dao
 interface TokenBalanceDao {

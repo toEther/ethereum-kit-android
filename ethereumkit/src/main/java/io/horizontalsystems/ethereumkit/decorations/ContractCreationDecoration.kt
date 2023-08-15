@@ -1,4 +1,4 @@
-package io.horizontalsystems.ethereumkit.decorations
+package io.definenulls.ethereumkit.decorations
 
 class ContractCreationDecoration : TransactionDecoration() {
 

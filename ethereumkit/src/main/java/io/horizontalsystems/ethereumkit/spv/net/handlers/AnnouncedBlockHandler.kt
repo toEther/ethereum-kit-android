@@ -1,9 +1,9 @@
-package io.horizontalsystems.ethereumkit.spv.net.handlers
+package io.definenulls.ethereumkit.spv.net.handlers
 
-import io.horizontalsystems.ethereumkit.spv.core.IMessageHandler
-import io.horizontalsystems.ethereumkit.spv.core.IPeer
-import io.horizontalsystems.ethereumkit.spv.net.IInMessage
-import io.horizontalsystems.ethereumkit.spv.net.les.messages.AnnounceMessage
+import io.definenulls.ethereumkit.spv.core.IMessageHandler
+import io.definenulls.ethereumkit.spv.core.IPeer
+import io.definenulls.ethereumkit.spv.net.IInMessage
+import io.definenulls.ethereumkit.spv.net.les.messages.AnnounceMessage
 
 class AnnouncedBlockHandler(private var listener: Listener? = null) : IMessageHandler {
 

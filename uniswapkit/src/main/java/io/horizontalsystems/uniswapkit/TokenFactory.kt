@@ -1,8 +1,8 @@
-package io.horizontalsystems.uniswapkit
+package io.definenulls.uniswapkit
 
-import io.horizontalsystems.ethereumkit.models.Address
-import io.horizontalsystems.ethereumkit.models.Chain
-import io.horizontalsystems.uniswapkit.models.Token
+import io.definenulls.ethereumkit.models.Address
+import io.definenulls.ethereumkit.models.Chain
+import io.definenulls.uniswapkit.models.Token
 
 class TokenFactory(chain: Chain) {
     val wethAddress = getWethAddress(chain)

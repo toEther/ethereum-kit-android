@@ -1,14 +1,14 @@
-package io.horizontalsystems.nftkit.core
+package io.definenulls.nftkit.core
 
-import io.horizontalsystems.ethereumkit.contracts.ContractEventInstance
-import io.horizontalsystems.ethereumkit.contracts.ContractMethod
-import io.horizontalsystems.ethereumkit.core.ITransactionDecorator
-import io.horizontalsystems.ethereumkit.decorations.TransactionDecoration
-import io.horizontalsystems.ethereumkit.models.Address
-import io.horizontalsystems.ethereumkit.models.InternalTransaction
-import io.horizontalsystems.nftkit.contracts.Eip721SafeTransferFromMethod
-import io.horizontalsystems.nftkit.decorations.OutgoingEip721Decoration
-import io.horizontalsystems.nftkit.events.Eip721TransferEventInstance
+import io.definenulls.ethereumkit.contracts.ContractEventInstance
+import io.definenulls.ethereumkit.contracts.ContractMethod
+import io.definenulls.ethereumkit.core.ITransactionDecorator
+import io.definenulls.ethereumkit.decorations.TransactionDecoration
+import io.definenulls.ethereumkit.models.Address
+import io.definenulls.ethereumkit.models.InternalTransaction
+import io.definenulls.nftkit.contracts.Eip721SafeTransferFromMethod
+import io.definenulls.nftkit.decorations.OutgoingEip721Decoration
+import io.definenulls.nftkit.events.Eip721TransferEventInstance
 import java.math.BigInteger
 
 class Eip721TransactionDecorator(

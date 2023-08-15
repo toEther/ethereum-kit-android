@@ -1,4 +1,4 @@
-package io.horizontalsystems.ethereumkit.spv.net.devp2p
+package io.definenulls.ethereumkit.spv.net.devp2p
 
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue

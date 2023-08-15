@@ -1,8 +1,8 @@
-package io.horizontalsystems.ethereumkit.spv.net.tasks
+package io.definenulls.ethereumkit.spv.net.tasks
 
-import io.horizontalsystems.ethereumkit.network.INetwork
-import io.horizontalsystems.ethereumkit.spv.core.ITask
-import io.horizontalsystems.ethereumkit.spv.models.BlockHeader
+import io.definenulls.ethereumkit.network.INetwork
+import io.definenulls.ethereumkit.spv.core.ITask
+import io.definenulls.ethereumkit.spv.models.BlockHeader
 import java.math.BigInteger
 
 class HandshakeTask(val peerId: String, network: INetwork, blockHeader: BlockHeader) : ITask {

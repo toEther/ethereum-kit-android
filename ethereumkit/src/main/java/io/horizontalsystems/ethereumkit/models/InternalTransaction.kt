@@ -1,9 +1,9 @@
-package io.horizontalsystems.ethereumkit.models
+package io.definenulls.ethereumkit.models
 
 import androidx.room.Entity
 import androidx.room.Ignore
 import androidx.room.PrimaryKey
-import io.horizontalsystems.ethereumkit.core.toHexString
+import io.definenulls.ethereumkit.core.toHexString
 import java.math.BigInteger
 import java.util.*
 

@@ -1,7 +1,7 @@
-package io.horizontalsystems.ethereumkit.models
+package io.definenulls.ethereumkit.models
 
-import io.horizontalsystems.ethereumkit.crypto.CryptoUtils
-import io.horizontalsystems.ethereumkit.spv.core.toInt
+import io.definenulls.ethereumkit.crypto.CryptoUtils
+import io.definenulls.ethereumkit.spv.core.toInt
 import kotlin.math.floor
 
 class BloomFilter(val filter: String) {

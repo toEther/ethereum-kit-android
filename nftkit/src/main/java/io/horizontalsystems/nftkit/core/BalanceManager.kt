@@ -1,9 +1,9 @@
-package io.horizontalsystems.nftkit.core
+package io.definenulls.nftkit.core
 
-import io.horizontalsystems.ethereumkit.models.Address
-import io.horizontalsystems.nftkit.models.Nft
-import io.horizontalsystems.nftkit.models.NftBalance
-import io.horizontalsystems.nftkit.models.NftType
+import io.definenulls.ethereumkit.models.Address
+import io.definenulls.nftkit.models.Nft
+import io.definenulls.nftkit.models.NftBalance
+import io.definenulls.nftkit.models.NftType
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow

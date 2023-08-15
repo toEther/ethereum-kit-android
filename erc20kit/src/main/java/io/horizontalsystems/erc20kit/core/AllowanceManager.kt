@@ -1,12 +1,12 @@
-package io.horizontalsystems.erc20kit.core
+package io.definenulls.erc20kit.core
 
-import io.horizontalsystems.erc20kit.contract.AllowanceMethod
-import io.horizontalsystems.erc20kit.contract.ApproveMethod
-import io.horizontalsystems.ethereumkit.core.EthereumKit
-import io.horizontalsystems.ethereumkit.core.toRawHexString
-import io.horizontalsystems.ethereumkit.models.Address
-import io.horizontalsystems.ethereumkit.models.DefaultBlockParameter
-import io.horizontalsystems.ethereumkit.models.TransactionData
+import io.definenulls.erc20kit.contract.AllowanceMethod
+import io.definenulls.erc20kit.contract.ApproveMethod
+import io.definenulls.ethereumkit.core.EthereumKit
+import io.definenulls.ethereumkit.core.toRawHexString
+import io.definenulls.ethereumkit.models.Address
+import io.definenulls.ethereumkit.models.DefaultBlockParameter
+import io.definenulls.ethereumkit.models.TransactionData
 import io.reactivex.Single
 import java.math.BigInteger
 

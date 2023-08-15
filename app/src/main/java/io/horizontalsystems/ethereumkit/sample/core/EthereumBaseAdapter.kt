@@ -1,12 +1,12 @@
-package io.horizontalsystems.ethereumkit.sample.core
+package io.definenulls.ethereumkit.sample.core
 
-import io.horizontalsystems.ethereumkit.core.EthereumKit
-import io.horizontalsystems.ethereumkit.core.toHexString
-import io.horizontalsystems.ethereumkit.decorations.TransactionDecoration
-import io.horizontalsystems.ethereumkit.models.Address
-import io.horizontalsystems.ethereumkit.models.FullTransaction
-import io.horizontalsystems.ethereumkit.models.GasPrice
-import io.horizontalsystems.oneinchkit.decorations.OneInchUnknownDecoration
+import io.definenulls.ethereumkit.core.EthereumKit
+import io.definenulls.ethereumkit.core.toHexString
+import io.definenulls.ethereumkit.decorations.TransactionDecoration
+import io.definenulls.ethereumkit.models.Address
+import io.definenulls.ethereumkit.models.FullTransaction
+import io.definenulls.ethereumkit.models.GasPrice
+import io.definenulls.oneinchkit.decorations.OneInchUnknownDecoration
 import io.reactivex.Flowable
 import io.reactivex.Single
 import java.math.BigDecimal

@@ -1,7 +1,7 @@
-package io.horizontalsystems.erc20kit.core
+package io.definenulls.erc20kit.core
 
-import io.horizontalsystems.ethereumkit.core.EthereumKit.SyncError
-import io.horizontalsystems.ethereumkit.core.EthereumKit.SyncState
+import io.definenulls.ethereumkit.core.EthereumKit.SyncError
+import io.definenulls.ethereumkit.core.EthereumKit.SyncState
 import io.reactivex.subjects.PublishSubject
 import java.math.BigInteger
 

@@ -1,4 +1,4 @@
-package io.horizontalsystems.ethereumkit.sample.modules.addresswatch
+package io.definenulls.ethereumkit.sample.modules.addresswatch
 
 import android.os.Bundle
 import android.view.View
@@ -6,9 +6,9 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
-import io.horizontalsystems.ethereumkit.sample.R
-import io.horizontalsystems.ethereumkit.sample.modules.main.ShowTxType
-import io.horizontalsystems.ethereumkit.sample.modules.main.TransactionsAdapter
+import io.definenulls.ethereumkit.sample.R
+import io.definenulls.ethereumkit.sample.modules.main.ShowTxType
+import io.definenulls.ethereumkit.sample.modules.main.TransactionsAdapter
 import kotlinx.android.synthetic.main.activity_address_watch.*
 import kotlinx.android.synthetic.main.activity_address_watch.ethFilter
 import kotlinx.android.synthetic.main.activity_address_watch.tokenFilter

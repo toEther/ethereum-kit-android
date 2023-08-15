@@ -1,7 +1,7 @@
-package io.horizontalsystems.ethereumkit.spv.net.connection
+package io.definenulls.ethereumkit.spv.net.connection
 
-import io.horizontalsystems.ethereumkit.crypto.ECKey
-import io.horizontalsystems.ethereumkit.spv.net.Node
+import io.definenulls.ethereumkit.crypto.ECKey
+import io.definenulls.ethereumkit.spv.net.Node
 
 
 class FrameConnection(private val connection: Connection) : Connection.Listener {

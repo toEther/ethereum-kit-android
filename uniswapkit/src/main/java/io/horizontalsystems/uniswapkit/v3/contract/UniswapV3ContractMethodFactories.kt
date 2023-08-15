@@ -1,7 +1,7 @@
-package io.horizontalsystems.uniswapkit.v3.contract
+package io.definenulls.uniswapkit.v3.contract
 
-import io.horizontalsystems.ethereumkit.contracts.ContractMethodFactories
-import io.horizontalsystems.uniswapkit.v3.router.*
+import io.definenulls.ethereumkit.contracts.ContractMethodFactories
+import io.definenulls.uniswapkit.v3.router.*
 
 object UniswapV3ContractMethodFactories : ContractMethodFactories() {
     init {

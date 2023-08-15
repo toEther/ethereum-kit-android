@@ -1,4 +1,4 @@
-package io.horizontalsystems.ethereumkit.api.jsonrpc
+package io.definenulls.ethereumkit.api.jsonrpc
 
 class SendRawTransactionJsonRpc(
         @Transient val signedTransaction: ByteArray

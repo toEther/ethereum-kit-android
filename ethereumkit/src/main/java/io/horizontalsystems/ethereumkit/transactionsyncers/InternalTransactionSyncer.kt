@@ -1,11 +1,11 @@
-package io.horizontalsystems.ethereumkit.transactionsyncers
+package io.definenulls.ethereumkit.transactionsyncers
 
-import io.horizontalsystems.ethereumkit.core.ITransactionProvider
-import io.horizontalsystems.ethereumkit.core.ITransactionStorage
-import io.horizontalsystems.ethereumkit.core.ITransactionSyncer
-import io.horizontalsystems.ethereumkit.models.InternalTransaction
-import io.horizontalsystems.ethereumkit.models.ProviderInternalTransaction
-import io.horizontalsystems.ethereumkit.models.Transaction
+import io.definenulls.ethereumkit.core.ITransactionProvider
+import io.definenulls.ethereumkit.core.ITransactionStorage
+import io.definenulls.ethereumkit.core.ITransactionSyncer
+import io.definenulls.ethereumkit.models.InternalTransaction
+import io.definenulls.ethereumkit.models.ProviderInternalTransaction
+import io.definenulls.ethereumkit.models.Transaction
 import io.reactivex.Single
 
 class InternalTransactionSyncer(

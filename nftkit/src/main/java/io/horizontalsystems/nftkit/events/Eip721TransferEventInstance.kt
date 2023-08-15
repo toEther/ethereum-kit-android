@@ -1,9 +1,9 @@
-package io.horizontalsystems.nftkit.events
+package io.definenulls.nftkit.events
 
-import io.horizontalsystems.ethereumkit.contracts.ContractEvent
-import io.horizontalsystems.ethereumkit.contracts.ContractEventInstance
-import io.horizontalsystems.ethereumkit.models.Address
-import io.horizontalsystems.nftkit.models.TokenInfo
+import io.definenulls.ethereumkit.contracts.ContractEvent
+import io.definenulls.ethereumkit.contracts.ContractEventInstance
+import io.definenulls.ethereumkit.models.Address
+import io.definenulls.nftkit.models.TokenInfo
 import java.math.BigInteger
 
 class Eip721TransferEventInstance(

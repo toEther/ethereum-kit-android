@@ -1,9 +1,9 @@
-package io.horizontalsystems.ethereumkit.core.storage
+package io.definenulls.ethereumkit.core.storage
 
 import androidx.room.*
 import androidx.sqlite.db.SupportSQLiteQuery
-import io.horizontalsystems.ethereumkit.models.InternalTransaction
-import io.horizontalsystems.ethereumkit.models.Transaction
+import io.definenulls.ethereumkit.models.InternalTransaction
+import io.definenulls.ethereumkit.models.Transaction
 import io.reactivex.Single
 
 @Dao

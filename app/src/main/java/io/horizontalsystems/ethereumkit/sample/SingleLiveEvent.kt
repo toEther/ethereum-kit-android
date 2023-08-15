@@ -1,4 +1,4 @@
-package io.horizontalsystems.ethereumkit.sample
+package io.definenulls.ethereumkit.sample
 
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.MutableLiveData

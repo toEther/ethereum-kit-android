@@ -1,9 +1,9 @@
-package io.horizontalsystems.erc20kit.contract
+package io.definenulls.erc20kit.contract
 
-import io.horizontalsystems.ethereumkit.contracts.ContractMethodFactory
-import io.horizontalsystems.ethereumkit.contracts.ContractMethodHelper
-import io.horizontalsystems.ethereumkit.models.Address
-import io.horizontalsystems.ethereumkit.spv.core.toBigInteger
+import io.definenulls.ethereumkit.contracts.ContractMethodFactory
+import io.definenulls.ethereumkit.contracts.ContractMethodHelper
+import io.definenulls.ethereumkit.models.Address
+import io.definenulls.ethereumkit.spv.core.toBigInteger
 
 object ApproveMethodFactory : ContractMethodFactory {
 

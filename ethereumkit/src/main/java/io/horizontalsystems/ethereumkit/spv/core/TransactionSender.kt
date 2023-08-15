@@ -1,11 +1,11 @@
-package io.horizontalsystems.ethereumkit.spv.core
+package io.definenulls.ethereumkit.spv.core
 
-import io.horizontalsystems.ethereumkit.core.TransactionBuilder
-import io.horizontalsystems.ethereumkit.models.Transaction
-import io.horizontalsystems.ethereumkit.models.RawTransaction
-import io.horizontalsystems.ethereumkit.models.Signature
-import io.horizontalsystems.ethereumkit.spv.net.handlers.SendTransactionTaskHandler
-import io.horizontalsystems.ethereumkit.spv.net.tasks.SendTransactionTask
+import io.definenulls.ethereumkit.core.TransactionBuilder
+import io.definenulls.ethereumkit.models.Transaction
+import io.definenulls.ethereumkit.models.RawTransaction
+import io.definenulls.ethereumkit.models.Signature
+import io.definenulls.ethereumkit.spv.net.handlers.SendTransactionTaskHandler
+import io.definenulls.ethereumkit.spv.net.tasks.SendTransactionTask
 
 class TransactionSender(
         private val transactionBuilder: TransactionBuilder,

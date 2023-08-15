@@ -1,4 +1,4 @@
-package io.horizontalsystems.oneinchkit
+package io.definenulls.oneinchkit
 
 import org.junit.Test
 

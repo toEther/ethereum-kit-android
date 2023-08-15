@@ -1,4 +1,4 @@
-package io.horizontalsystems.uniswapkit
+package io.definenulls.uniswapkit
 
 import org.junit.Test
 

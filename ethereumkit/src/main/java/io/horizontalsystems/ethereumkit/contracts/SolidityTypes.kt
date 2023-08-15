@@ -1,4 +1,4 @@
-package io.horizontalsystems.ethereumkit.contracts
+package io.definenulls.ethereumkit.contracts
 
 
 // Class for solidity type bytes32[]

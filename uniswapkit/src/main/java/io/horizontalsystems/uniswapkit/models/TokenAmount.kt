@@ -1,6 +1,6 @@
-package io.horizontalsystems.uniswapkit.models
+package io.definenulls.uniswapkit.models
 
-import io.horizontalsystems.uniswapkit.TokenAmountError
+import io.definenulls.uniswapkit.TokenAmountError
 import java.math.BigDecimal
 import java.math.BigInteger
 import kotlin.math.absoluteValue

@@ -1,13 +1,13 @@
-package io.horizontalsystems.ethereumkit.spv.core.storage
+package io.definenulls.ethereumkit.spv.core.storage
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
-import io.horizontalsystems.ethereumkit.api.storage.RoomTypeConverters
-import io.horizontalsystems.ethereumkit.spv.models.AccountStateSpv
-import io.horizontalsystems.ethereumkit.spv.models.BlockHeader
+import io.definenulls.ethereumkit.api.storage.RoomTypeConverters
+import io.definenulls.ethereumkit.spv.models.AccountStateSpv
+import io.definenulls.ethereumkit.spv.models.BlockHeader
 
 @Database(entities = [BlockHeader::class, AccountStateSpv::class], version = 2, exportSchema = true)
 @TypeConverters(RoomTypeConverters::class)

@@ -1,7 +1,7 @@
-package io.horizontalsystems.nftkit.core
+package io.definenulls.nftkit.core
 
-import io.horizontalsystems.nftkit.models.Nft
-import io.horizontalsystems.nftkit.models.NftType
+import io.definenulls.nftkit.models.Nft
+import io.definenulls.nftkit.models.NftType
 
 interface ITransactionSyncerListener {
     fun didSync(nfts: List<Nft>, type: NftType)

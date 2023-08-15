@@ -1,4 +1,4 @@
-package io.horizontalsystems.uniswapkit.v3
+package io.definenulls.uniswapkit.v3
 
 import java.math.BigInteger
 

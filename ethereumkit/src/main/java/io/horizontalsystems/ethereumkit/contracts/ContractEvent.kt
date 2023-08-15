@@ -1,6 +1,6 @@
-package io.horizontalsystems.ethereumkit.contracts
+package io.definenulls.ethereumkit.contracts
 
-import io.horizontalsystems.ethereumkit.crypto.CryptoUtils
+import io.definenulls.ethereumkit.crypto.CryptoUtils
 
 class ContractEvent(
     private val name: String,

@@ -1,8 +1,8 @@
-package io.horizontalsystems.ethereumkit.sample.modules.main
+package io.definenulls.ethereumkit.sample.modules.main
 
-import io.horizontalsystems.ethereumkit.core.eip1559.Eip1559GasPriceProvider
-import io.horizontalsystems.ethereumkit.core.eip1559.FeeHistory
-import io.horizontalsystems.ethereumkit.models.GasPrice
+import io.definenulls.ethereumkit.core.eip1559.Eip1559GasPriceProvider
+import io.definenulls.ethereumkit.core.eip1559.FeeHistory
+import io.definenulls.ethereumkit.models.GasPrice
 import io.reactivex.Flowable
 import java.util.Optional
 

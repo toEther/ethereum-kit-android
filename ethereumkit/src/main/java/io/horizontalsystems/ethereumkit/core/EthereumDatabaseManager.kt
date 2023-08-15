@@ -1,11 +1,11 @@
-package io.horizontalsystems.ethereumkit.core
+package io.definenulls.ethereumkit.core
 
 import android.content.Context
-import io.horizontalsystems.ethereumkit.api.storage.ApiDatabase
-import io.horizontalsystems.ethereumkit.core.storage.Eip20Database
-import io.horizontalsystems.ethereumkit.core.storage.TransactionDatabase
-import io.horizontalsystems.ethereumkit.models.Chain
-import io.horizontalsystems.ethereumkit.spv.core.storage.SpvDatabase
+import io.definenulls.ethereumkit.api.storage.ApiDatabase
+import io.definenulls.ethereumkit.core.storage.Eip20Database
+import io.definenulls.ethereumkit.core.storage.TransactionDatabase
+import io.definenulls.ethereumkit.models.Chain
+import io.definenulls.ethereumkit.spv.core.storage.SpvDatabase
 
 internal object EthereumDatabaseManager {
 

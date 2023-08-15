@@ -1,9 +1,9 @@
-package io.horizontalsystems.erc20kit.core
+package io.definenulls.erc20kit.core
 
-import io.horizontalsystems.erc20kit.contract.BalanceOfMethod
-import io.horizontalsystems.ethereumkit.core.EthereumKit
-import io.horizontalsystems.ethereumkit.models.Address
-import io.horizontalsystems.ethereumkit.spv.core.toBigInteger
+import io.definenulls.erc20kit.contract.BalanceOfMethod
+import io.definenulls.ethereumkit.core.EthereumKit
+import io.definenulls.ethereumkit.models.Address
+import io.definenulls.ethereumkit.spv.core.toBigInteger
 import io.reactivex.Single
 import java.math.BigInteger
 

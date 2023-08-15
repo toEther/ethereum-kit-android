@@ -1,8 +1,8 @@
-package io.horizontalsystems.oneinchkit.decorations
+package io.definenulls.oneinchkit.decorations
 
-import io.horizontalsystems.ethereumkit.contracts.ContractMethod
-import io.horizontalsystems.ethereumkit.core.IMethodDecorator
-import io.horizontalsystems.oneinchkit.contracts.OneInchContractMethodFactories
+import io.definenulls.ethereumkit.contracts.ContractMethod
+import io.definenulls.ethereumkit.core.IMethodDecorator
+import io.definenulls.oneinchkit.contracts.OneInchContractMethodFactories
 
 class OneInchMethodDecorator(private val contractMethodFactories: OneInchContractMethodFactories) : IMethodDecorator {
 

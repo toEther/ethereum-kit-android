@@ -1,10 +1,10 @@
-package io.horizontalsystems.nftkit.core.db
+package io.definenulls.nftkit.core.db
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import io.horizontalsystems.nftkit.models.Eip1155Event
+import io.definenulls.nftkit.models.Eip1155Event
 
 @Dao
 interface Eip1155EventDao {

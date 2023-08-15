@@ -1,8 +1,8 @@
-package io.horizontalsystems.ethereumkit.core.signer
+package io.definenulls.ethereumkit.core.signer
 
-import io.horizontalsystems.ethereumkit.crypto.CryptoUtils
-import io.horizontalsystems.ethereumkit.crypto.EIP712Encoder
-import io.horizontalsystems.ethereumkit.crypto.TypedData
+import io.definenulls.ethereumkit.crypto.CryptoUtils
+import io.definenulls.ethereumkit.crypto.EIP712Encoder
+import io.definenulls.ethereumkit.crypto.TypedData
 import java.math.BigInteger
 
 class EthSigner(
