@@ -16,7 +16,7 @@ import io.definenulls.ethereumkit.sample.SingleLiveEvent
 import io.definenulls.ethereumkit.sample.core.Erc20Adapter
 import io.definenulls.ethereumkit.sample.core.EthereumAdapter
 import io.definenulls.ethereumkit.sample.core.TransactionRecord
-import io.horizontalsystems.hdwalletkit.Mnemonic
+import io.definenulls.hdwalletkit.Mnemonic
 import io.definenulls.oneinchkit.OneInchKit
 import io.definenulls.uniswapkit.UniswapKit
 import io.definenulls.uniswapkit.UniswapV3Kit

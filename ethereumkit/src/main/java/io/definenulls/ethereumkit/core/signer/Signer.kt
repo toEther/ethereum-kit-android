@@ -10,8 +10,8 @@ import io.definenulls.ethereumkit.crypto.EIP712Encoder
 import io.definenulls.ethereumkit.crypto.TypedData
 import io.definenulls.ethereumkit.models.*
 import io.definenulls.ethereumkit.spv.core.toBigInteger
-import io.horizontalsystems.hdwalletkit.HDWallet
-import io.horizontalsystems.hdwalletkit.Mnemonic
+import io.definenulls.hdwalletkit.HDWallet
+import io.definenulls.hdwalletkit.Mnemonic
 import java.math.BigInteger
 
 class Signer(
