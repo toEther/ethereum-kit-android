@@ -1,0 +1,20 @@
+> Task :app:kaptDebugKotlin
+/Users/definenull/Documents/newwallet/tometa-wallet-android/app/build/tmp/kapt3/stubs/debug/io/definenulls/tometawallet/entities/EnabledWalletCache.java:7: warning: accountId column references a foreign key but it is not part of an index. This may trigger full table scans whenever parent table is modified so you are highly advised to create an index that covers this column.
+public final class EnabledWalletCache {
+             ^
+/Users/definenull/Documents/newwallet/tometa-wallet-android/app/build/tmp/kapt3/stubs/debug/io/definenulls/tometawallet/entities/nft/NftCollectionRecord.java:7: warning: accountId column references a foreign key but it is not part of an index. This may trigger full table scans whenever parent table is modified so you are highly advised to create an index that covers this column.
+public final class NftCollectionRecord {
+             ^
+/Users/definenull/Documents/newwallet/tometa-wallet-android/app/build/tmp/kapt3/stubs/debug/io/definenulls/tometawallet/entities/nft/NftAssetRecord.java:7: warning: accountId column references a foreign key but it is not part of an index. This may trigger full table scans whenever parent table is modified so you are highly advised to create an index that covers this column.
+public final class NftAssetRecord {
+
+
+
+/Users/definenull/Documents/newwallet/tometa-wallet-android/app/build/tmp/kapt3/stubs/debug/io/definenulls/tometawallet/entities/EnabledWalletCache.java:7: warning: accountId column references a foreign key but it is not part of an index. This may trigger full table scans whenever parent table is modified so you are highly advised to create an index that covers this column.
+public final class EnabledWalletCache {
+             ^
+/Users/definenull/Documents/newwallet/tometa-wallet-android/app/build/tmp/kapt3/stubs/debug/io/definenulls/tometawallet/entities/nft/NftCollectionRecord.java:7: warning: accountId column references a foreign key but it is not part of an index. This may trigger full table scans whenever parent table is modified so you are highly advised to create an index that covers this column.
+public final class NftCollectionRecord {
+             ^
+/Users/definenull/Documents/newwallet/tometa-wallet-android/app/build/tmp/kapt3/stubs/debug/io/definenulls/tometawallet/entities/nft/NftAssetRecord.java:7: warning: accountId column references a foreign key but it is not part of an index. This may trigger full table scans whenever parent table is modified so you are highly advised to create an index that covers this column.
+public final class NftAssetRecord {

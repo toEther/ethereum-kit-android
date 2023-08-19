@@ -164,7 +164,7 @@ class EtherscanTransactionProvider(
                             tokenId = tokenId,
                             tokenName = tokenName,
                             tokenSymbol = tokenSymbol,
-                            tokenDecimal = 0
+                            tokenDecimal = "0"
                         )
 
                     } catch (throwable: Throwable) {

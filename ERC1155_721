@@ -28,6 +28,63 @@ ERC1155
     "status": "1"
 }
 
+{
+    "status": "1",
+    "message": "OK",
+    "result": [
+        {
+            "blockNumber": "17948716",
+            "timeStamp": "1692446843",
+            "hash": "0x1e264d1cf1f2eb4f107c9c5a5fff4310696097abe48c1bf347fd2fba59cb0b82",
+            "nonce": "41",
+            "blockHash": "0xce2204d63c541ffe965cb78c07c54b927b0a07ee815280ea9fc72ee53e408f04",
+            "from": "0x911bf7f46044addd684f84fd4b15b8309ca3fa79",
+            "contractAddress": "0x145789247973c5d612bf121e9e4eef84b63eb707",
+            "to": "0x2949e436cbd6188e13c0b8a1b330bdcd8a44f74e",
+            "tokenID": "1000436",
+            "tokenName": "Art Blocks x Bright Moments",
+            "tokenSymbol": "ABXBMG",
+            "tokenDecimal": "0",
+            "transactionIndex": "302",
+            "gas": "165881",
+            "gasPrice": "14375985193",
+            "gasUsed": "122630",
+            "cumulativeGasUsed": "23928597",
+            "input": "deprecated",
+            "confirmations": "135"
+        }
+    ]
+}
+
+
+READ
+{
+    "status": "1",
+    "message": "OK",
+    "result": [
+        {
+            "blockNumber": "17946236",
+            "timeStamp": "1692416819",
+            "hash": "0xb96ced9853d01b7d8d6af14da52d29fe16106730a839fa6d24e675b5278189f1",
+            "nonce": "2007",
+            "blockHash": "0x738cc14bba74255f2091edd6f15d5a13d2cf92c4642560d9912dd807fc083b96",
+            "transactionIndex": "54",
+            "gas": "538414",
+            "gasPrice": "16472269289",
+            "gasUsed": "265784",
+            "cumulativeGasUsed": "5679946",
+            "input": "deprecated",
+            "contractAddress": "0x875a48b0473cc94a1c786188ad9c4727091dc08f",
+            "from": "0x18ec5566ad26e2ac609822395d6d9e98a39c90ef",
+            "to": "0x911bf7f46044addd684f84fd4b15b8309ca3fa79",
+            "tokenID": "122",
+            "tokenValue": "1",
+            "tokenName": "Panorama Landscapes by Godwits",
+            "tokenSymbol": "PL",
+            "confirmations": "2593"
+        }
+    ]
+}
 
 ERC721
 {
