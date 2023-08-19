@@ -142,15 +142,18 @@ class EtherscanTransactionProvider(
                         val gasUsed = tx.getValue("gasUsed").toLong()
                         val cumulativeGasUsed = tx.getValue("cumulativeGasUsed").toLong()
 
+                        Log.e("BBBS", etherscanService.getToken(contractAddress))
 
-                        etherscanService.getToken(contractAddress)
-                        .map { response ->
-                            response.result.mapNotNull { tokeninfo ->
-                                val tokenType = tokeninfo.getValue("type")
-                            }
-                        }
 
-                        if (tokenType=="ERC-721") ProviderEip721Transaction(
+                        //etherscanService.getToken(contractAddress)
+                        //.map { response ->
+                        //    response.result.mapNotNull { tokeninfo ->
+                        //        val tokenType = tokeninfo.getValue("type")
+                        //    }
+                        //}
+
+                        //if (tokenType=="ERC-721") 
+                        ProviderEip721Transaction(
                             blockNumber = blockNumber,
                             timestamp = timestamp,
                             hash = hash,
@@ -168,7 +171,8 @@ class EtherscanTransactionProvider(
                             tokenName = tokenName,
                             tokenSymbol = tokenSymbol,
                             tokenDecimal = tokenDecimal
-                        ) else null
+                        )
+                        // else null
                     } catch (throwable: Throwable) {
                         null
                     }
@@ -200,14 +204,17 @@ class EtherscanTransactionProvider(
                         val gasUsed = tx.getValue("gasUsed").toLong()
                         val cumulativeGasUsed = tx.getValue("cumulativeGasUsed").toLong()
 
-                        etherscanService.getToken(contractAddress)
-                        .map { response ->
-                            response.result.mapNotNull { tokeninfo ->
-                                val tokenType = tokeninfo.getValue("type")
-                            }
-                        }
+                        Log.e("AAAS", etherscanService.getToken(contractAddress))
 
-                        if (tokenType=="ERC-1155") ProviderEip1155Transaction(
+                        //etherscanService.getToken(contractAddress)
+                        //.map { response ->
+                        //    response.result.mapNotNull { tokeninfo ->
+                        //        val tokenType = tokeninfo.getValue("type")
+                        //    }
+                        //}
+
+                        //if (tokenType=="ERC-1155") 
+                        ProviderEip1155Transaction(
                             blockNumber = blockNumber,
                             timestamp = timestamp,
                             hash = hash,
@@ -225,7 +232,8 @@ class EtherscanTransactionProvider(
                             tokenValue = tokenValue,
                             tokenName = tokenName,
                             tokenSymbol = tokenSymbol
-                        ) else null
+                        ) 
+                        //else null
                     } catch (throwable: Throwable) {
                         null
                     }
