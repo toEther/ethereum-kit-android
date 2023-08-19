@@ -143,7 +143,7 @@ class EtherscanTransactionProvider(
                         val cumulativeGasUsed = tx.getValue("cumulativeGasUsed").toLong()
 
 
-                        etherscanService.getToken(tx.getValue("contractAddress"))
+                        etherscanService.getToken(contractAddress)
                         .map { response ->
                             response.result.mapNotNull { tokeninfo ->
                                 val tokenType = tokeninfo.getValue("type")
@@ -200,7 +200,7 @@ class EtherscanTransactionProvider(
                         val gasUsed = tx.getValue("gasUsed").toLong()
                         val cumulativeGasUsed = tx.getValue("cumulativeGasUsed").toLong()
 
-                        etherscanService.getToken(tx.getValue("contractAddress"))
+                        etherscanService.getToken(contractAddress)
                         .map { response ->
                             response.result.mapNotNull { tokeninfo ->
                                 val tokenType = tokeninfo.getValue("type")
