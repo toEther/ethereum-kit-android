@@ -147,7 +147,7 @@ class EtherscanTransactionProvider(
                         //Log.i("BBBS", "Address: $contractAddress")
                         //Log.i("BBBS", "BBBS: $BBBS")
 
-                        ProviderEip721Transaction(
+                        if(tokenId>=1) ProviderEip721Transaction(
                             blockNumber = blockNumber,
                             timestamp = timestamp,
                             hash = hash,
@@ -165,7 +165,7 @@ class EtherscanTransactionProvider(
                             tokenName = tokenName,
                             tokenSymbol = tokenSymbol,
                             tokenDecimal = tokenDecimal
-                        )
+                        ) else null 
 
                     } catch (throwable: Throwable) {
                         null
@@ -187,7 +187,6 @@ class EtherscanTransactionProvider(
                         val from = Address(tx.getValue("from"))
                         val contractAddress = Address(tx.getValue("contractAddress"))
                         val to = Address(tx.getValue("to"))
-
                         val tokenId = tx.getValue("tokenID").toBigInteger()
                         val tokenValue = tx.getValue("tokenValue").toInt()
                         val tokenName = tx.getValue("tokenName")
