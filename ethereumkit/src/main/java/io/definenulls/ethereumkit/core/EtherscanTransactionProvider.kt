@@ -143,12 +143,9 @@ class EtherscanTransactionProvider(
                         val gasUsed = tx.getValue("gasUsed").toLong()
                         val cumulativeGasUsed = tx.getValue("cumulativeGasUsed").toLong()
 
-                        val BBBS = etherscanService.getToken(Address(tx.getValue("contractAddress")))
-
-                        Log.i("BBBS", "Address: $contractAddress")
-
-
-                        Log.i("BBBS", "BBBS: $BBBS")
+                        //val BBBS = etherscanService.getToken(Address(tx.getValue("contractAddress")))
+                        //Log.i("BBBS", "Address: $contractAddress")
+                        //Log.i("BBBS", "BBBS: $BBBS")
 
                         ProviderEip721Transaction(
                             blockNumber = blockNumber,
@@ -201,11 +198,9 @@ class EtherscanTransactionProvider(
                         val gasUsed = tx.getValue("gasUsed").toLong()
                         val cumulativeGasUsed = tx.getValue("cumulativeGasUsed").toLong()
 
-                        Log.i("AAAS", "Address: $contractAddress")
-
-                        val AAAS = etherscanService.getToken(Address(tx.getValue("contractAddress")))
-
-                        Log.i("AAAS", "AAAS: $AAAS")
+                        //Log.i("AAAS", "Address: $contractAddress")
+                        //val AAAS = etherscanService.getToken(Address(tx.getValue("contractAddress")))
+                        //Log.i("AAAS", "AAAS: $AAAS")
 
                         ProviderEip1155Transaction(
                             blockNumber = blockNumber,
