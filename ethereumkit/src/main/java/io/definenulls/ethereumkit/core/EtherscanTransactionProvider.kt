@@ -149,8 +149,7 @@ class EtherscanTransactionProvider(
                         //val BBBS = etherscanService.getToken(Address(tx.getValue("contractAddress")))
                         //Log.i("BBBS", "Address: $contractAddress")
                         //Log.i("BBBS", "BBBS: $BBBS")
-
-                        if (tokenId.isNullOrEmpty()) ProviderEip721Transaction(
+                        if (tokenId.toInt()>0) ProviderEip721Transaction(
                             blockNumber = blockNumber,
                             timestamp = timestamp,
                             hash = hash,
