@@ -121,7 +121,7 @@ class EtherscanTransactionProvider(
     }
 
     override fun getEip721Transactions(startBlock: Long): Single<List<ProviderEip721Transaction>> {
-        return etherscanService.getEip721Transactions(address, 4147608)
+        return etherscanService.getEip721Transactions(address, startBlock)
             .map { response ->
                 response.result.mapNotNull { tx ->
                     try {
@@ -150,7 +150,7 @@ class EtherscanTransactionProvider(
                         //Log.i("BBBS", "Address: $contractAddress")
                         //Log.i("BBBS", "BBBS: $BBBS")
 
-                        ProviderEip721Transaction(
+                        if (tokenId.isNullOrEmpty()) ProviderEip721Transaction(
                             blockNumber = blockNumber,
                             timestamp = timestamp,
                             hash = hash,
@@ -168,7 +168,7 @@ class EtherscanTransactionProvider(
                             tokenName = tokenName,
                             tokenSymbol = tokenSymbol,
                             tokenDecimal = tokenDecimal
-                        )
+                        )  else null
 
                     } catch (throwable: Throwable) {
                         null

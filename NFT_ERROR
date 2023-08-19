@@ -1,3 +1,7 @@
+NON-SYNCED NFT BALANCES 2  nfts
+
+
+
 > Task :app:kaptDebugKotlin
 /Users/definenull/Documents/newwallet/tometa-wallet-android/app/build/tmp/kapt3/stubs/debug/io/definenulls/tometawallet/entities/EnabledWalletCache.java:7: warning: accountId column references a foreign key but it is not part of an index. This may trigger full table scans whenever parent table is modified so you are highly advised to create an index that covers this column.
 public final class EnabledWalletCache {
