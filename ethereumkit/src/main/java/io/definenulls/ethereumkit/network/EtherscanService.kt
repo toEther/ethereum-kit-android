@@ -98,6 +98,17 @@ class EtherscanService(
         }.retryWhenError(RequestError.RateLimitExceed::class)
     }
 
+    fun getToken(address: Address): Single<EtherscanResponse> {
+        return service.accountApi(
+            module = "token",
+            action = "getToken",
+            contractaddress = address.hex,
+            apiKey = apiKey
+        ).map {
+            parseResponse(it)
+        }.retryWhenError(RequestError.RateLimitExceed::class)
+    }
+
     fun getInternalTransactionsAsync(transactionHash: ByteArray): Single<EtherscanResponse> {
         return service.accountApi(
             action = "txlistinternal",

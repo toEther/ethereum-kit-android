@@ -120,7 +120,7 @@ class EtherscanTransactionProvider(
     }
 
     override fun getEip721Transactions(startBlock: Long): Single<List<ProviderEip721Transaction>> {
-        return etherscanService.getEip721Transactions(address, startBlock)
+        return etherscanService.getTokenTransactions(address, startBlock)
             .map { response ->
                 response.result.mapNotNull { tx ->
                     try {
@@ -142,7 +142,19 @@ class EtherscanTransactionProvider(
                         val gasUsed = tx.getValue("gasUsed").toLong()
                         val cumulativeGasUsed = tx.getValue("cumulativeGasUsed").toLong()
 
-                        ProviderEip721Transaction(
+
+                        etherscanService.getToken(contractAddress)
+                        .map { response ->
+                            response.result.mapNotNull { tokeninfo ->
+                                try {
+                                    val tokenType = tokeninfo.getValue("type")
+                                } catch (throwable: Throwable) {
+                                    null
+                                }
+                            }
+                        }
+
+                        if (tokenType=="ERC-721") ProviderEip721Transaction(
                             blockNumber = blockNumber,
                             timestamp = timestamp,
                             hash = hash,
@@ -160,7 +172,7 @@ class EtherscanTransactionProvider(
                             tokenName = tokenName,
                             tokenSymbol = tokenSymbol,
                             tokenDecimal = tokenDecimal
-                        )
+                        ) else null
                     } catch (throwable: Throwable) {
                         null
                     }
@@ -169,7 +181,7 @@ class EtherscanTransactionProvider(
     }
 
     override fun getEip1155Transactions(startBlock: Long): Single<List<ProviderEip1155Transaction>> {
-        return etherscanService.getEip1155Transactions(address, startBlock)
+        return etherscanService.getTokenTransactions(address, startBlock)
             .map { response ->
                 response.result.mapNotNull { tx ->
                     try {
@@ -192,7 +204,18 @@ class EtherscanTransactionProvider(
                         val gasUsed = tx.getValue("gasUsed").toLong()
                         val cumulativeGasUsed = tx.getValue("cumulativeGasUsed").toLong()
 
-                        ProviderEip1155Transaction(
+                        etherscanService.getToken(contractAddress)
+                        .map { response ->
+                            response.result.mapNotNull { tokeninfo ->
+                                try {
+                                    val tokenType = tokeninfo.getValue("type")
+                                } catch (throwable: Throwable) {
+                                    null
+                                }
+                            }
+                        }
+
+                        if (tokenType=="ERC-1155") ProviderEip1155Transaction(
                             blockNumber = blockNumber,
                             timestamp = timestamp,
                             hash = hash,
@@ -210,7 +233,7 @@ class EtherscanTransactionProvider(
                             tokenValue = tokenValue,
                             tokenName = tokenName,
                             tokenSymbol = tokenSymbol
-                        )
+                        ) else null
                     } catch (throwable: Throwable) {
                         null
                     }
