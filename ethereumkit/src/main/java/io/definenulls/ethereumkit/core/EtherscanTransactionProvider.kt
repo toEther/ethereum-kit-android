@@ -121,7 +121,7 @@ class EtherscanTransactionProvider(
     }
 
     override fun getEip721Transactions(startBlock: Long): Single<List<ProviderEip721Transaction>> {
-        return etherscanService.getTokenTransactions(address, startBlock)
+        return etherscanService.getEip721Transactions(address, startBlock)
             .map { response ->
                 response.result.mapNotNull { tx ->
                     try {
@@ -178,7 +178,7 @@ class EtherscanTransactionProvider(
     }
 
     override fun getEip1155Transactions(startBlock: Long): Single<List<ProviderEip1155Transaction>> {
-        return etherscanService.getTokenTransactions(address, startBlock)
+        return etherscanService.getEip1155Transactions(address, startBlock)
             .map { response ->
                 response.result.mapNotNull { tx ->
                     try {
