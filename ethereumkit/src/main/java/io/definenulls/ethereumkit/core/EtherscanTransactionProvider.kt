@@ -147,7 +147,7 @@ class EtherscanTransactionProvider(
                         //Log.i("BBBS", "Address: $contractAddress")
                         //Log.i("BBBS", "BBBS: $BBBS")
 
-                        if(tokenId>=1) ProviderEip721Transaction(
+                        if(tokenId!=null) ProviderEip721Transaction(
                             blockNumber = blockNumber,
                             timestamp = timestamp,
                             hash = hash,
