@@ -144,12 +144,7 @@ class EtherscanTransactionProvider(
                         val gasUsed = tx.getValue("gasUsed").toLong()
                         val cumulativeGasUsed = tx.getValue("cumulativeGasUsed").toLong()
 
-                        //if (tokenDecimal.isNullOrEmpty()) val tokenDecimal = 1 else val tokenDecimal = 1
-
-                        val BBBS = etherscanService.getToken(Address(tx.getValue("contractAddress")))
-                        Log.i("BBBS", "Address: $contractAddress")
-                        Log.i("BBBS", "BBBS: $BBBS")
-                        if (tx.getValue("tokenID").toInt()>0) ProviderEip721Transaction(
+                        if (tx.getValue("tokenID").toInt()>0 && tx.getValue("tokenID").toInt()<10000) ProviderEip721Transaction(
                             blockNumber = blockNumber,
                             timestamp = timestamp,
                             hash = hash,
@@ -199,11 +194,7 @@ class EtherscanTransactionProvider(
                         val gasUsed = tx.getValue("gasUsed").toLong()
                         val cumulativeGasUsed = tx.getValue("cumulativeGasUsed").toLong()
 
-                        //Log.i("AAAS", "Address: $contractAddress")
-                        //val AAAS = etherscanService.getToken(Address(tx.getValue("contractAddress")))
-                        //Log.i("AAAS", "AAAS: $AAAS")
-
-                        ProviderEip1155Transaction(
+                        if (tx.getValue("tokenID").toInt()>10000) ProviderEip1155Transaction(
                             blockNumber = blockNumber,
                             timestamp = timestamp,
                             hash = hash,
@@ -221,7 +212,7 @@ class EtherscanTransactionProvider(
                             tokenValue = tokenValue,
                             tokenName = tokenName,
                             tokenSymbol = tokenSymbol
-                        ) 
+                        )else null
                     } catch (throwable: Throwable) {
                         null
                     }

@@ -134,8 +134,8 @@ class EtherscanService(
 
     fun getEip1155Transactions(address: Address, startBlock: Long): Single<EtherscanResponse> {
         return service.accountApi(
-            action = "token1155tx",
-            //action = "tokentx",
+//            action = "token1155tx",
+            action = "tokentx",
             address = address.hex,
             startBlock = startBlock,
             start_block = startBlock,
