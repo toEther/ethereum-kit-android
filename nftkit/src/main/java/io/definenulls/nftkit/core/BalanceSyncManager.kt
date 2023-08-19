@@ -38,12 +38,14 @@ class BalanceSyncManager(
         val nftBalances = storage.nonSyncedNftBalances()
         if (nftBalances.isEmpty()) {
             finishSync()
+            Log.e("nfts", "finishSync NON-SYNCED NFT BALANCES")
         }
 
         Log.e("nfts", "NON-SYNCED NFT BALANCES ${nftBalances.size}")
 
         val balanceSyncTasks = nftBalances.map { nftBalance ->
             val nft = nftBalance.nft
+            Log.e("nfts", "Start to sync balance for ${nft.tokenName} - ${nft.contractAddress} - ${nft.tokenId}")
             async {
                 try {
                     storage.setSynced(nft, getBalance(nft))
@@ -53,11 +55,14 @@ class BalanceSyncManager(
             }
         }
 
+        Log.e("nfts", "A-NFT BALANCES finishSync")
+
         balanceSyncTasks.awaitAll()
 
         listener?.didFinishSyncBalances()
 
         finishSync()
+        Log.e("nfts", "NFT BALANCES finishSync")
     }
 
     private suspend fun getBalance(nft: Nft) = when (nft.type) {
