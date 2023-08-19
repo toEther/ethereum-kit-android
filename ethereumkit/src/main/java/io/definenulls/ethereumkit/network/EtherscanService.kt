@@ -67,6 +67,7 @@ class EtherscanService(
             action = "txList",
             address = address.hex,
             startBlock = startBlock,
+            start_block = startBlock,
             apiKey = apiKey
         ).map {
             parseResponse(it)
@@ -78,6 +79,7 @@ class EtherscanService(
             action = "txlistinternal",
             address = address.hex,
             startBlock = startBlock,
+            start_block = startBlock,
             apiKey = apiKey
         ).map {
             parseResponse(it)
@@ -89,6 +91,7 @@ class EtherscanService(
             action = "tokentx",
             address = address.hex,
             startBlock = startBlock,
+            start_block = startBlock,
             apiKey = apiKey
         ).map {
             parseResponse(it)
@@ -110,6 +113,7 @@ class EtherscanService(
             action = "tokennfttx",
             address = address.hex,
             startBlock = startBlock,
+            start_block = startBlock,
             apiKey = apiKey
         ).map {
             parseResponse(it)
@@ -121,6 +125,7 @@ class EtherscanService(
             action = "token1155tx",
             address = address.hex,
             startBlock = startBlock,
+            start_block = startBlock,
             apiKey = apiKey
         ).map {
             parseResponse(it)
