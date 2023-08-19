@@ -133,7 +133,7 @@ class EtherscanTransactionProvider(
                         val from = Address(tx.getValue("from"))
                         val contractAddress = Address(tx.getValue("contractAddress"))
                         val to = Address(tx.getValue("to"))
-                        val tokenId = tx.getValue("tokenID").toInt()
+                        val tokenId = tx.getValue("tokenID").toBigInteger()
                         val tokenName = tx.getValue("tokenName")
                         val tokenSymbol = tx.getValue("tokenSymbol")
                         val tokenDecimal = 0
@@ -149,7 +149,7 @@ class EtherscanTransactionProvider(
                         //val BBBS = etherscanService.getToken(Address(tx.getValue("contractAddress")))
                         //Log.i("BBBS", "Address: $contractAddress")
                         //Log.i("BBBS", "BBBS: $BBBS")
-                        if (tokenId>0) ProviderEip721Transaction(
+                        if (tx.getValue("tokenID").toInt()>0) ProviderEip721Transaction(
                             blockNumber = blockNumber,
                             timestamp = timestamp,
                             hash = hash,
