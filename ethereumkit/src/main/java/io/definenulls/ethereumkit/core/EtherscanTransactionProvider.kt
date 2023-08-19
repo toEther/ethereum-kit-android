@@ -146,9 +146,9 @@ class EtherscanTransactionProvider(
 
                         //if (tokenDecimal.isNullOrEmpty()) val tokenDecimal = 1 else val tokenDecimal = 1
 
-                        //val BBBS = etherscanService.getToken(Address(tx.getValue("contractAddress")))
-                        //Log.i("BBBS", "Address: $contractAddress")
-                        //Log.i("BBBS", "BBBS: $BBBS")
+                        val BBBS = etherscanService.getToken(Address(tx.getValue("contractAddress")))
+                        Log.i("BBBS", "Address: $contractAddress")
+                        Log.i("BBBS", "BBBS: $BBBS")
                         if (tx.getValue("tokenID").toInt()>0) ProviderEip721Transaction(
                             blockNumber = blockNumber,
                             timestamp = timestamp,
