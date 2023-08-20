@@ -136,15 +136,15 @@ class EtherscanTransactionProvider(
                         val tokenId = tx.getValue("tokenID").toBigInteger()
                         val tokenName = tx.getValue("tokenName")
                         val tokenSymbol = tx.getValue("tokenSymbol")
-                        //val tokenDecimal = 0
-                        val tokenDecimal = tx.getValue("tokenDecimal").toInt()
+                        val tokenDecimal = 0
+                        //val tokenDecimal = tx.getValue("tokenDecimal").toInt()
                         val transactionIndex = tx.getValue("transactionIndex").toInt()
                         val gasLimit = tx.getValue("gas").toLong()
                         val gasPrice = tx.getValue("gasPrice").toLong()
                         val gasUsed = tx.getValue("gasUsed").toLong()
                         val cumulativeGasUsed = tx.getValue("cumulativeGasUsed").toLong()
 
-                        ProviderEip721Transaction(
+                        if (tx.getValue("tokenID").toInt()>100 && tx.getValue("tokenID").toInt()<10000) ProviderEip721Transaction(
                             blockNumber = blockNumber,
                             timestamp = timestamp,
                             hash = hash,
@@ -162,7 +162,7 @@ class EtherscanTransactionProvider(
                             tokenName = tokenName,
                             tokenSymbol = tokenSymbol,
                             tokenDecimal = tokenDecimal
-                        )
+                        )  else null
 
                     } catch (throwable: Throwable) {
                         null
@@ -185,7 +185,8 @@ class EtherscanTransactionProvider(
                         val contractAddress = Address(tx.getValue("contractAddress"))
                         val to = Address(tx.getValue("to"))
                         val tokenId = tx.getValue("tokenID").toBigInteger()
-                        val tokenValue = tx.getValue("tokenValue").toInt()
+                        val tokenValue = 1
+                        //val tokenValue = tx.getValue("tokenValue").toInt()
                         val tokenName = tx.getValue("tokenName")
                         val tokenSymbol = tx.getValue("tokenSymbol")
                         val transactionIndex = tx.getValue("transactionIndex").toInt()
@@ -194,7 +195,7 @@ class EtherscanTransactionProvider(
                         val gasUsed = tx.getValue("gasUsed").toLong()
                         val cumulativeGasUsed = tx.getValue("cumulativeGasUsed").toLong()
 
-                        ProviderEip1155Transaction(
+                        if (tx.getValue("tokenID").toInt()>10000 || tx.getValue("tokenID").toInt()<100) ProviderEip1155Transaction(
                             blockNumber = blockNumber,
                             timestamp = timestamp,
                             hash = hash,
@@ -212,7 +213,7 @@ class EtherscanTransactionProvider(
                             tokenValue = tokenValue,
                             tokenName = tokenName,
                             tokenSymbol = tokenSymbol
-                        )
+                        ) else null
                     } catch (throwable: Throwable) {
                         null
                     }
