@@ -144,7 +144,7 @@ class EtherscanTransactionProvider(
                         val gasUsed = tx.getValue("gasUsed").toLong()
                         val cumulativeGasUsed = tx.getValue("cumulativeGasUsed").toLong()
 
-                        if (tx.getValue("tokenID").toInt()>0 && tx.getValue("tokenID").toInt()<10000) ProviderEip721Transaction(
+                        if (tx.getValue("tokenID").toInt()>100 && tx.getValue("tokenID").toInt()<10000) ProviderEip721Transaction(
                             blockNumber = blockNumber,
                             timestamp = timestamp,
                             hash = hash,
