@@ -185,7 +185,7 @@ class EtherscanTransactionProvider(
                         val contractAddress = Address(tx.getValue("contractAddress"))
                         val to = Address(tx.getValue("to"))
                         val tokenId = tx.getValue("tokenID").toBigInteger()
-                        val tokenValue = tx.getValue("tokenValue").toInt()
+                        val tokenValue = 1
                         val tokenName = tx.getValue("tokenName")
                         val tokenSymbol = tx.getValue("tokenSymbol")
                         val transactionIndex = tx.getValue("transactionIndex").toInt()
@@ -212,7 +212,7 @@ class EtherscanTransactionProvider(
                             tokenValue = tokenValue,
                             tokenName = tokenName,
                             tokenSymbol = tokenSymbol
-                        )else null
+                        ) else null
                     } catch (throwable: Throwable) {
                         null
                     }
