@@ -136,8 +136,8 @@ class EtherscanTransactionProvider(
                         val tokenId = tx.getValue("tokenID").toBigInteger()
                         val tokenName = tx.getValue("tokenName")
                         val tokenSymbol = tx.getValue("tokenSymbol")
-                        val tokenDecimal = 0
-                        //val tokenDecimal = tx.getValue("tokenDecimal").toInt()
+                        //val tokenDecimal = 0
+                        val tokenDecimal = tx.getValue("tokenDecimal").toInt()
                         val transactionIndex = tx.getValue("transactionIndex").toInt()
                         val gasLimit = tx.getValue("gas").toLong()
                         val gasPrice = tx.getValue("gasPrice").toLong()
@@ -185,7 +185,7 @@ class EtherscanTransactionProvider(
                         val contractAddress = Address(tx.getValue("contractAddress"))
                         val to = Address(tx.getValue("to"))
                         val tokenId = tx.getValue("tokenID").toBigInteger()
-                        val tokenValue = 1
+                        val tokenValue = tx.getValue("tokenValue").toInt()
                         val tokenName = tx.getValue("tokenName")
                         val tokenSymbol = tx.getValue("tokenSymbol")
                         val transactionIndex = tx.getValue("transactionIndex").toInt()

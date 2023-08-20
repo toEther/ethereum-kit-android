@@ -1,3 +1,9 @@
+2023-08-20 20:27:31.473 14628-14628 LeakCanary              io.definenulls.tometawallet.dev      D  Watching instance of androidx.compose.ui.platform.ComposeView (io.definenulls.tometawallet.modules.nft.holdings.NftHoldingsFragment received Fragment#onDestroyView() callback (references to its views should be cleared to prevent leaks)) with key 401d2d1f-af6e-459b-914c-1b2e03c70b8d
+2023-08-20 20:27:31.475 14628-14628 LeakCanary              io.definenulls.tometawallet.dev      D  Watching instance of io.definenulls.tometawallet.modules.nft.holdings.NftHoldingsFragment (io.definenulls.tometawallet.modules.nft.holdings.NftHoldingsFragment received Fragment#onDestroy() callback) with key a904a479-234f-4d2a-b7e8-1263808754df
+
+
+
+
 ERC1155
 {
     "message": "OK",
