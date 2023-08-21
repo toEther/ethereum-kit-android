@@ -1,4 +1,8 @@
-NodeWebSocket
+NodeWebSocket 
+
+NodeApiProvider
+
+  EvmLabelManager
 
 
 
@@ -154,4 +158,698 @@ ERC721
         }
     ],
     "status": "1"
+}
+
+
+
+
+
+
+
+
+
+
+
+https://api.opensea.io/api/v1/assets?asset_contract_addresses=0x33fd426905f149f8376e227d0c9d3340aad17af1&asset_contract_addresses=0x497d96d519a3cc2f902776787c647c32f57e353b&token_ids=133&token_ids=9&include_orders=true&format=json
+
+{
+    "next": null,
+    "previous": null,
+    "assets": [
+        {
+            "id": 1416829495,
+            "token_id": "133",
+            "num_sales": 46,
+            "background_color": null,
+            "image_url": "https://i.seadn.io/gcs/files/5af31f807c3b7e65c084449470e9b96a.gif?w=500&auto=format",
+            "image_preview_url": "https://i.seadn.io/gcs/files/5af31f807c3b7e65c084449470e9b96a.gif?w=500&auto=format",
+            "image_thumbnail_url": "https://i.seadn.io/gcs/files/5af31f807c3b7e65c084449470e9b96a.gif?w=500&auto=format",
+            "image_original_url": "https://arweave.net/hDp16w7Dt63GQ7V0DZwOfL0QcuhHP_8voPykwb2elao",
+            "animation_url": null,
+            "animation_original_url": null,
+            "name": "(gm+gn)^3",
+            "description": "Mathematical proof that any non-imaginary gm is an inverse function of gn, and vice versa.   \n   \nMeme: 4   \nSeason: 4   \nCard: 2",
+            "external_link": "https://seize.io/the-memes/133",
+            "asset_contract": {
+                "address": "0x33fd426905f149f8376e227d0c9d3340aad17af1",
+                "asset_contract_type": "semi-fungible",
+                "chain_identifier": "ethereum",
+                "created_date": "2022-06-09T16:49:27.828638",
+                "name": "Unidentified contract",
+                "nft_version": null,
+                "opensea_version": null,
+                "owner": 441100348,
+                "schema_name": "ERC1155",
+                "symbol": "",
+                "total_supply": null,
+                "description": "The Memes Collection is focused on the fight for the open metaverse (decentralization, community, self-sovereignty) and spreading this message to many people, many wallets.\r\n\r\nIt is a collection that is meant to be open and accessible. Edition sizes will generally be large and inexpensive, to spread the word and to avoid gas wars.\r\n\r\nWe will try to have a good time along the way, make some fun art, do great collabs and just generally have a good time.\r\n\r\nFor more information visit https://6529.io/collections/the-memes/",
+                "external_link": "https://6529.io/collections/the-memes/",
+                "image_url": "https://i.seadn.io/gcs/files/8573c42207ea4d7dc1bb6ed5c0b01243.jpg?w=500&auto=format",
+                "default_to_fiat": false,
+                "dev_buyer_fee_basis_points": 0,
+                "dev_seller_fee_basis_points": 690,
+                "only_proxied_transfers": false,
+                "opensea_buyer_fee_basis_points": 0,
+                "opensea_seller_fee_basis_points": 250,
+                "buyer_fee_basis_points": 0,
+                "seller_fee_basis_points": 940,
+                "payout_address": "0x1b1289e34fe05019511d7b436a5138f361904df0"
+            },
+            "permalink": "https://opensea.io/assets/ethereum/0x33fd426905f149f8376e227d0c9d3340aad17af1/133",
+            "collection": {
+                "banner_image_url": "https://i.seadn.io/gcs/files/422be663d7ec0bf67cbe6c2d6484f32c.jpg?w=500&auto=format",
+                "chat_url": null,
+                "created_date": "2022-06-09T17:01:28.716714+00:00",
+                "default_to_fiat": false,
+                "description": "The Memes Collection is focused on the fight for the open metaverse (decentralization, community, self-sovereignty) and spreading this message to many people, many wallets.\r\n\r\nIt is a collection that is meant to be open and accessible. Edition sizes will generally be large and inexpensive, to spread the word and to avoid gas wars.\r\n\r\nWe will try to have a good time along the way, make some fun art, do great collabs and just generally have a good time.\r\n\r\nFor more information visit https://6529.io/collections/the-memes/",
+                "dev_buyer_fee_basis_points": "0",
+                "dev_seller_fee_basis_points": "690",
+                "discord_url": null,
+                "display_data": {
+                    "card_display_style": "contain"
+                },
+                "external_url": "https://6529.io/collections/the-memes/",
+                "featured": false,
+                "featured_image_url": "https://i.seadn.io/gcs/files/a07fdcc050dbff6b337afec68d7eee37.png?w=500&auto=format",
+                "hidden": false,
+                "safelist_request_status": "verified",
+                "image_url": "https://i.seadn.io/gcs/files/8573c42207ea4d7dc1bb6ed5c0b01243.jpg?w=500&auto=format",
+                "is_subject_to_whitelist": false,
+                "large_image_url": "https://i.seadn.io/gcs/files/a07fdcc050dbff6b337afec68d7eee37.png?w=500&auto=format",
+                "medium_username": null,
+                "name": "The Memes by 6529",
+                "only_proxied_transfers": false,
+                "opensea_buyer_fee_basis_points": "0",
+                "opensea_seller_fee_basis_points": 250,
+                "payout_address": "0x1b1289e34fe05019511d7b436a5138f361904df0",
+                "require_email": false,
+                "short_description": null,
+                "slug": "thememes6529",
+                "telegram_url": null,
+                "twitter_username": "6529er",
+                "instagram_username": null,
+                "wiki_url": null,
+                "is_nsfw": false,
+                "fees": {
+                    "seller_fees": {
+                        "0x1b1289e34fe05019511d7b436a5138f361904df0": 690
+                    },
+                    "opensea_fees": {
+                        "0x0000a26b00c1f0df003000390027140000faa719": 250
+                    }
+                },
+                "is_rarity_enabled": false,
+                "is_creator_fees_enforced": false
+            },
+            "decimals": null,
+            "token_metadata": "https://arweave.net/EwV5X_dlXhQD_zPbaeGqQauLEzbpfJWJyhI-6dRXiw4",
+            "is_nsfw": false,
+            "owner": null,
+            "seaport_sell_orders": [
+                {
+                    "created_date": "2023-08-20T16:16:04.527657",
+                    "closing_date": "2023-08-21T02:15:59",
+                    "listing_time": 1692548159,
+                    "expiration_time": 1692584159,
+                    "order_hash": "0x3dbc4e0884742e50705bd86b2b0472108485e822fc297f3911b572904f58ae7e",
+                    "protocol_data": {
+                        "parameters": {
+                            "offerer": "0xf2e1ad6c4e221759a90fb853c69cd7065f413b38",
+                            "offer": [
+                                {
+                                    "itemType": 3,
+                                    "token": "0x33FD426905F149f8376e227d0C9D3340AaD17aF1",
+                                    "identifierOrCriteria": "133",
+                                    "startAmount": "1",
+                                    "endAmount": "1"
+                                }
+                            ],
+                            "consideration": [
+                                {
+                                    "itemType": 0,
+                                    "token": "0x0000000000000000000000000000000000000000",
+                                    "identifierOrCriteria": "0",
+                                    "startAmount": "308350500000000000",
+                                    "endAmount": "308350500000000000",
+                                    "recipient": "0xF2E1ad6C4E221759a90Fb853C69Cd7065f413b38"
+                                },
+                                {
+                                    "itemType": 0,
+                                    "token": "0x0000000000000000000000000000000000000000",
+                                    "identifierOrCriteria": "0",
+                                    "startAmount": "1549500000000000",
+                                    "endAmount": "1549500000000000",
+                                    "recipient": "0x1B1289E34Fe05019511d7b436a5138F361904df0"
+                                }
+                            ],
+                            "startTime": "1692548159",
+                            "endTime": "1692584159",
+                            "orderType": 1,
+                            "zone": "0x004C00500000aD104D7DBd00e3ae0A5C00560C00",
+                            "zoneHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                            "salt": "0x72db8c0b000000000000000000000000000000000000000068e4dfc0afffbe58",
+                            "conduitKey": "0x0000007b02230091a7ed01230072f7006a004d60a8d4e71d599b8104250f0000",
+                            "totalOriginalConsiderationItems": 2,
+                            "counter": "0x5adcb49a4e5801ab5f774ccb95889efd4"
+                        },
+                        "signature": null
+                    },
+                    "protocol_address": "0x00000000000000adc04c56bf30ac9d3c0aaf14dc",
+                    "current_price": "309900000000000000",
+                    "maker": {
+                        "user": 41948474,
+                        "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/33.png",
+                        "address": "0xf2e1ad6c4e221759a90fb853c69cd7065f413b38",
+                        "config": ""
+                    },
+                    "taker": null,
+                    "maker_fees": [
+                        {
+                            "account": {
+                                "user": null,
+                                "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/5.png",
+                                "address": "0x1b1289e34fe05019511d7b436a5138f361904df0",
+                                "config": ""
+                            },
+                            "basis_points": "50"
+                        }
+                    ],
+                    "taker_fees": [],
+                    "side": "ask",
+                    "order_type": "basic",
+                    "cancelled": false,
+                    "finalized": false,
+                    "marked_invalid": false,
+                    "remaining_quantity": 1,
+                    "relay_id": "T3JkZXJWMlR5cGU6MTE5NTEyMzA4MTI=",
+                    "criteria_proof": null
+                }
+            ],
+            "creator": {
+                "user": {
+                    "username": "6529Collections"
+                },
+                "address": "0x4b76837f8d8ad0a28590d06e53dcd44b6b7d4554",
+                "config": "verified",
+                "profile_img_url": ""
+            },
+            "traits": [
+                {
+                    "trait_type": "Food",
+                    "display_type": null,
+                    "max_value": null,
+                    "trait_count": 0,
+                    "order": null,
+                    "value": "Goose"
+                },
+                {
+                    "trait_type": "Points - Speed",
+                    "display_type": "boost_percentage",
+                    "max_value": "100",
+                    "trait_count": 0,
+                    "order": null,
+                    "value": 11011
+                },
+                {
+                    "trait_type": "Drink",
+                    "display_type": null,
+                    "max_value": null,
+                    "trait_count": 0,
+                    "order": null,
+                    "value": "Egg whites"
+                },
+                {
+                    "trait_type": "Bonus",
+                    "display_type": null,
+                    "max_value": null,
+                    "trait_count": 0,
+                    "order": null,
+                    "value": "Flight"
+                },
+                {
+                    "trait_type": "Boost",
+                    "display_type": null,
+                    "max_value": null,
+                    "trait_count": 0,
+                    "order": null,
+                    "value": "High protein per gram"
+                },
+                {
+                    "trait_type": "Summer",
+                    "display_type": null,
+                    "max_value": null,
+                    "trait_count": 6,
+                    "order": null,
+                    "value": "No"
+                },
+                {
+                    "trait_type": "Tulip",
+                    "display_type": null,
+                    "max_value": null,
+                    "trait_count": 6,
+                    "order": null,
+                    "value": "No"
+                },
+                {
+                    "trait_type": "3D",
+                    "display_type": null,
+                    "max_value": null,
+                    "trait_count": 0,
+                    "order": null,
+                    "value": "Yes"
+                },
+                {
+                    "trait_type": "Issuance Month",
+                    "display_type": null,
+                    "max_value": null,
+                    "trait_count": 0,
+                    "order": null,
+                    "value": "2023/08"
+                },
+                {
+                    "trait_type": "Type - Season",
+                    "display_type": "number",
+                    "max_value": null,
+                    "trait_count": 0,
+                    "order": null,
+                    "value": 4
+                },
+                {
+                    "trait_type": "Style",
+                    "display_type": null,
+                    "max_value": null,
+                    "trait_count": 0,
+                    "order": null,
+                    "value": "Generative"
+                },
+                {
+                    "trait_type": "Palette",
+                    "display_type": null,
+                    "max_value": null,
+                    "trait_count": 6,
+                    "order": null,
+                    "value": "Color"
+                },
+                {
+                    "trait_type": "Dynamic",
+                    "display_type": null,
+                    "max_value": null,
+                    "trait_count": 6,
+                    "order": null,
+                    "value": "No"
+                },
+                {
+                    "trait_type": "Interactive",
+                    "display_type": null,
+                    "max_value": null,
+                    "trait_count": 6,
+                    "order": null,
+                    "value": "No"
+                },
+                {
+                    "trait_type": "OM",
+                    "display_type": null,
+                    "max_value": null,
+                    "trait_count": 6,
+                    "order": null,
+                    "value": "No"
+                },
+                {
+                    "trait_type": "Type",
+                    "display_type": null,
+                    "max_value": null,
+                    "trait_count": 6,
+                    "order": null,
+                    "value": "Card"
+                },
+                {
+                    "trait_type": "Element",
+                    "display_type": null,
+                    "max_value": null,
+                    "trait_count": 0,
+                    "order": null,
+                    "value": "Light"
+                },
+                {
+                    "trait_type": "Type - Meme",
+                    "display_type": "number",
+                    "max_value": null,
+                    "trait_count": 0,
+                    "order": null,
+                    "value": 4
+                },
+                {
+                    "trait_type": "Pepe",
+                    "display_type": null,
+                    "max_value": null,
+                    "trait_count": 6,
+                    "order": null,
+                    "value": "No"
+                },
+                {
+                    "trait_type": "Meme Name",
+                    "display_type": null,
+                    "max_value": null,
+                    "trait_count": 0,
+                    "order": null,
+                    "value": "GM"
+                },
+                {
+                    "trait_type": "Artist",
+                    "display_type": null,
+                    "max_value": null,
+                    "trait_count": 0,
+                    "order": null,
+                    "value": "mpkoz"
+                },
+                {
+                    "trait_type": "Jewel",
+                    "display_type": null,
+                    "max_value": null,
+                    "trait_count": 0,
+                    "order": null,
+                    "value": "Golden egg"
+                },
+                {
+                    "trait_type": "Punk 6529",
+                    "display_type": null,
+                    "max_value": null,
+                    "trait_count": 4,
+                    "order": null,
+                    "value": "No"
+                },
+                {
+                    "trait_type": "Movement",
+                    "display_type": null,
+                    "max_value": null,
+                    "trait_count": 1,
+                    "order": null,
+                    "value": "Yes"
+                },
+                {
+                    "trait_type": "Collab",
+                    "display_type": null,
+                    "max_value": null,
+                    "trait_count": 2,
+                    "order": null,
+                    "value": "Yes"
+                },
+                {
+                    "trait_type": "Superpower",
+                    "display_type": null,
+                    "max_value": null,
+                    "trait_count": 0,
+                    "order": null,
+                    "value": "Proportion"
+                },
+                {
+                    "trait_type": "Gradient",
+                    "display_type": null,
+                    "max_value": null,
+                    "trait_count": 2,
+                    "order": null,
+                    "value": "No"
+                },
+                {
+                    "trait_type": "Dharma",
+                    "display_type": null,
+                    "max_value": null,
+                    "trait_count": 0,
+                    "order": null,
+                    "value": "Motherhood"
+                },
+                {
+                    "trait_type": "Gear",
+                    "display_type": null,
+                    "max_value": null,
+                    "trait_count": 0,
+                    "order": null,
+                    "value": "Orthographic camera"
+                },
+                {
+                    "trait_type": "Clothing",
+                    "display_type": null,
+                    "max_value": null,
+                    "trait_count": 0,
+                    "order": null,
+                    "value": "Wing suit"
+                },
+                {
+                    "trait_type": "Mystery",
+                    "display_type": null,
+                    "max_value": null,
+                    "trait_count": 0,
+                    "order": null,
+                    "value": "Yes"
+                },
+                {
+                    "trait_type": "Secrets",
+                    "display_type": null,
+                    "max_value": null,
+                    "trait_count": 0,
+                    "order": null,
+                    "value": "Infinite"
+                },
+                {
+                    "trait_type": "Weapon",
+                    "display_type": null,
+                    "max_value": null,
+                    "trait_count": 0,
+                    "order": null,
+                    "value": "Photons"
+                },
+                {
+                    "trait_type": "Home",
+                    "display_type": null,
+                    "max_value": null,
+                    "trait_count": 0,
+                    "order": null,
+                    "value": "Nest"
+                },
+                {
+                    "trait_type": "Parent",
+                    "display_type": null,
+                    "max_value": null,
+                    "trait_count": 0,
+                    "order": null,
+                    "value": "Goose"
+                },
+                {
+                    "trait_type": "GM",
+                    "display_type": null,
+                    "max_value": null,
+                    "trait_count": 0,
+                    "order": null,
+                    "value": "Yes"
+                },
+                {
+                    "trait_type": "Sibling",
+                    "display_type": null,
+                    "max_value": null,
+                    "trait_count": 0,
+                    "order": null,
+                    "value": "Goose"
+                },
+                {
+                    "trait_type": "Type - Card",
+                    "display_type": "number",
+                    "max_value": null,
+                    "trait_count": 0,
+                    "order": null,
+                    "value": 133
+                },
+                {
+                    "trait_type": "Points - Power",
+                    "display_type": "boost_percentage",
+                    "max_value": "100",
+                    "trait_count": 0,
+                    "order": null,
+                    "value": 1337
+                },
+                {
+                    "trait_type": "Points - Wisdom",
+                    "display_type": "boost_percentage",
+                    "max_value": "100",
+                    "trait_count": 0,
+                    "order": null,
+                    "value": 42024
+                },
+                {
+                    "trait_type": "Points - Loki",
+                    "display_type": "boost_percentage",
+                    "max_value": "100",
+                    "trait_count": 0,
+                    "order": null,
+                    "value": 69096
+                }
+            ],
+            "last_sale": {
+                "asset": {
+                    "token_id": "133",
+                    "decimals": null
+                },
+                "asset_bundle": null,
+                "event_type": "successful",
+                "event_timestamp": "2023-08-19T23:51:59",
+                "auction_type": null,
+                "total_price": "320000000000000000",
+                "payment_token": {
+                    "symbol": "ETH",
+                    "address": "0x0000000000000000000000000000000000000000",
+                    "image_url": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+                    "name": "Ether",
+                    "decimals": 18,
+                    "eth_price": "1.000000000000000",
+                    "usd_price": "1669.130000000000109000"
+                },
+                "transaction": {
+                    "block_hash": "0xad34f3be059bb7164347cf253a435283ecad9d0b44612bc93a73badcf68e17f7",
+                    "block_number": "17952211",
+                    "from_account": {
+                        "user": {
+                            "username": "BRS21"
+                        },
+                        "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/28.png",
+                        "address": "0x81974c1a09e53c5129c6e4f74e547fda0adf4d2d",
+                        "config": ""
+                    },
+                    "id": 1691448850,
+                    "timestamp": "2023-08-19T23:51:59",
+                    "to_account": {
+                        "user": null,
+                        "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/27.png",
+                        "address": "0x00000000000000adc04c56bf30ac9d3c0aaf14dc",
+                        "config": ""
+                    },
+                    "transaction_hash": "0x01bdef67514c5f757e31d8a585ab3a36d91bec2a6204ebd1e74f00cd378d86f2",
+                    "transaction_index": "90"
+                },
+                "created_date": "2023-08-19T23:52:02.534106",
+                "quantity": "1"
+            },
+            "top_bid": null,
+            "listing_date": null,
+            "supports_wyvern": true,
+            "rarity_data": null,
+            "transfer_fee": null,
+            "transfer_fee_payment_token": null
+        },
+        {
+            "id": 1324759033,
+            "token_id": "9",
+            "num_sales": 0,
+            "background_color": null,
+            "image_url": "https://i.seadn.io/gcs/files/034d7b2e85da1f266f9ad4f93015c2aa.gif?w=500&auto=format",
+            "image_preview_url": "https://i.seadn.io/gcs/files/034d7b2e85da1f266f9ad4f93015c2aa.gif?w=500&auto=format",
+            "image_thumbnail_url": "https://i.seadn.io/gcs/files/034d7b2e85da1f266f9ad4f93015c2aa.gif?w=500&auto=format",
+            "image_original_url": "https://arweave.net/FrSkJIfNshxKyKxhP-47J4YXGAVLZ1ieepb1Fi5AfiU",
+            "animation_url": "https://openseauserdata.com/files/e5b392c60dc58f342ce58d32883cc385.mp4",
+            "animation_original_url": "https://arweave.net/J0GywRK3uE7qeI0jxyXgAdFFyD9P7n0r9NSaqbS3aUA",
+            "name": "Open Eyes (Flower) #9/20",
+            "description": "Open Eyes (Flower) by Jake Fried\n\nHand-drawn animation with ink and white-out. 1 second loop. \nLenticular: https://avantarte.com/products/jake-fried-open-eyes-flower",
+            "external_link": null,
+            "asset_contract": {
+                "address": "0x497d96d519a3cc2f902776787c647c32f57e353b",
+                "asset_contract_type": "non-fungible",
+                "chain_identifier": "ethereum",
+                "created_date": "2023-07-19T15:58:38.641430",
+                "name": "Jake Fried: Open Eyes (Flower)",
+                "nft_version": null,
+                "opensea_version": null,
+                "owner": 47874323,
+                "schema_name": "ERC721",
+                "symbol": "OEF",
+                "total_supply": "0",
+                "description": "Jake Fried x Avant Arte x Cozomo de’ Medici.\nLenticular: https://avantarte.com/products/jake-fried-open-eyes-flower",
+                "external_link": "https://shor.by/jakefried",
+                "image_url": "https://i.seadn.io/gcs/files/034d7b2e85da1f266f9ad4f93015c2aa.gif?w=500&auto=format",
+                "default_to_fiat": false,
+                "dev_buyer_fee_basis_points": 0,
+                "dev_seller_fee_basis_points": 1000,
+                "only_proxied_transfers": false,
+                "opensea_buyer_fee_basis_points": 0,
+                "opensea_seller_fee_basis_points": 250,
+                "buyer_fee_basis_points": 0,
+                "seller_fee_basis_points": 1250,
+                "payout_address": "0xa3785d2f231808d54aa207a84aee81c85dcbfb21"
+            },
+            "permalink": "https://opensea.io/assets/ethereum/0x497d96d519a3cc2f902776787c647c32f57e353b/9",
+            "collection": {
+                "banner_image_url": "https://i.seadn.io/gcs/files/e957791b60a2a63bef0b53a680471dc9.png?w=500&auto=format",
+                "chat_url": null,
+                "created_date": "2023-07-21T20:56:12.684341+00:00",
+                "default_to_fiat": false,
+                "description": "Jake Fried x Avant Arte x Cozomo de’ Medici.\nLenticular: https://avantarte.com/products/jake-fried-open-eyes-flower",
+                "dev_buyer_fee_basis_points": "0",
+                "dev_seller_fee_basis_points": "1000",
+                "discord_url": null,
+                "display_data": {
+                    "card_display_style": "cover",
+                    "images": null
+                },
+                "external_url": "https://shor.by/jakefried",
+                "featured": false,
+                "featured_image_url": "https://i.seadn.io/gcs/files/cc629f0d90c5ef0d25f2ba7e3ad19809.png?w=500&auto=format",
+                "hidden": false,
+                "safelist_request_status": "not_requested",
+                "image_url": "https://i.seadn.io/gcs/files/034d7b2e85da1f266f9ad4f93015c2aa.gif?w=500&auto=format",
+                "is_subject_to_whitelist": false,
+                "large_image_url": "https://i.seadn.io/gcs/files/cc629f0d90c5ef0d25f2ba7e3ad19809.png?w=500&auto=format",
+                "medium_username": null,
+                "name": "Jake Fried: Open Eyes (Flower)",
+                "only_proxied_transfers": false,
+                "opensea_buyer_fee_basis_points": "0",
+                "opensea_seller_fee_basis_points": 250,
+                "payout_address": "0xa3785d2f231808d54aa207a84aee81c85dcbfb21",
+                "require_email": false,
+                "short_description": null,
+                "slug": "openeyesflower",
+                "telegram_url": null,
+                "twitter_username": "jakejfried",
+                "instagram_username": null,
+                "wiki_url": null,
+                "is_nsfw": false,
+                "fees": {
+                    "seller_fees": {
+                        "0xa3785d2f231808d54aa207a84aee81c85dcbfb21": 1000
+                    },
+                    "opensea_fees": {
+                        "0x0000a26b00c1f0df003000390027140000faa719": 250
+                    }
+                },
+                "is_rarity_enabled": false,
+                "is_creator_fees_enforced": false
+            },
+            "decimals": null,
+            "token_metadata": "https://arweave.net/nTnU5IAIcOsScG_qmQ3hDgZ_-V9-OUWPbIc5nLC4njE/9",
+            "is_nsfw": false,
+            "owner": null,
+            "seaport_sell_orders": null,
+            "creator": {
+                "user": {
+                    "username": "JakeFried"
+                },
+                "address": "0x02ee7dbf9931148c78372550393e629678e40304",
+                "config": "verified",
+                "profile_img_url": ""
+            },
+            "traits": [
+                {
+                    "trait_type": "Artist",
+                    "display_type": null,
+                    "max_value": null,
+                    "trait_count": 0,
+                    "order": null,
+                    "value": "Jake Fried"
+                }
+            ],
+            "last_sale": null,
+            "top_bid": null,
+            "listing_date": null,
+            "supports_wyvern": true,
+            "rarity_data": null,
+            "transfer_fee": null,
+            "transfer_fee_payment_token": null
+        }
+    ]
 }
